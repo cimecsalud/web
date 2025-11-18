@@ -47,17 +47,18 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 }
 
 .logo img {
   height: 50px;
-  /* No filter - use original logo colors */
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1.5rem;
+  flex: 1;
 }
 
 .nav-links a {
@@ -69,6 +70,43 @@ nav {
 
 .nav-links a:hover {
   color: var(--primary);
+}
+
+.header-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-header {
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.btn-cita {
+  background: var(--primary);
+  color: var(--white);
+  border: 2px solid var(--primary);
+}
+
+.btn-cita:hover {
+  background: #0088b8;
+  border-color: #0088b8;
+}
+
+.btn-portal {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.btn-portal:hover {
+  background: var(--primary);
+  color: var(--white);
 }
 
 /* ===== HERO SECTION ===== */
@@ -100,6 +138,7 @@ nav {
   font-size: 3rem;
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: var(--white);
 }
 
 .hero .subtitle {
@@ -117,6 +156,19 @@ nav {
   margin-right: auto;
 }
 
+.hero-description {
+  max-width: 700px;
+  margin: 1.5rem auto;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .btn {
   display: inline-block;
   padding: 15px 40px;
@@ -125,7 +177,7 @@ nav {
   text-decoration: none;
   border-radius: 50px;
   font-weight: 700;
-  transition: all 0.3s;
+  transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
@@ -138,12 +190,17 @@ nav {
   background: transparent;
   border: 2px solid var(--white);
   color: var(--white);
-  margin-left: 1rem;
 }
 
 .btn-secondary:hover {
   background: var(--white);
   color: var(--primary);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  margin-left: 1rem;
 }
 
 /* ===== SECTIONS ===== */
@@ -170,6 +227,10 @@ h2::after {
   background: var(--primary);
   margin: 1rem auto;
   border-radius: 2px;
+}
+
+.facilities-title {
+  color: var(--dark) !important;
 }
 
 /* ===== CARDS ===== */
@@ -205,6 +266,31 @@ h2::after {
   margin-bottom: 1.5rem;
 }
 
+/* Iconos de especialidades - NO aplicar estilos de card genérico */
+.card.especialidad-card img,
+.especialidad-card img {
+  width: 100px !important;
+  height: 100px !important;
+  max-width: 100px !important;
+  max-height: 100px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 auto 1.5rem !important;
+  display: block !important;
+}
+
+/* Iconos del carousel */
+.carousel-item img {
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
 .card h3 {
   color: var(--primary);
   margin-bottom: 1rem;
@@ -238,10 +324,15 @@ footer {
 .footer-info a {
   color: var(--light);
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-info a:hover {
   color: var(--accent);
+}
+
+.footer-info nav p {
+  margin: 0.5rem 0;
 }
 
 .footer-legal {
@@ -255,16 +346,119 @@ footer {
   color: var(--light);
   text-decoration: none;
   margin: 0 0.5rem;
+  transition: color 0.3s ease;
 }
 
 .footer-legal a:hover {
   color: var(--accent);
 }
 
+.copyright {
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+
+/* ===== MOBILE MENU TOGGLE BUTTON ===== */
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.mobile-menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: var(--primary);
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.mobile-menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Desktop menu layout */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+  /* Mobile menu toggle */
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  
+  /* Mobile menu overlay */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 999;
+    padding: 80px 2rem 2rem;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-menu.active {
+    transform: translateX(0);
+  }
+  
   .nav-links {
-    display: none;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .nav-links li {
+    border-bottom: 1px solid var(--light);
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .header-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .btn-header {
+    padding: 12px 20px;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  nav {
+    justify-content: space-between;
+    gap: 1rem;
   }
   
   .hero h1 {
@@ -839,4 +1033,276 @@ main pre code {
 .content strong {
   color: var(--dark);
   font-weight: 600;
+}
+
+/* ===== HOME PAGE SECTIONS ===== */
+.section-specialties,
+.section-facilities {
+  padding: 60px 20px;
+  background: transparent;
+}
+
+.section-specialties {
+  background: #F8F9FA;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.facilities-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  color: #666;
+}
+
+.facilities-content p {
+  margin-top: 1.5rem;
+}
+
+.section-buttons {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* ===== CARD IMPROVEMENTS ===== */
+.card img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+/* ===== ACCESSIBILITY ===== */
+a:focus,
+button:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Skip to main content link for screen readers */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background: var(--primary);
+  color: white;
+}
+
+.skip-to-main:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+/* ===== CAROUSEL ESPECIALIDADES ===== */
+.carousel-wrapper {
+  overflow: hidden;
+  position: relative;
+  margin: 2rem 0;
+  background: transparent;
+  padding: 1.5rem 0;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 3rem;
+  animation: scroll-carousel 40s linear infinite;
+  width: fit-content;
+  align-items: center;
+  background: transparent;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  background: transparent !important;
+  padding: 1.5rem 0;
+  border: none;
+  min-height: 160px;
+}
+
+.carousel-item:hover {
+  transform: scale(1.15);
+  background: transparent !important;
+}
+
+.carousel-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  filter: grayscale(0%);
+  transition: all 0.3s ease;
+  background: transparent !important;
+  mix-blend-mode: normal;
+  border: none;
+  box-shadow: none;
+}
+
+.carousel-item:hover img {
+  filter: drop-shadow(0 4px 8px rgba(0, 169, 224, 0.4));
+}
+
+.carousel-label {
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  max-width: 120px;
+  text-align: center;
+  line-height: 1.2;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item:hover .carousel-label {
+  opacity: 1;
+  font-weight: 700;
+}
+
+@keyframes scroll-carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive carousel */
+@media (max-width: 768px) {
+  .carousel-item img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .carousel-label {
+    font-size: 0.7rem;
+    max-width: 100px;
+    min-height: 28px;
+  }
+  
+  .carousel-track {
+    gap: 2.5rem;
+  }
+  
+  .carousel-item {
+    min-height: 110px;
+  }
+}
+
+/* ===== PÁGINA DE ESPECIALIDADES ===== */
+.section-especialidades-list {
+  padding: 5rem 0;
+  background: white;
+}
+
+.section-especialidades-list h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--secondary);
+}
+
+.especialidad-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #212121;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.especialidad-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 169, 224, 0.2);
+}
+
+.especialidad-card img {
+  width: auto !important;
+  height: 100px !important;
+  max-width: 100px !important;
+  margin-bottom: 1.5rem;
+  background: transparent !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  filter: none !important;
+  box-shadow: none !important;
+}
+
+.especialidad-card h3 {
+  color: var(--primary);
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.especialidad-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--secondary);
+}
+
+.cta-description {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.8;
+.especialidad-card img {
+  background: transparent !important;
+}
+
+/* Forzar transparencia en círculos SVG */
+.carousel-item img svg circle,
+.card img svg circle,
+.especialidad-card img svg circle {
+  fill: transparent !important;
+  stroke: none !important;
+}
+
+/* Asegurar que todo el SVG sea transparente */
+svg {
+  background: transparent !important;
+}
+
+svg circle[class*="st0"] {
+  fill: none !important;
+  stroke-opacity: 0 !important;
 }

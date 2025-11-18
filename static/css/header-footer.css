@@ -1,0 +1,60 @@
+/* Enhanced Header Styles */
+header {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1.5rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+header .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-links a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+header .nav-links a:hover {
+    color: #009FDA;
+    border-bottom-color: #009FDA;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    header {
+        padding: 1rem 0;
+    }
+}
+

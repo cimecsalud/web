@@ -4,8 +4,6 @@ title: "Fisioterapia"
 
 # Fisioterapia en Ciudad Real
 
-{{< video-autoplay src="/videos/Fisioterapia.mp4" >}}
-
  Salud somos especialistas en el uso de técnicas terapéuticas y ejercicios para mejorar la movilidad, aliviar el dolor y restaurar la función física de nuestros pacientes, contribuyendo a la recuperación y bienestar de los pacientes.
 
 ## Nuestros servicios de fisioterapia

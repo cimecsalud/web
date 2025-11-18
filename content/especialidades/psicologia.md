@@ -4,8 +4,6 @@ title: "Psicología"
 
 # Psicología en Ciudad Real
 
-{{< video-autoplay src="/videos/Psicologia.mp4" >}}
-
  Salud somos especialistas en el cuidado de la salud mental y el bienestar emocional, ofreciendo un espacio seguro y profesional para abordar diversos desafíos psicológicos.
 
 ## Nuestros servicios de psicología

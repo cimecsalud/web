@@ -5,7 +5,7 @@ specialties:
     description: "Diagnóstico, tratamiento y rehabilitación de lesiones del aparato locomotor con tecnología avanzada."
     show_home: true
     video: "/videos/Traumatologia.mp4"
-    
+
   - name: "Fisioterapia"
     icon: "/images/icons/Fisioterapia-Cimec-Salud.svg"
     url: "/especialidades/fisioterapia/"
@@ -54,7 +54,7 @@ specialties:
     url: "/especialidades/oftalmologia/"
     description: "Cuidado integral de la salud visual. Diagnóstico y tratamiento de enfermedades oculares con equipamiento especializado."
     show_home: true
-    video: "/videos/Oftalmologia.mp4"
+    video: null
     
   - name: "Análisis Clínicos"
     icon: "/images/icons/Analisis-Cimec-Salud.svg"

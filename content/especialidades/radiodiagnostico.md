@@ -4,8 +4,6 @@ title: "Radiodiagnóstico"
 
 # Radiodiagnóstico en Ciudad Real
 
-{{< video-autoplay src="/videos/Radiodiagnostico.mp4" >}}
-
  Salud somos especialistas en el uso de técnicas de obtención de imágenes del organismo por medio de tecnologías avanzadas como equipos de Rayos X, para facilitar el diagnóstico de enfermedades y, así, guiar su tratamiento, mejorando la salud del paciente.
 
 ## Nuestros servicios de radiodiagnóstico

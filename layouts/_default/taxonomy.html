@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  
+  {{ .Content }}
+  
+  <div class="grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="card">
+      <h3>{{ .Title }}</h3>
+      {{ if .Summary }}
+      <p>{{ .Summary }}</p>
+      {{ end }}
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

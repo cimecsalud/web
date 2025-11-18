@@ -5,7 +5,8 @@
         {{ $specialtySlug = strings.TrimSuffix "/" $specialtySlug }}
         
         {{ range site.Data.specialties.specialties }}
-          {{ if eq (path.Base .url) (printf "%s/" $specialtySlug) }}
+          {{ $dataSlug := strings.TrimSuffix "/" (path.Base .url) }}
+          {{ if eq $dataSlug $specialtySlug }}
             {{ if .video }}
               {{ $videoPath := .video }}
               <div class="specialty-video-container">
@@ -63,7 +64,9 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
+    display: block;
+    box-shadow: none !important;
 }
 
 .specialty-page iframe {

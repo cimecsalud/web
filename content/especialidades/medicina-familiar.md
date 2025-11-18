@@ -4,8 +4,6 @@ title: "Médico de familia"
 
 # Médico de familia en Ciudad Real
 
-{{< video-autoplay src="/videos/Familia.mp4" >}}
-
  Salud velamos por el bienestar de las personas a través de un cuidado general impartido por médicos de cabecera, quienes atienden todas las necesidades de sus pacientes a lo largo de su vida, como el diagnóstico y tratamiento de enfermedades, hasta la prevención de las mismas.
 
 ## Nuestros servicios de familia

@@ -1,0 +1,81 @@
+{{ define "main" }}
+{{ partial "page-banner.html" (dict "Page" . "title" "Aseguradoras" "subtitle" "Trabajamos con las principales compañías de seguros médicos") }}
+
+<!-- Insurance Logos Section -->
+<section style="padding: 5rem 0; background: white;">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--secondary);">NUESTRAS ASEGURADORAS</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; max-width: 1000px; margin: 0 auto 4rem;">
+            <div style="background: white; padding: 2.5rem; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 12px 28px rgba(0, 169, 224, 0.2)';" onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.08)';">
+                <img src="/images/asisa.jpg" alt="ASISA" style="max-width: 100%; height: auto; max-height: 100px; object-fit: contain;">
+            </div>
+            
+            <div style="background: white; padding: 2.5rem; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 12px 28px rgba(0, 169, 224, 0.2)';" onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.08)';">
+                <img src="/images/dkv.jpg" alt="DKV" style="max-width: 100%; height: auto; max-height: 100px; object-fit: contain;">
+            </div>
+            
+            <div style="background: white; padding: 2.5rem; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 12px 28px rgba(0, 169, 224, 0.2)';" onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.08)';">
+                <img src="/images/mapfre.jpg" alt="MAPFRE" style="max-width: 100%; height: auto; max-height: 100px; object-fit: contain;">
+            </div>
+            
+            <div style="background: white; padding: 2.5rem; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 12px 28px rgba(0, 169, 224, 0.2)';" onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.08)';">
+                <img src="/images/sanitas.jpg" alt="SANITAS" style="max-width: 100%; height: auto; max-height: 100px; object-fit: contain;">
+            </div>
+        </div>
+        
+        <!-- Content -->
+        <div style="max-width: 900px; margin: 0 auto;">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<!-- How it Works Section -->
+<section style="background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%); padding: 5rem 0;">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--secondary);">¿CÓMO FUNCIONA?</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2.5rem; max-width: 1100px; margin: 0 auto;">
+            <div style="text-align: center;">
+                <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; color: white; font-weight: 700;">1</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.3rem;">Verifica tu cobertura</h3>
+                <p style="color: #666; line-height: 1.6;">Consulta con tu aseguradora si CIMEC Salud está incluido en tu póliza</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; color: white; font-weight: 700;">2</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.3rem;">Pide cita</h3>
+                <p style="color: #666; line-height: 1.6;">Solicita tu cita a través de nuestro sistema online o por teléfono</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; color: white; font-weight: 700;">3</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.3rem;">Presenta tu tarjeta</h3>
+                <p style="color: #666; line-height: 1.6;">Trae tu tarjeta sanitaria de la aseguradora el día de la consulta</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="width: 80px; height: 80px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; color: white; font-weight: 700;">4</div>
+                <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.3rem;">Recibe atención</h3>
+                <p style="color: #666; line-height: 1.6;">Nuestros profesionales te atenderán según la cobertura de tu póliza</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section style="background: white; padding: 5rem 0;">
+    <div class="container" style="text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; color: var(--secondary);">¿Tienes dudas?</h2>
+        <p style="font-size: 1.2rem; color: #666; max-width: 700px; margin: 0 auto 2.5rem; line-height: 1.8;">
+            Contacta con nosotros y te ayudaremos con cualquier consulta sobre tu seguro médico
+        </p>
+        <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+            <a href="tel:+34926966446" class="btn">LLAMAR AHORA</a>
+            <a href="/contacto/" class="btn btn-secondary">CONTACTO</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

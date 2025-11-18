@@ -4,8 +4,6 @@ title: "Otorrinolaringología"
 
 # Otorrinolaringología en Ciudad Real
 
-{{< video-autoplay src="/videos/ORL.mp4" >}}
-
  Salud somos especialistas en el diagnóstico y tratamiento de enfermedades del oído, la nariz y la garganta, así como de las estructuras relacionadas de cabeza y cuello.
 
 ## Nuestros servicios de otorrinolaringología

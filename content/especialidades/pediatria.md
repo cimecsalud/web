@@ -4,8 +4,6 @@ title: "Pediatría"
 
 # Pediatría en Ciudad Real
 
-{{< video-autoplay src="/videos/Pediatria.mp4" >}}
-
  Salud somos especialistas en la atención integral de la salud de niños y adolescentes. Contamos con equipo de profesionales médicos especialistas en el diagnóstico y tratamiento de las enfermedades que puedan afectar a la promoción y desarrollo de un crecimiento saludable.
 
 ## Nuestros servicios en pediatría

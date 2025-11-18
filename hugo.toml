@@ -1,6 +1,12 @@
-baseURL = "https://cimecsalud.com/"
+baseURL = "https://cimecsalud.github.io/web/"
 languageCode = "es-es"
 title = "CIMEC Salud - Clínica de Especialidades en Ciudad Real"
+
+# Performance optimizations
+enableRobotsTXT = true
+enableGitInfo = false
+disableHugoGeneratorInject = true
+canonifyURLs = true
 
 [params]
   description = "Clínica de especialidades médicas en Ciudad Real"
@@ -9,11 +15,15 @@ title = "CIMEC Salud - Clínica de Especialidades en Ciudad Real"
   address = "Av. Parque de los Cabañeros 3, 13005 - Ciudad Real"
   schedule = "L-V de 9h a 20h"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  
+
 [menu]
   [[menu.main]]
     name = "Inicio"
@@ -35,15 +45,25 @@ title = "CIMEC Salud - Clínica de Especialidades en Ciudad Real"
     name = "Aseguradoras"
     url = "/aseguradoras/"
     weight = 5
-  [[menu.main]]
-    name = "Contacto"
-    url = "/contacto/"
-    weight = 6
-  [[menu.main]]
+
+[[menu.main]]
     name = "Blog"
     url = "/blog/"
-    weight = 7
+    weight = 6
   [[menu.main]]
     name = "Portal del Paciente"
     url = "/portal-del-paciente/"
     weight = 8
+
+# Minification settings
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
