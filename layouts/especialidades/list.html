@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  
+  {{ .Content }}
+  
+  <div class="grid">
+    {{ range .Site.Data.specialties.specialties }}
+    <a href="{{ .url }}" class="card especialidad-card">
+      <div class="icon-wrapper">
+        <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
+      </div>
+      <h3>{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</h3>
+      <p>{{ .description }}</p>
+      {{ if eq .url "/especialidades/analisis-clinicos/" }}
+      <p><strong>Horario extracciones:</strong> L-V de 9h a 11h (con cita previa)</p>
+      {{ end }}
+    </a>
+    {{ end }}
+    
+    {{ range .Site.Data.subspecialties.subspecialties }}
+    {{ if not .parent_only }}
+    <a href="{{ if .url }}{{ .url }}{{ else }}#{{ end }}" class="card especialidad-card">
+      <div class="icon-wrapper">
+        <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
+      </div>
+      <h3>{{ .name }}</h3>
+      <p>{{ .description }}</p>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+  </div>
+
+</div>
+{{ end }}

@@ -4,8 +4,6 @@ title: "Cardiología"
 
 # Cardiología en Ciudad Real
 
-{{< video-autoplay src="/videos/Cardiovascular.mp4" >}}
-
  Salud somos especialistas en el diagnóstico y tratamiento de enfermedades del corazón y del sistema cardiovascular, con el objetivo de mantener la salud cardiaca del paciente y prevenir todas las posibles complicaciones.
 
 ## Nuestros servicios de cardiología

@@ -4,8 +4,6 @@ title: "Podología"
 
 # Podología en Ciudad Real
 
-{{< video-autoplay src="/videos/Podologia.mp4" >}}
-
  Salud somos especialistas en el cuidado integral de los pies, ofreciendo diagnósticos precisos y tratamientos efectivos para mantener la salud podológica de nuestros pacientes.
 
 ## Nuestros servicios de podología

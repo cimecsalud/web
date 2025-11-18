@@ -4,8 +4,6 @@ title: "Nutrición"
 
 # Nutrición en Ciudad Real
 
-{{< video-autoplay src="/videos/Nutricion.mp4" >}}
-
  Salud somos especialistas en nutrición y dietética, ofreciendo asesoramiento personalizado para mejorar los hábitos alimenticios y promover un estilo de vida saludable.
 
 ## Nuestros servicios de nutrición

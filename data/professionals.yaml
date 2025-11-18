@@ -20,16 +20,16 @@ professionals:
   position: Otorrinolaringólogo
   image: ''
   education:
-  - LICENCIADO EN MEDICINA Y CIRUGÍA Universidad de Granada, 2011.
-  - ESPECIALISTA EN OTORRINOLARINGOLOGÍA Mediante formación M.I.R. Hospital Clínico
+  - Licenciado en medicina y cirugía Universidad de Granada, 2011.
+  - Especialista en otorrinolaringología mediante formación M.I.R. Hospital Clínico
     Universitario de Granada, 2016.
-  - MÁSTER EN OTORRINOLARINGOLOGÍA Y CIRUGÍA DE CABEZA Y CUELLO Universidad Europea
+  - Máster en otorrinolaringología y cirugía de cabeza y cuello Universidad Europea
     de Madrid, 2023.
   professional_experience:
-  - FACULTATIVO ESPECIALISTA DE ÁREA DE OTORRINOLARINGOLOGÍA Hospital General Universitario
+  - Facultativo especialista de área de otorrinolaringología Hospital General Universitario
     de Ciudad Real desde 2016 .
   scientific_experience:
-  - COLABORADOR DOCENTE EN LA FACULTAD DE MEDICINA DE CIUDAD REAL
+  - Colaborador docente en la facultad de medicina de Ciudad Real.
   - Asignatura de Otorrinolaringología desde 2016 hasta la actualidad.
   - Asignatura de Anatomía Humana II durante los cursos 2017-2018 y 2022-2023
 - name: Luis Moraleda Novo
@@ -60,7 +60,7 @@ professionals:
 - name: Carlos Encinas
   college_number: '47255'
   position: Traumatólogo
-  image: /uploads/2024/03/Carlos-Encinas-web.webp
+  image: /uploads/2024/07/FOTO-FINAL-FONDO-B-e1721381150382.png
   education:
   - Licenciado en Medicina por la Universidad de Salamanca.
   - Especialidad de Cirugia Ortopédica y Traumatologia en el Hospital Universitario
@@ -91,7 +91,7 @@ professionals:
     en 1999.
   - Máster en Gestión de Unidades Clínicas por la Universidad Católica de Murcia en
     2015.
-  - Doctor en Cardiología por la Universidad de Alcalá de Henares en 2017 (Sobresaliente
+  - Doctor en Cardiología por la Universidad de Alcalá de Henares en 2017 (Sobresaliente
     Cum Laude por unanimidad).
   - Título de Experto en Salud Digital por la Universidad Juan Carlos I en 2023.
   professional_experience:
@@ -99,21 +99,21 @@ professionals:
     Madrid 1998-2005.
   - Cardiólogo Adjunto de la Sección de Hemodinámica en Hospital de General Universitario
     de Ciudad Real 2005-2012.
-  - Jefe Sección Hemodinámica en Hospital General Universitario de Ciudad Real (2012-2023,
+  - Jefe Sección Hemodinámica en Hospital General Universitario de Ciudad Real (2012-2023,
     actualmente en excedencia).
   - Jefe Hemodinámica en Hospital Quirón-Salud Ciudad Real desde enero 2024.
-  - Profesor Asociado de Cardiología en la Facultad de Medicina de Ciudad Real (2013-2023,
+  - Profesor Asociado de Cardiología en la Facultad de Medicina de Ciudad Real (2013-2023,
     actualmente en excedencia)
   scientific_experience:
   - Autor de más de 400 comunicaciones en congresos nacionales e internacionales.
-  - Autor de más de 75 publicaciones nacionales e internacionales.
+  - Autor de más de 75 publicaciones nacionales e internacionales.
   - Autor de 19 capítulos de libros.
   - Ponente en 75 conferencias nacionales e internacionales.
   - Investigador principal en 27 proyectos de Investigación.
 - name: Mª Carmen Martín-Albo Prieto
   college_number: '131305386'
   position: Ginecóloga
-  image: ''
+  image: '/uploads/2025/01/Diseno-sin-titulo-5.jpg'
   education:
   - Graduada en Medicina en la Universidad de Castilla La-Mancha
   - Formación M.I.R en el Hospital General Universitario de Ciudad Real.
@@ -138,9 +138,9 @@ professionals:
   college_number: '131301670'
   position: Uróloga
   image: ''
-- name: Ginés Laguna Urraca
-  college_number: '282855945'
-  position: Urólogo
+- name: Patricia Descalzo Pérez
+  college_number: '131305589'
+  position: Ginecología
   image: ''
 - name: Arturo Álvarez Luque
   college_number: '282869016'
@@ -152,13 +152,9 @@ professionals:
   image: ''
 - name: Patricia Faba Martín
   college_number: '131305311'
-  position: Anestesióloga
+  position: Medicina Estética
   image: ''
-- name: María de Gracia Villanueva
-  college_number: '131811584'
-  position: Anestesióloga
-  image: ''
-- name: Esperanza Carvajal Alonso Barajas
-  college_number: '282869016'
+- name: Elena Reyzabal Ereño
+  college_number: 'XXXXXXXXX'
   position: Pediatra
   image: ''

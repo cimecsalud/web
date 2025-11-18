@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00A9E0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="/css/style.css" as="style">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fix-icons.css">
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://citaonline.portalns.es">
+    <link rel="dns-prefetch" href="https://nshpaciente.portalns.es">
 </head>
 <body>
     {{ partial "header.html" . }}
-    {{ block "main" . }}{{ end }}
+    
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    
     {{ partial "footer.html" . }}
+    
+    <!-- Mobile menu script -->
+    <script src="/js/mobile-menu.js"></script>
 </body>
 </html>

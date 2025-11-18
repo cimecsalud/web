@@ -1,0 +1,87 @@
+{{ $page := . }}
+{{ $title := .Title }}
+{{ $subtitle := "" }}
+{{ $image := "/images/hero.jpg" }}
+
+{{ if reflect.IsMap . }}
+  {{ $page = .Page }}
+  {{ $title = .title | default .Page.Title }}
+  {{ $subtitle = .subtitle | default "" }}
+  {{ $image = .image | default "/images/hero.jpg" }}
+{{ end }}
+
+<section class="page-banner">
+    <div class="page-banner-image" style="background-image: url('{{ $image }}');"></div>
+    <div class="page-banner-overlay">
+        <div class="container">
+            <h1>{{ $title }}</h1>
+            {{ if $subtitle }}
+            <p class="banner-subtitle">{{ $subtitle }}</p>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<style>
+.page-banner {
+    position: relative;
+    height: 40vh;
+    min-height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.page-banner-overlay {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 80px 20px;
+    background: rgba(0, 48, 87, 0.75);
+    color: white;
+    text-align: center;
+}
+
+.page-banner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.banner-subtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .page-banner {
+        height: 30vh;
+        min-height: 250px;
+    }
+    
+    .page-banner h1 {
+        font-size: 2rem;
+    }
+    
+    .banner-subtitle {
+        font-size: 1.1rem;
+    }
+}
+</style>
