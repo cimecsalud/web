@@ -1,0 +1,49 @@
+baseURL = "https://cimecsalud.com/"
+languageCode = "es-es"
+title = "CIMEC Salud - Clínica de Especialidades en Ciudad Real"
+
+[params]
+  description = "Clínica de especialidades médicas en Ciudad Real"
+  phone = "926 966 446"
+  email = "info@cimecsalud.com"
+  address = "Av. Parque de los Cabañeros 3, 13005 - Ciudad Real"
+  schedule = "L-V de 9h a 20h"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Especialidades"
+    url = "/especialidades/"
+    weight = 2
+  [[menu.main]]
+    name = "La Clínica"
+    url = "/la-clinica/"
+    weight = 3
+  [[menu.main]]
+    name = "Profesionales"
+    url = "/profesionales/"
+    weight = 4
+  [[menu.main]]
+    name = "Aseguradoras"
+    url = "/aseguradoras/"
+    weight = 5
+  [[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 6
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 7
+  [[menu.main]]
+    name = "Portal del Paciente"
+    url = "/portal-del-paciente/"
+    weight = 8

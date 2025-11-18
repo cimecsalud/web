@@ -1,0 +1,7 @@
+{{ $videoPath := .Get "src" }}
+{{ $fullPath := printf "static%s" $videoPath }}
+{{ if fileExists $fullPath }}
+<video width="100%" autoplay muted loop playsinline style="max-width: 800px; margin: 2rem auto; display: block; border-radius: 8px;">
+    <source src="{{ $videoPath }}" type="video/mp4">
+</video>
+{{ end }}

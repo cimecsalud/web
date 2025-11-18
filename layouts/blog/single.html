@@ -1,0 +1,178 @@
+{{ define "main" }}
+<article class="blog-article">
+    <div class="blog-header">
+        <h1>{{ .Title }}</h1>
+        <div class="blog-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+            {{ with .Params.categories }}
+            <span class="blog-categories">
+                {{ range . }}
+                <span class="category">{{ . }}</span>
+                {{ end }}
+            </span>
+            {{ end }}
+        </div>
+    </div>
+
+    {{ with .Params.featured_image }}
+    <div class="blog-featured-image">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+    </div>
+    {{ end }}
+
+    <div class="blog-content">
+        {{ .Content }}
+    </div>
+
+    <div class="blog-footer">
+        <a href="/blog/" class="back-to-blog">← Volver al blog</a>
+    </div>
+</article>
+
+<style>
+.blog-article {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.blog-header h1 {
+    color: #003d82;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.blog-meta {
+    color: #666;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #00a3e0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog-categories {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.category {
+    background: #00a3e0;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+.blog-featured-image {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.blog-featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.blog-content h2 {
+    color: #003d82;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.blog-content h3 {
+    color: #00a3e0;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.blog-content h4 {
+    color: #003d82;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-content ul, .blog-content ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.blog-content li {
+    margin: 0.5rem 0;
+}
+
+.blog-content strong {
+    color: #003d82;
+}
+
+.blog-content p {
+    margin: 1rem 0;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.blog-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #00a3e0;
+}
+
+.back-to-blog {
+    display: inline-block;
+    color: #003d82;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #003d82;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.back-to-blog:hover {
+    background: #003d82;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .blog-article {
+        padding: 1rem;
+    }
+    
+    .blog-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .blog-content {
+        font-size: 1rem;
+    }
+    
+    .blog-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .blog-content h3 {
+        font-size: 1.25rem;
+    }
+}
+</style>
+{{ end }}

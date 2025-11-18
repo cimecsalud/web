@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
+<style type="text/css">
+	.st0{fill:none;stroke:#5FBCD3;stroke-width:2;}
+	.st1{fill:#B5E7F3;}
+	.st2{fill:#151A6A;}
+</style>
+<circle class="st0" cx="70" cy="70" r="69"/>
+
+<!-- Fondo azul desplazado hacia abajo -->
+<ellipse class="st1" cx="70" cy="75" rx="40" ry="28"/>
+
+<!-- Ojo dentro del fondo -->
+<ellipse style="fill:#ffffff;" cx="70" cy="75" rx="28" ry="18"/>
+
+<!-- Iris -->
+<circle class="st2" cx="70" cy="75" r="11"/>
+
+<!-- Pupila -->
+<circle cx="70" cy="75" r="6" style="fill:#000000;"/>
+
+<!-- Brillo en el ojo -->
+<circle style="fill:#ffffff;" cx="67" cy="72" r="3"/>
+
+<!-- Lupa - aro -->
+<circle class="st0" cx="52" cy="52" r="18" style="stroke:#151A6A;stroke-width:3;fill:none;"/>
+
+<!-- Lupa - parte interna transparente -->
+<circle cx="52" cy="52" r="15" style="fill:rgba(255,255,255,0.3);stroke:none;"/>
+
+<!-- Lupa - mango -->
+<path class="st2" d="M 38 66 L 28 76 L 32 80 L 42 70 Z"/>
+
+<!-- Lupa - brillo en el cristal -->
+<path d="M 58 46 Q 60 44 62 46" style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;opacity:0.7;"/>
+
+<!-- Pestañas superiores -->
+<path class="st2" d="M 50 63 L 48 58 M 58 60 L 58 54 M 66 60 L 68 54 M 74 60 L 76 54 M 82 60 L 84 54 M 90 63 L 92 58" style="stroke-width:1.5;stroke-linecap:round;"/>
+
+<!-- Pestañas inferiores -->
+<path class="st2" d="M 52 87 L 50 91 M 62 89 L 62 93 M 78 89 L 78 93 M 88 87 L 90 91" style="stroke-width:1.2;stroke-linecap:round;opacity:0.6;"/>
+</svg>

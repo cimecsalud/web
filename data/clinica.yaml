@@ -1,0 +1,64 @@
+hero:
+  title: "INNOVACIÓN PARA LA MEJOR ATENCIÓN"
+  subtitle: "La clínica médica Cimec Salud destaca por un excelente equipo médico que, apoyado por una tecnología de vanguardia, ofrece un servicio hospitalario completo y de alta calidad en el que el paciente es el centro de nuestra atención."
+
+instalaciones:
+  title: "Nuestras instalaciones"
+  subtitle: "UNA CLÍNICA DE VANGUARDIA"
+  description: "Nuestro centro médico cuenta con más de 800 metros cuadrados repletos de innovación y vanguardia, que tienen el objetivo de atender con la máxima seguridad a nuestros pacientes en más de una decena de especialidades médicas."
+  images:
+    - "/images/Cimec-Salud-23.jpg"
+    - "/images/Cimec-Salud-34.jpg"
+    - "/images/Cimec-Salud-39.jpg"
+    - "/images/Cimec-Salud-32.jpg"
+    - "/images/Cimec-Salud-24.jpg"
+    - "/images/Cimec-Salud-38.jpg"
+    - "/images/Cimec-Salud-1-1.jpg"
+    - "/images/Cimec-Salud-4.jpg"
+    - "/images/Cimec-Salud-5.jpg"
+    - "/images/Cimec-Salud-9.jpg"
+    - "/images/Cimec-Salud-14.jpg"
+    - "/images/Cimec-Salud-21.jpg"
+    - "/images/Cimec-Salud-28.jpg"
+    - "/images/Cimec-Salud-8.jpg"
+    - "/images/Cimec-Salud-13-1.jpg"
+    - "/images/Cimec-Salud-22.jpg"
+
+valores:
+  title: "QUÉ NOS DEFINE"
+  subtitle: "LA EXCELENCIA MÉDICA ES NUESTRA PRIORIDAD CONSTANTE"
+  items:
+    - icon: "/images/excelencia-cimec.svg"
+      title: "Excelencia médica"
+      description: "Proporcionamos una atención médica basada en los más altos estándares de excelencia, donde la salud y el bienestar de cada paciente son nuestra prioridad."
+    - icon: "/images/empatia-cimec.svg"
+      title: "Empatía"
+      description: "Cada una de nuestras prácticas se desarrollan desde la empatía con el paciente, brindando un cuidado personalizado que trasciende lo meramente clínico."
+    - icon: "/images/innovacion-cimec.svg"
+      title: "Innovación constante"
+      description: "Perseguimos una innovación tecnológica y médica constante, con el objetivo de ofrecer la mejor solución para cada caso clínico."
+    - icon: "/images/compromiso-cimec.svg"
+      title: "Compromiso"
+      description: "Guiados por altos estándares éticos, nuestros servicios médicos están basados en el respeto para garantizar la confianza y la satisfacción de nuestros pacientes."
+
+horarios:
+  title: "Horarios de atención"
+  schedule:
+    - day: "Lunes a Viernes"
+      hours: "8:00h - 22:00h"
+    - day: "Sábados"
+      hours: "10:00h - 14:00h"
+  contact:
+    phone: "+34 926 966 446"
+    email: "info@cimecsalud.com"
+  services:
+    - label: "Extracciones"
+      hours: "8:00h - 10:00h (Pedir cita previa)"
+    - label: "Enfermería"
+      hours: "8:00h - 11:45h"
+    - label: "Recogida de resultados"
+      hours: "10:30h - 19:00h"
+
+visitanos:
+  title: "¿VIENES A CONOCERNOS?"
+  subtitle: "ASÍ ES NUESTRA CLÍNICA CIMEC"

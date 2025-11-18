@@ -1,0 +1,578 @@
+{{ define "main" }}
+{{ $clinica := .Site.Data.clinica }}
+
+<div class="clinica-page">
+  <!-- Hero Section -->
+  <section class="clinica-hero fade-in">
+    <div class="container">
+      <h1 class="hero-title fade-in-up">{{ $clinica.hero.title }}</h1>
+      <p class="hero-subtitle fade-in-up">{{ $clinica.hero.subtitle }}</p>
+    </div>
+  </section>
+
+  <!-- Instalaciones Section -->
+  <section class="instalaciones-section">
+    <div class="container">
+      <h2 class="section-title fade-in-up">{{ $clinica.instalaciones.title }}</h2>
+      <p class="section-subtitle fade-in-up">{{ $clinica.instalaciones.subtitle }}</p>
+      <p class="section-description fade-in-up">{{ $clinica.instalaciones.description }}</p>
+      
+      <div class="instalaciones-gallery">
+        {{ range $index, $image := $clinica.instalaciones.images }}
+        <div class="gallery-item fade-in" data-delay="{{ mul $index 100 }}">
+          <img src="{{ $image }}" alt="Instalaciones CIMEC Salud" loading="lazy">
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores Section -->
+  <section class="valores-section">
+    <div class="container">
+      <h2 class="section-title fade-in-up">{{ $clinica.valores.title }}</h2>
+      <p class="section-subtitle fade-in-up">{{ $clinica.valores.subtitle }}</p>
+      
+      <div class="valores-grid">
+        {{ range $index, $valor := $clinica.valores.items }}
+        <div class="valor-card fade-in-up" data-delay="{{ mul $index 150 }}">
+          <div class="valor-icon">
+            <img src="{{ $valor.icon }}" alt="{{ $valor.title }}">
+          </div>
+          <h3>{{ $valor.title }}</h3>
+          <p>{{ $valor.description }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Horarios Section -->
+  <section class="horarios-section">
+    <div class="container">
+      <h2 class="section-divider">{{ $clinica.horarios.title }}</h2>
+      
+      <div class="horarios-content">
+        <table class="horarios-table">
+          <thead>
+            <tr>
+              <th>Día</th>
+              <th>Horario</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $clinica.horarios.schedule }}
+            <tr>
+              <td>{{ .day }}</td>
+              <td>{{ .hours }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+        
+        <div class="horarios-info">
+          <div class="contact-info">
+            <p><strong>Teléfono:</strong> <a href="tel:{{ $clinica.horarios.contact.phone }}">{{ $clinica.horarios.contact.phone }}</a></p>
+            <p><strong>Email:</strong> <a href="mailto:{{ $clinica.horarios.contact.email }}">{{ $clinica.horarios.contact.email }}</a></p>
+          </div>
+          
+          <div class="services-info">
+            <h3>Servicios especiales</h3>
+            {{ range $clinica.horarios.services }}
+            <p><strong>{{ .label }}:</strong> {{ .hours }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visitanos Section -->
+  <section class="visitanos-section">
+    <div class="container text-center">
+      <h2 class="section-title">{{ $clinica.visitanos.title }}</h2>
+      <p class="section-subtitle">{{ $clinica.visitanos.subtitle }}</p>
+      
+      <div class="cta-buttons">
+        <a href="https://citaonline.portalns.es/cimec" class="btn btn-primary" target="_blank" rel="noopener">Pedir Cita Online</a>
+        <a href="https://nshpaciente.portalns.es:9201/cimec" class="btn btn-secondary" target="_blank" rel="noopener">Portal del Paciente</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+.clinica-page {
+  background: #fff;
+}
+
+/* Fade-in Animations */
+.fade-in, .fade-in-up {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-up {
+  transform: translateY(30px);
+}
+
+.fade-in.visible, .fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero Section */
+.clinica-hero {
+  background: #f8f9fa;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: #4a5568;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Instalaciones Section */
+.instalaciones-section {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-description {
+  font-size: 1.05rem;
+  color: #4a5568;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+}
+
+.instalaciones-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.gallery-item:nth-child(1),
+.gallery-item:nth-child(2) {
+  grid-column: span 2;
+  aspect-ratio: 21/10;
+}
+
+.gallery-item:nth-child(n+3) {
+  aspect-ratio: 4/3;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Valores Section */
+.valores-section {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.valor-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.valor-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 82, 155, 0.15);
+}
+
+.valor-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.valor-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.valor-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.valor-card p {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Horarios Section */
+.horarios-section {
+  padding: 5rem 0;
+  background: white;
+}
+
+.section-divider {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.section-divider::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--secondary);
+}
+
+.horarios-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.horarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.horarios-table thead {
+  background: var(--primary);
+  color: white;
+}
+
+.horarios-table th,
+.horarios-table td {
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+.horarios-table th {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.horarios-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.2s;
+}
+
+.horarios-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.horarios-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.horarios-table td {
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+.horarios-table td:first-child {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.horarios-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-info,
+.services-info {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p,
+.services-info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+.contact-info strong {
+  color: var(--primary);
+}
+
+.contact-info a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+
+.services-info h3 {
+  font-size: 1.2rem;
+  color: var(--primary);
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.services-info strong {
+  color: var(--primary);
+}
+
+/* Visitanos Section */
+.visitanos-section {
+  padding: 5rem 0;
+  background: var(--primary);
+  color: white;
+  text-align: center;
+}
+
+.visitanos-section .section-title,
+.visitanos-section .section-subtitle {
+  color: white;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: white;
+  color: var(--primary);
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .instalaciones-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gallery-item:nth-child(1),
+  .gallery-item:nth-child(2) {
+    grid-column: span 1;
+    aspect-ratio: 4/3;
+  }
+  
+  .valores-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  
+  .instalaciones-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .gallery-item:nth-child(1),
+  .gallery-item:nth-child(2) {
+    grid-column: span 1;
+  }
+  
+  .valores-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .horarios-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .clinica-hero {
+    padding: 3rem 0;
+  }
+  
+  .hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .instalaciones-section,
+  .valores-section,
+  .horarios-section,
+  .visitanos-section {
+    padding: 3rem 0;
+  }
+}
+</style>
+
+<script>
+// Fade-in animations on scroll
+document.addEventListener('DOMContentLoaded', function() {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const delay = entry.target.dataset.delay || 0;
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, delay);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  // Observe all elements with fade-in classes
+  document.querySelectorAll('.fade-in, .fade-in-up').forEach(el => {
+    observer.observe(el);
+  });
+});
+</script>
+{{ end }}

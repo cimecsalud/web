@@ -1,0 +1,62 @@
+{{  define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <h1>CIMEC SALUD</h1>
+        <p class="subtitle">CLÍNICA DE ESPECIALIDADES</p>
+        <p>Cuidamos de ti</p>
+        <p style="max-width: 700px; margin: 1.5rem auto;">
+            CIMEC Salud es una clínica de especialidades centrada en el bienestar integral de los pacientes.<br><br>
+            Contamos con un cuadro médico de excelencia, la más alta tecnología y unas instalaciones vanguardistas, 
+            que ofrecen una atención médica especializada y personalizada.
+        </p>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="https://citaonline.portalns.es/cimec" target="_blank" class="btn">PEDIR CITA</a>
+            <a href="https://nshpaciente.portalns.es:9201/cimec" target="_blank" class="btn btn-secondary">PORTAL DEL PACIENTE</a>
+        </div>
+    </div>
+</section>
+
+<!-- Especialidades -->
+<section>
+    <div class="container">
+        <h2>NUESTRAS ESPECIALIDADES</h2>
+        <div class="grid">
+            {{ range site.Data.specialties.specialties }}
+            {{ if .show_home }}
+            <a href="{{ .url }}" class="card">
+                <img src="{{ .icon }}" alt="{{ .name }}" style="height: 80px; width: auto; margin: 0 auto 1.5rem;">
+                <h3>{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</h3>
+            </a>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Nuestras instalaciones -->
+<section>
+    <div class="container">
+        <h2>Nuestras instalaciones</h2>
+        <h3 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Una clínica de vanguardia</h3>
+        <div style="max-width: 900px; margin: 0 auto; text-align: center; line-height: 1.8; color: #666;">
+            <p>Las instalaciones de Cimec Salud están concebidas para ofrecer una atención médica integral a nuestros pacientes, 
+            desde medicina general hasta especialidades avanzadas como cardiología o traumatología.</p>
+            
+            <p style="margin-top: 1.5rem;">Seguimos una rigurosa selección de nuestros equipos médicos y de nuestro personal sanitario, 
+            a los que ofrecemos la tecnología médica más sofisticada y eficaz, para ofrecer una asistencia sanitaria del más alto nivel.</p>
+            
+            <p style="margin-top: 1.5rem;">Además, somos referencia entre las clínicas privadas de Ciudad Real por nuestro 
+            <strong>quirófano de cirugía mayor ambulatoria</strong>, donde llevamos a cabo procedimientos bajo la máxima seguridad y 
+            comodidad para nuestros pacientes, respaldando estas intervenciones con una unidad de recuperación postanestesia que 
+            garantiza la recuperación óptima y cómoda.</p>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="/la-clinica/" class="btn">Descubre nuestra clínica</a>
+            <a href="/aseguradoras/" class="btn" style="margin-left: 1rem; background: var(--primary); color: white;">Aseguradoras</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

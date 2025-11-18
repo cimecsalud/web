@@ -1,0 +1,13 @@
+{{ $specialty := .Get "specialty" }}
+{{ $subspecialties := index site.Data.subspecialties $specialty }}
+
+{{ if $subspecialties }}
+<div class="specialty-icons-grid">
+  {{ range $subspecialties }}
+  <div class="specialty-icon-card">
+    <img src="{{ .icon }}" alt="{{ .name }}" />
+    <p>{{ .name }}</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

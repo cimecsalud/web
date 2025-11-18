@@ -1,0 +1,101 @@
+specialties:
+  - name: "Traumatología"
+    icon: "/images/icons/Traumatologia-Cimec-Salud.svg"
+    url: "/especialidades/traumatologia/"
+    description: "Diagnóstico, tratamiento y rehabilitación de lesiones del aparato locomotor con tecnología avanzada."
+    show_home: true
+    video: "/videos/Traumatologia.mp4"
+    
+  - name: "Fisioterapia"
+    icon: "/images/icons/Fisioterapia-Cimec-Salud.svg"
+    url: "/especialidades/fisioterapia/"
+    description: "Técnicas terapéuticas y ejercicios para mejorar la movilidad, aliviar el dolor y restaurar la función física."
+    show_home: true
+    video: "/videos/Fisioterapia.mp4"
+    
+  - name: "Cardiología"
+    icon: "/images/icons/Cardiologia-Cimec-Salud.svg"
+    url: "/especialidades/cardiologia/"
+    description: "Cuidado integral de tu salud cardiovascular con equipamiento de última generación para diagnóstico y seguimiento."
+    show_home: true
+    video: "/videos/Cardiovascular.mp4"
+    
+  - name: "Pediatría"
+    icon: "/images/icons/Pediatria-Cimec-Salud.svg"
+    url: "/especialidades/pediatria/"
+    description: "Cuidado especializado para la salud de los más pequeños, desde el nacimiento hasta la adolescencia."
+    show_home: true
+    video: "/videos/Pediatria.mp4"
+    
+  - name: "Urología"
+    icon: "/images/icons/Urologia-Cimec-Salud.svg"
+    url: "/especialidades/urologia/"
+    description: "Especialistas en el diagnóstico y tratamiento de enfermedades del sistema urinario y reproductor masculino."
+    show_home: true
+    video: "/videos/Urologia.mp4"
+    
+  - name: "Otorrinolaringología"
+    icon: "/images/icons/ORL-Cimec-Salud.svg"
+    url: "/especialidades/otorrinolaringologia/"
+    description: "Diagnóstico y tratamiento de enfermedades de oído, nariz y garganta con tecnología avanzada."
+    short_name: "Otorrinolaringología"
+    show_home: true
+    video: "/videos/ORL.mp4"
+    
+  - name: "Psicología"
+    icon: "/images/icons/Psicologia-Cimec-Salud.svg"
+    url: "/especialidades/psicologia/"
+    description: "Apoyo psicológico para tu bienestar emocional y mental con profesionales expertos."
+    show_home: true
+    video: "/videos/Psicologia.mp4"
+    
+  - name: "Oftalmología"
+    icon: "/images/icons/Oftalmologia-Cimec-Salud.svg"
+    url: "/especialidades/oftalmologia/"
+    description: "Cuidado integral de la salud visual. Diagnóstico y tratamiento de enfermedades oculares con equipamiento especializado."
+    show_home: true
+    video: "/videos/Oftalmologia.mp4"
+    
+  - name: "Análisis Clínicos"
+    icon: "/images/icons/Analisis-Cimec-Salud.svg"
+    url: "/especialidades/analisis-clinicos/"
+    description: "Laboratorio equipado con la última tecnología para todo tipo de pruebas diagnósticas. Resultados rápidos y precisos."
+    short_name: "Análisis clínicos"
+    show_home: true
+    video: "/videos/Analisis-clinicos.mp4"
+    
+  - name: "Medicina Familiar"
+    icon: "/images/icons/Familia-Cimec-Salud.svg"
+    url: "/especialidades/medicina-familiar/"
+    description: "Atención médica integral para toda la familia. Prevención, diagnóstico y tratamiento de enfermedades comunes."
+    short_name: "Médico de Familia"
+    show_home: true
+    video: "/videos/Familia.mp4"
+    
+  - name: "Nutrición"
+    icon: "/images/icons/Nutricion-Cimec-Salud.svg"
+    url: "/especialidades/nutricion/"
+    description: "Planes de alimentación personalizados y educación nutricional para una vida saludable y equilibrada."
+    show_home: true
+    video: "/videos/Nutricion.mp4"
+    
+  - name: "Podología"
+    icon: "/images/icons/Podologo-Cimec-Salud.svg"
+    url: "/especialidades/podologia/"
+    description: "Cuidado especializado de los pies y tratamiento de patologías podológicas con las mejores técnicas."
+    show_home: true
+    video: "/videos/Podologia.mp4"
+    
+  - name: "Psiquiatría"
+    icon: "/images/icons/Psiquiatria-Cimec-Salud.svg"
+    url: "/especialidades/psiquiatria/"
+    description: "Tratamiento especializado en salud mental con enfoque integral y personalizado."
+    show_home: true
+    video: "/videos/Psiquiatria.mp4"
+    
+  - name: "Radiodiagnóstico"
+    icon: "/images/icons/Radiologia-Cimec-Salud.svg"
+    url: "/especialidades/radiodiagnostico/"
+    description: "Estudios de imagen con equipamiento de última generación para diagnóstico preciso y oportuno."
+    show_home: true
+    video: "/videos/Radiodiagnostico.mp4"
