@@ -1,0 +1,263 @@
+<div class="professionals-grid">
+{{ range $index, $prof := site.Data.professionals.professionals }}
+<div class="professional-card-compact">
+  <div class="professional-card-header" onclick="toggleProfessional({{ $index }})">
+    <div class="professional-photo">
+      {{ if $prof.image }}
+      <img src="{{ $prof.image }}" alt="{{ $prof.name }}">
+      {{ else }}
+      <div class="professional-photo-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+      </div>
+      {{ end }}
+    </div>
+    <div class="professional-basic-info">
+      <h3>{{ $prof.name }}</h3>
+      <p class="position">{{ $prof.position }}</p>
+    </div>
+    <div class="expand-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+      </svg>
+    </div>
+  </div>
+  
+  <div class="professional-detail" id="professional-{{ $index }}" style="display: none;">
+    <div class="professional-detail-content">
+      <p class="college-number"><strong>Nº COLEGIADO:</strong> {{ $prof.college_number }}</p>
+      
+      {{ if $prof.education }}
+      <div class="detail-section">
+        <h4>Formación</h4>
+        <ul>
+          {{ range $prof.education }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      
+      {{ if $prof.professional_experience }}
+      <div class="detail-section">
+        <h4>Experiencia Profesional</h4>
+        <ul>
+          {{ range $prof.professional_experience }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      
+      {{ if $prof.scientific_experience }}
+      <div class="detail-section">
+        <h4>Experiencia Científica</h4>
+        <ul>
+          {{ range $prof.scientific_experience }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+</div>
+
+<script>
+function toggleProfessional(index) {
+  const detail = document.getElementById('professional-' + index);
+  const card = detail.closest('.professional-card-compact');
+  const icon = card.querySelector('.expand-icon svg');
+  
+  if (detail.style.display === 'none' || detail.style.display === '') {
+    // Cerrar todas las otras cards
+    document.querySelectorAll('.professional-detail').forEach(d => {
+      if (d !== detail) {
+        d.style.display = 'none';
+        d.closest('.professional-card-compact').classList.remove('expanded');
+        d.closest('.professional-card-compact').querySelector('.expand-icon svg').style.transform = 'rotate(0deg)';
+      }
+    });
+    
+    // Abrir esta card
+    detail.style.display = 'block';
+    card.classList.add('expanded');
+    icon.style.transform = 'rotate(180deg)';
+  } else {
+    // Cerrar esta card
+    detail.style.display = 'none';
+    card.classList.remove('expanded');
+    icon.style.transform = 'rotate(0deg)';
+  }
+}
+</script>
+
+<style>
+.professionals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.professional-card-compact {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.professional-card-compact:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.professional-card-compact.expanded {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.professional-card-header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.professional-photo {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.professional-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.professional-photo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.professional-photo-placeholder svg {
+  width: 50px;
+  height: 50px;
+}
+
+.professional-basic-info {
+  flex: 1;
+}
+
+.professional-basic-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.professional-basic-info .position {
+  margin: 0;
+  color: #667eea;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.expand-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  color: #667eea;
+}
+
+.expand-icon svg {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.professional-detail {
+  border-top: 1px solid #e0e0e0;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
+}
+
+.professional-detail-content {
+  padding: 1.5rem;
+}
+
+.college-number {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.detail-section {
+  margin-bottom: 1.5rem;
+}
+
+.detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.detail-section h4 {
+  color: #667eea;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.detail-section ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.detail-section li {
+  margin-bottom: 0.5rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .professionals-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .professional-card-header {
+    padding: 1rem;
+  }
+  
+  .professional-photo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .professional-basic-info h3 {
+    font-size: 1rem;
+  }
+}
+</style>

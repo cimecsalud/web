@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Página no encontrada | CIMEC Salud</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <main>
+        <section style="padding: 100px 20px; text-align: center; min-height: 60vh;">
+            <div class="container">
+                <h1 style="font-size: 8rem; color: var(--primary); margin: 0;">404</h1>
+                <h2 style="font-size: 2rem; color: var(--dark); margin: 2rem 0;">Página no encontrada</h2>
+                <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto 3rem;">
+                    Lo sentimos, la página que buscas no existe o ha sido movida.
+                </p>
+                <div style="margin-top: 3rem;">
+                    <a href="/" class="btn">Volver al Inicio</a>
+                    <a href="https://citaonline.portalns.es/cimec" target="_blank" class="btn btn-secondary" style="margin-left: 1rem;">Pedir Cita</a>
+                </div>
+                
+                <div style="margin-top: 4rem;">
+                    <h3 style="color: var(--primary); margin-bottom: 1.5rem;">¿Necesitas ayuda?</h3>
+                    <p style="color: #666;">
+                        📞 Llámanos al <strong>926 966 446</strong><br>
+                        ✉️ Escríbenos a <strong>info@cimecsalud.com</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    {{ partial "footer.html" . }}
+</body>
+</html>

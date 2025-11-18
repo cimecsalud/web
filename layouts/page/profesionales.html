@@ -1,0 +1,95 @@
+{{ define "main" }}
+<div class="profesionales-page">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+</div>
+
+<style>
+.profesionales-page {
+    padding: 2rem 0;
+}
+
+.profesionales-page h1 {
+    color: #003057;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.profesionales-page h2 {
+    color: #003057;
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.profesionales-page h3 {
+    color: #0066B3;
+    font-size: 1.75rem;
+    margin: 2.5rem 0 1.25rem 0;
+    text-align: center;
+}
+
+.profesionales-page h4 {
+    color: #003057;
+    font-size: 1.25rem;
+    margin: 1.5rem 0 0.75rem 0;
+    font-weight: 600;
+    padding-top: 0.5rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.profesionales-page p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.profesionales-page ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+    line-height: 1.8;
+}
+
+.profesionales-page li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.profesionales-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    display: block;
+}
+
+.professional-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.professional-card h4:first-of-type {
+    margin-top: 0;
+    border-top: none;
+}
+
+@media (max-width: 768px) {
+    .profesionales-page h1 {
+        font-size: 2rem;
+    }
+    
+    .profesionales-page h2 {
+        font-size: 1.5rem;
+    }
+    
+    .profesionales-page h3 {
+        font-size: 1.35rem;
+    }
+}
+</style>
+{{ end }}

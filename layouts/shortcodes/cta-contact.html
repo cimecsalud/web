@@ -1,0 +1,12 @@
+<div class="cta-contact">
+  {{ if .Get "title" }}
+  <h3>{{ .Get "title" }}</h3>
+  {{ end }}
+  {{ if .Get "description" }}
+  <p>{{ .Get "description" }}</p>
+  {{ end }}
+  <div class="cta-buttons">
+    <a href="tel:+34926966446" class="btn">926 966 446</a>
+    <a href="https://citaonline.portalns.es/cimec" target="_blank" class="btn btn-secondary">Pedir Cita Online</a>
+  </div>
+</div>

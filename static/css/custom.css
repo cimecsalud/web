@@ -1,0 +1,448 @@
+/* CIMEC Salud - Custom Fixes */
+
+/* Color Variables */
+:root {
+  --primary-color: #1e88e5;
+  --primary-dark: #1565c0;
+  --secondary-color: #26a69a;
+  --text-color: #212121;
+  --text-light: #616161;
+  --border-color: #e0e0e0;
+  --bg-light: #fafafa;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Content links */
+.content a,
+article a,
+p a {
+  color: var(--primary-color);
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+}
+
+.content a:hover,
+article a:hover,
+p a:hover {
+  color: var(--primary-dark);
+  border-bottom-color: var(--primary-dark);
+}
+
+/* Fix navigation bar */
+.navigation {
+  background: rgba(255, 255, 255, 0.98) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.navigation .navbar {
+  padding: 15px 0;
+}
+
+.navigation .navbar-brand img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Fix navigation links */
+.navigation .navbar-nav .nav-link {
+  color: var(--text-color) !important;
+  font-weight: 600;
+  padding: 10px 15px !important;
+  transition: all 0.3s ease;
+}
+
+.navigation .navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+  background: var(--bg-light);
+  border-radius: 5px;
+}
+
+/* Fix hero section */
+.hero-area {
+  min-height: 100vh;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.hero-area::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-area .block {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-area h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-area p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Fix preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader img {
+  max-width: 200px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+}
+
+/* Fix buttons */
+.btn-main,
+.btn-transparent {
+  padding: 15px 35px !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  transition: all 0.3s ease !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.btn-main {
+  background: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.btn-main:hover {
+  background: var(--primary-dark) !important;
+  border-color: var(--primary-dark) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(30, 136, 229, 0.3);
+  text-decoration: none !important;
+}
+
+.btn-transparent {
+  background: transparent !important;
+  border: 2px solid white !important;
+  color: white !important;
+}
+
+.btn-transparent:hover {
+  background: white !important;
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+}
+
+/* Button variants */
+.btn-sm {
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+}
+
+.btn-lg {
+  padding: 18px 45px !important;
+  font-size: 18px !important;
+}
+
+/* Fix sections spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Fix service icons */
+.service-item {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.service-item:hover {
+  background: #f8f9fa;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i {
+  font-size: 3rem;
+  color: #0077be;
+  margin-bottom: 20px;
+}
+
+.service-item h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* Fix team section */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Fix contact section */
+.contact-info {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-info i {
+  font-size: 2rem;
+  color: #0077be;
+  margin-bottom: 15px;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+  .hero-area h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-area p {
+    font-size: 1.1rem;
+  }
+  
+  .navigation .navbar-brand img {
+    max-height: 45px;
+  }
+}
+
+/* Fix z-index issues */
+.sticky-top {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+/* Service boxes for specialty pages */
+.service-box {
+  background: white;
+  border: 2px solid #ecf0f1;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-box:hover {
+  border-color: #0077be;
+  box-shadow: 0 10px 30px rgba(0, 119, 190, 0.2);
+  transform: translateY(-5px);
+}
+
+.service-box i {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.service-box h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.service-box p {
+  color: var(--text-light);
+  flex-grow: 1;
+}
+
+.service-box a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Feature boxes */
+.feature-box {
+  background: var(--bg-light);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.feature-box:hover {
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box i {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature-box h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+/* Contact boxes */
+.contact-box {
+  background: var(--bg-light);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+}
+
+.contact-box i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.contact-box h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.contact-box a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-box a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Content pages styling */
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Alert boxes */
+.alert-info {
+  background: #e3f2fd;
+  border-left: 4px solid #0077be;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+table th {
+  background: var(--primary-color);
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+table td {
+  padding: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+table tr:hover {
+  background: var(--bg-light);
+}
+
+/* Service item icons on homepage */
+.service-item i {
+  color: var(--primary-color);
+}
+
+.service-item:hover {
+  background: var(--bg-light);
+}
+
+/* Team member cards */
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+/* Improve readability */
+body {
+  color: var(--text-color);
+  line-height: 1.7;
+}
+
+p {
+  color: var(--text-light);
+  margin-bottom: 1.2rem;
+}

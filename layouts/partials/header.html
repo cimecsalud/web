@@ -1,0 +1,14 @@
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="/"><img src="/images/logo.png" alt="CIMEC Salud" style="height: 50px;"></a>
+            </div>
+            <ul class="nav-links">
+                {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</header>

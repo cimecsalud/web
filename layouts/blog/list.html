@@ -1,0 +1,94 @@
+{{ define "main" }}
+<div class="blog-page">
+  <div class="container">
+    <div style="text-align: center; margin-bottom: 3rem;">
+      <h1 style="font-size: 2.5rem; color: var(--primary);">{{ .Title }}</h1>
+      {{ with .Params.description }}
+      <p style="font-size: 1.2rem; color: #666; margin-top: 1rem;">{{ . }}</p>
+      {{ end }}
+    </div>
+
+    <div class="blog-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <div class="blog-post-card">
+        <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit;">
+          <h3>{{ .Title }}</h3>
+          {{ with .Params.categories }}
+          <div class="blog-meta">
+            {{ range . }}
+            <span class="category-tag">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </a>
+      </div>
+      {{ end }}
+    </div>
+
+    <div style="text-align: center; margin: 4rem 0;">
+      <h3>¿Tienes alguna duda sobre tu salud?</h3>
+      <p style="margin: 1.5rem 0; color: #666;">Nuestro equipo médico está aquí para ayudarte</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://citaonline.portalns.es/cimec" target="_blank" class="btn">Pedir Cita Online</a>
+        <a href="https://nshpaciente.portalns.es:9201/cimec" target="_blank" class="btn btn-secondary">Portal del Paciente</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.blog-post-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.blog-post-card h3 {
+  font-size: 1.1rem;
+  color: #2c5282;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.blog-post-card a:hover h3 {
+  color: var(--primary);
+}
+
+.blog-meta {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.category-tag {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+{{ end }}
