@@ -16,15 +16,15 @@ Nuestra colaboración con estas compañías no solo simplifica los procesos admi
 
 ## Ventajas de acudir a CIMEC Salud con tu seguro médico
 
-### 1. Facilidad en la gestión
+### Facilidad en la gestión
 
 Nos encargamos de toda la tramitación con tu aseguradora, simplificando el proceso para que solo te preocupes de tu salud.
 
-### 2. Amplio cuadro médico
+### Amplio cuadro médico
 
 Contamos con especialistas en más de 15 áreas médicas, todos cubiertos por las principales aseguradoras.
 
-### 3. Instalaciones modernas
+### Instalaciones modernas
 
 Nuestras instalaciones cuentan con la tecnología más avanzada:
 - Quirófano de cirugía mayor ambulatoria
@@ -32,11 +32,11 @@ Nuestras instalaciones cuentan con la tecnología más avanzada:
 - Laboratorio de análisis clínicos
 - Unidad de recuperación postanestesia
 
-### 4. Sin listas de espera
+### Sin listas de espera
 
 Ofrecemos citas rápidas y flexibles, adaptándonos a tu horario y necesidades.
 
-### 5. Atención personalizada
+### Atención personalizada
 
 Cada paciente recibe un trato individualizado y cercano, sin importar su aseguradora.
 
@@ -48,26 +48,6 @@ Es muy sencillo:
 2. **Indica tu aseguradora** y el tipo de consulta que necesitas
 3. **Trae tu tarjeta sanitaria** el día de la cita
 4. **Nosotros nos encargamos** de todo lo demás
-
-## Especialidades cubiertas
-
-Nuestras aseguradoras cubren consultas en todas nuestras especialidades:
-
-- Análisis clínicos
-- Cardiología
-- Dermatología
-- Fisioterapia
-- Ginecología
-- Medicina de familia
-- Nutrición y dietética
-- Otorrinolaringología (ORL)
-- Pediatría
-- Podología
-- Psicología
-- Psiquiatría
-- Radiodiagnóstico
-- Traumatología
-- Urología
 
 ## Cirugía Mayor Ambulatoria
 
@@ -82,7 +62,3 @@ Nuestro quirófano de cirugía mayor ambulatoria está disponible para pacientes
 ## Otras aseguradoras
 
 Si tu aseguradora no aparece en esta lista, **¡contáctanos!** Estamos en continua expansión de nuestros acuerdos con compañías de seguros médicos.
-
----
-
-{{< cta-contact title="¿Tienes dudas sobre tu seguro médico?" description="Llámanos y te informaremos sobre la cobertura de tu aseguradora" >}}

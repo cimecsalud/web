@@ -1,24 +1,24 @@
 insurers:
   - name: "Asisa"
-    logo: "/uploads/2023/12/asisa.jpg"
+    logo: "/images/aseguradoras/asisa.jpg"
   - name: "Sanitas"
-    logo: "/uploads/2023/12/sanitas.jpg"
+    logo: "/images/aseguradoras/sanitas.jpg"
     
   - name: "Mapfre"
-    logo: "/uploads/2023/12/mapfre.jpg"
+    logo: "/images/aseguradoras/mapfre.jpg"
 
   - name: "DKV"
-    logo: "/uploads/2023/12/dkv.jpg"
+    logo: "/images/aseguradoras/dkv.jpg"
 
   - name: "AXA"
-    logo: ""
+    logo: "/images/aseguradoras/axa.svg"
 
   - name: "Siglo XXI"
-    logo: ""
+    logo: "/images/aseguradoras/siglo-xxi.png"
 
   - name: "Divina Pastora"
-    logo: ""
+    logo: "/images/aseguradoras/divina-pastora.svg"
 
   - name: "hna"
-    logo: ""
+    logo: "/images/aseguradoras/hna.webp"
 
