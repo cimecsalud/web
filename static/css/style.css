@@ -28,7 +28,6 @@ body {
 /* ===== HEADER & NAVIGATION ===== */
 header {
   background: #E8F4F9;
-  color: var(--dark);
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -85,6 +84,7 @@ nav {
   text-decoration: none;
   transition: all 0.3s ease;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .btn-cita {
@@ -99,14 +99,14 @@ nav {
 }
 
 .btn-portal {
-  background: transparent;
-  color: var(--primary);
-  border: 2px solid var(--primary);
+  background: #FFFFFF !important;
+  color: #00A9E0 !important;
+  border: 2px solid #00A9E0;
 }
 
 .btn-portal:hover {
-  background: var(--primary);
-  color: var(--white);
+  background: #00A9E0 !important;
+  color: #FFFFFF !important;
 }
 
 /* ===== HERO SECTION ===== */
@@ -189,7 +189,6 @@ nav {
 .btn-secondary {
   background: transparent;
   border: 2px solid var(--white);
-  color: var(--white);
 }
 
 .btn-secondary:hover {

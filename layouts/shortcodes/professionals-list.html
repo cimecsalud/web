@@ -1,70 +1,78 @@
-<div class="professionals-grid">
-{{ range $index, $prof := site.Data.professionals.professionals }}
-<div class="professional-card-compact">
-  <div class="professional-card-header" onclick="toggleProfessional({{ $index }})">
-    <div class="professional-photo">
-      {{ if $prof.image }}
-      <img src="{{ $prof.image }}" alt="{{ $prof.name }}">
-      {{ else }}
-      <div class="professional-photo-placeholder">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-        </svg>
-      </div>
-      {{ end }}
-    </div>
-    <div class="professional-basic-info">
-      <h3>{{ $prof.name }}</h3>
-      <p class="position">{{ $prof.position }}</p>
-    </div>
-    <div class="expand-icon">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
-      </svg>
-    </div>
-  </div>
+{{ $globalIndex := 0 }}
+{{ range $specIndex, $specialty := site.Data.professionals.specialties }}
+<div class="specialty-section">
+  <h2 class="specialty-title">{{ $specialty.name }}</h2>
   
-  <div class="professional-detail" id="professional-{{ $index }}" style="display: none;">
-    <div class="professional-detail-content">
-      <p class="college-number"><strong>Nº COLEGIADO:</strong> {{ $prof.college_number }}</p>
-      
-      {{ if $prof.education }}
-      <div class="detail-section">
-        <h4>Formación</h4>
-        <ul>
-          {{ range $prof.education }}
-          <li>{{ . }}</li>
+  <div class="professionals-grid">
+    {{ range $profIndex, $prof := $specialty.professionals }}
+    <div class="professional-card-compact">
+      <div class="professional-card-header" onclick="toggleProfessional({{ $globalIndex }})">
+        <div class="professional-photo">
+          {{ if $prof.image }}
+          <img src="{{ $prof.image }}" alt="{{ $prof.name }}">
+          {{ else }}
+          <div class="professional-photo-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+          </div>
           {{ end }}
-        </ul>
+        </div>
+        <div class="professional-basic-info">
+          <h3>{{ $prof.name }}</h3>
+          <p class="position">{{ $prof.position }}</p>
+        </div>
+        <div class="expand-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+          </svg>
+        </div>
       </div>
-      {{ end }}
       
-      {{ if $prof.professional_experience }}
-      <div class="detail-section">
-        <h4>Experiencia Profesional</h4>
-        <ul>
-          {{ range $prof.professional_experience }}
-          <li>{{ . }}</li>
+      <div class="professional-detail" id="professional-{{ $globalIndex }}" style="display: none;">
+        <div class="professional-detail-content">
+          <p class="college-number"><strong>Nº COLEGIADO:</strong> {{ $prof.college_number }}</p>
+          
+          {{ if $prof.education }}
+          <div class="detail-section">
+            <h4>Formación</h4>
+            <ul>
+              {{ range $prof.education }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
           {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-      
-      {{ if $prof.scientific_experience }}
-      <div class="detail-section">
-        <h4>Experiencia Científica</h4>
-        <ul>
-          {{ range $prof.scientific_experience }}
-          <li>{{ . }}</li>
+          
+          {{ if $prof.professional_experience }}
+          <div class="detail-section">
+            <h4>Experiencia Profesional</h4>
+            <ul>
+              {{ range $prof.professional_experience }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
           {{ end }}
-        </ul>
+          
+          {{ if $prof.scientific_experience }}
+          <div class="detail-section">
+            <h4>Experiencia Científica</h4>
+            <ul>
+              {{ range $prof.scientific_experience }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
       </div>
-      {{ end }}
     </div>
+    {{ $globalIndex = add $globalIndex 1 }}
+    {{ end }}
   </div>
 </div>
 {{ end }}
-</div>
 
 <script>
 function toggleProfessional(index) {
@@ -96,6 +104,19 @@ function toggleProfessional(index) {
 </script>
 
 <style>
+.specialty-section {
+  margin-bottom: 3rem;
+}
+
+.specialty-title {
+  color: #00A9E0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid #00A9E0;
+}
+
 .professionals-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

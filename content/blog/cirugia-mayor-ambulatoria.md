@@ -134,7 +134,7 @@ La seguridad es nuestra prioridad. Nuestro quirófano de CMA cuenta con:
 - Unidad de recuperación postanestesia completa
 - Disponibilidad de derivación a hospital si es necesario
 
-![En Cimec contamos con un quirófano de cirugía mayor ambulatoria](/uploads/2024/03/cimec.jpg)
+![En CIMEC contamos con un quirófano de cirugía mayor ambulatoria](/uploads/2024/03/cimec.jpg)
 
 ## Unidad de Recuperación Postanestesia
 
