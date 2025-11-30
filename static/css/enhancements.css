@@ -149,13 +149,13 @@
 
 .btn-secondary {
     background: transparent;
-    color: #009FDA;
-    border: 2px solid #009FDA;
+    color: white;
+    border: 2px solid white;
 }
 
 .btn-secondary:hover {
-    background: #009FDA;
-    color: white;
+    background: white;
+    color: #009FDA;
 }
 
 /* Team Section */
