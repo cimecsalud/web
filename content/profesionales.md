@@ -3,10 +3,6 @@ title: "Cuadro médico"
 layout: "profesionales"
 ---
 
-En CIMEC encontrarás a los mejores profesionales trabajando en tu salud.
+En la clínica CIMEC encontrarás los mejores profesionales trabajando en un completo equipo multidisciplinar.
 
 {{< professionals-list >}}
-
-## Nuestro equipo multidisciplinar
-
-{{< team-sections >}}
