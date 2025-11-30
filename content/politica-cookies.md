@@ -51,11 +51,11 @@ Si continúa navegando después de haber sido informado sobre nuestra Política 
 
 ### Actualizaciones
 
-CIMEC SALUD puede modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos.
+CIMEC Salud SL puede modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos.
 
 ### Más información
 
-Si tiene dudas sobre esta política de cookies, puede contactar con CIMEC SALUD en:
-- Email: recepcion@cimecsalud.com
-- Teléfono: 963 46 83 66
-- Dirección: C/ Periodista Azzati, 8 bajo - 46015 Valencia
+Si tiene dudas sobre esta política de cookies, puede contactar con CIMEC Salud en:
+- Email: info@cimecsalud.com
+- Teléfono: 926 966 446
+- Dirección: Av. Parque de los Cabañeros 3, 13005 - Ciudad Real

@@ -4,13 +4,13 @@ title: "Psiquiatría"
 
 # Psiquiatría en Ciudad Real
 
- Salud somos especialistas en el diagnóstico y tratamiento de trastornos mentales, combinando terapias psicológicas y farmacológicas para ofrecer una atención integral a nuestros pacientes.
+Salud somos especialistas en el diagnóstico y tratamiento de trastornos mentales, combinando terapias psicológicas y farmacológicas para ofrecer una atención integral a nuestros pacientes.
 
 ## Nuestros servicios de psiquiatría
 
-### ¿Qué es la psiquiatría?
-
 ![Psiquiatría en Ciudad Real](/uploads/2024/03/Cimec-Salud-Psiquiatria-Salud-mental-1024x660.webp)
+
+### ¿Qué es la psiquiatría?
 
 La psiquiatría es una rama de la medicina centrada en el estudio, diagnóstico y tratamiento de trastornos mentales y emocionales.
 
