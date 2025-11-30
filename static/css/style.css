@@ -111,7 +111,7 @@ nav {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: var(--primary) url('/images/hero.jpg') center/cover;
+  background: var(--primary) url('/web/images/backgrounds/hero-hands.jpg') center/cover;
   color: var(--white);
   padding: 120px 20px 80px;
   text-align: center;
@@ -125,7 +125,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 169, 224, 0.85);
+  background: rgba(0, 169, 224, 0.90);
   z-index: 1;
 }
 
@@ -189,6 +189,7 @@ nav {
 .btn-secondary {
   background: transparent;
   border: 2px solid var(--white);
+  color: var(--white);
 }
 
 .btn-secondary:hover {
