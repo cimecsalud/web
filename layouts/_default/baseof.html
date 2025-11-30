@@ -7,10 +7,17 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
     
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png">
+    <link rel="apple-touch-icon" href="/images/favicon-192x192.png">
+    
     <!-- Preload critical CSS -->
-    <link rel="preload" href="/css/style.css?v=20241130c" as="style">
-    <link rel="stylesheet" href="/css/style.css?v=20241130c">
-    <link rel="stylesheet" href="/css/fix-icons.css?v=20241130c">
+    <link rel="preload" href="/css/style.css?v=20241130d" as="style">
+    <link rel="stylesheet" href="/css/style.css?v=20241130d">
+    <link rel="stylesheet" href="/css/fix-icons.css?v=20241130d">
+    <link rel="stylesheet" href="/css/cookie-consent.css?v=20241130">
     
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="https://citaonline.portalns.es">
@@ -25,7 +32,11 @@
     
     {{ partial "footer.html" . }}
     
+    <!-- Cookie Consent Banner -->
+    {{ partial "cookie-consent.html" . }}
+    
     <!-- Mobile menu script -->
     <script src="/js/mobile-menu.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>
