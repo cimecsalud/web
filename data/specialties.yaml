@@ -41,7 +41,7 @@ specialties:
     short_name: "Otorrinolaringología"
     show_home: true
     video: "/videos/ORL.mp4"
-    
+
   - name: "Psicología"
     icon: "/images/icons/Psicologia-Cimec-Salud.svg"
     url: "/especialidades/psicologia/"
@@ -92,10 +92,34 @@ specialties:
     description: "Tratamiento especializado en salud mental con enfoque integral y personalizado."
     show_home: true
     video: "/videos/Psiquiatria.mp4"
-    
+
   - name: "Radiodiagnóstico"
     icon: "/images/icons/Radiologia-Cimec-Salud.svg"
     url: "/especialidades/radiodiagnostico/"
     description: "Estudios de imagen con equipamiento de última generación para diagnóstico preciso y oportuno."
     show_home: true
     video: "/videos/Radiodiagnostico.mp4"
+
+  - name: "Reahabilitación"
+    icon: ""
+    url: "/especialidades/rehabilitación/"
+    description: ""
+    show_home: true
+
+  - name: "Unidad del dolor"
+    icon: ""
+    url: "/especialidades/unidad-del-dolor/"
+    description: ""
+    show_home: true
+
+  - name: "Endocrinología"
+    icon: ""
+    url: "/especialidades/dermatologia/"
+    description: ""
+    show_home: true
+
+  - name: "Podología"
+    icon: ""
+    url: "/especialidades/podologia/"
+    description: ""
+    show_home: true
