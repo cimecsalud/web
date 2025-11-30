@@ -1,0 +1,125 @@
+/* Cookie Consent Banner */
+.cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(44, 62, 80, 0.98);
+    color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: none;
+    animation: slideUp 0.5s ease-out;
+}
+
+.cookie-consent-banner.show {
+    display: block;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.cookie-consent-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.cookie-consent-text {
+    flex: 1;
+}
+
+.cookie-consent-text p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.cookie-consent-text strong {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.cookie-consent-text a {
+    color: #00A9E0;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.cookie-consent-text a:hover {
+    color: #0088b8;
+}
+
+.cookie-consent-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.cookie-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cookie-btn-accept {
+    background: #00A9E0;
+    color: white;
+}
+
+.cookie-btn-accept:hover {
+    background: #0088b8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 169, 224, 0.4);
+}
+
+.cookie-btn-reject {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cookie-btn-reject:hover {
+    background: white;
+    color: #2C3E50;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cookie-consent-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .cookie-consent-buttons {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cookie-btn {
+        width: 100%;
+    }
+    
+    .cookie-consent-text p {
+        font-size: 0.9rem;
+    }
+}
