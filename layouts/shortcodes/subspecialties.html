@@ -1,5 +1,19 @@
-{{ $specialty := .Get "specialty" }}
-{{ $subspecialties := index site.Data.subspecialties $specialty }}
+{{ $specialtyParam := .Get "specialty" }}
+{{ $subspecialties := slice }}
+
+{{/* Buscar la especialidad en specialties.yaml y obtener sus subspecialties */}}
+{{ range site.Data.specialties.specialties }}
+  {{ $currentURL := .url }}
+  {{ $specialtySlug := "" }}
+  {{ if hasPrefix $currentURL "/especialidades/" }}
+    {{ $specialtySlug = strings.TrimPrefix "/especialidades/" $currentURL }}
+    {{ $specialtySlug = strings.TrimSuffix "/" $specialtySlug }}
+  {{ end }}
+  
+  {{ if eq $specialtySlug $specialtyParam }}
+    {{ $subspecialties = .subspecialties }}
+  {{ end }}
+{{ end }}
 
 {{ if $subspecialties }}
 <div class="specialty-icons-grid">

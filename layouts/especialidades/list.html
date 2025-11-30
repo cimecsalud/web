@@ -17,18 +17,6 @@
       {{ end }}
     </a>
     {{ end }}
-    
-    {{ range .Site.Data.subspecialties.subspecialties }}
-    {{ if not .parent_only }}
-    <a href="{{ if .url }}{{ .url }}{{ else }}#{{ end }}" class="card especialidad-card">
-      <div class="icon-wrapper">
-        <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
-      </div>
-      <h3>{{ .name }}</h3>
-      <p>{{ .description }}</p>
-    </a>
-    {{ end }}
-    {{ end }}
   </div>
 
   <div style="text-align: center; margin-top: 2rem;">
