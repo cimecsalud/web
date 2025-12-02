@@ -318,7 +318,11 @@ specialties:
   description: Planes de alimentación personalizados y educación nutricional para una vida saludable y equilibrada.
   show_home: true
   video: /videos/Nutricion.mp4
-  professionals: []
+  professionals:
+    - name: Elsa Lizcano Donaire
+      college_number: ''
+      position: Nutricionista
+      image: /images/profesionales/elsa-lizcano.jpg
   subspecialties:
   - name: Nutrición deportiva
     icon: /images/icons/TRAUMATOLOGIA-DEPORTIVA.svg
