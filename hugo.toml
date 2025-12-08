@@ -13,7 +13,7 @@ disableHugoGeneratorInject = true
   phone = "926 966 446"
   email = "info@cimecsalud.com"
   address = "Av. Parque de los Cabañeros 3, 13005 - Ciudad Real"
-  schedule = "L-V de 9h a 20h"
+  schedule = "L-V de 8h a 22h"
 
 [caches]
   [caches.images]
