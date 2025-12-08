@@ -6,7 +6,7 @@ title = "CIMEC Salud - Clínica de Especialidades en Ciudad Real"
 enableRobotsTXT = true
 enableGitInfo = false
 disableHugoGeneratorInject = true
-canonifyURLs = true
+# canonifyURLs = true
 
 [params]
   description = "Clínica de especialidades médicas en Ciudad Real"
