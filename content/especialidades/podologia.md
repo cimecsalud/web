@@ -4,13 +4,11 @@ title: "Podología"
 
 # Podología en Ciudad Real
 
- Salud somos especialistas en el cuidado integral de los pies, ofreciendo diagnósticos precisos y tratamientos efectivos para mantener la salud podológica de nuestros pacientes.
+Salud somos especialistas en el cuidado integral de los pies, ofreciendo diagnósticos precisos y tratamientos efectivos para mantener la salud podológica de nuestros pacientes.
 
 ## Nuestros servicios de podología
 
 ### ¿Qué es la podología?
-
-![Podología en Ciudad Real](/uploads/2025/02/podologia-ciudad-real-1024x660.webp)
 
 La podología es la ciencia sanitaria que tiene por objeto el estudio de las enfermedades y alteraciones que afectan al pie.
 

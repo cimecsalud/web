@@ -30,4 +30,4 @@ En CIMEC Salud contamos con un equipo de psicólogos altamente cualificados que 
 
 Trabajamos de manera personalizada, empleando diferentes enfoques terapéuticos según las necesidades de cada paciente, con el objetivo de mejorar su bienestar emocional y calidad de vida.
 
-![Equipo de psicología](/uploads/2024/03/psicologa.png)
+![Equipo de psicología](/uploads/2024/06/psicologo.jpg)

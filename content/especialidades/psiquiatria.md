@@ -31,5 +31,3 @@ La psiquiatría se ocupa de la prevención y promoción de la salud mental, cola
 En CIMEC Salud ofrecemos atención psiquiátrica integral, combinando experiencia médica con un enfoque humano y personalizado.
 
 Nuestros psiquiatras trabajan en equipo con psicólogos y otros especialistas para ofrecer el mejor tratamiento posible a cada paciente, siempre respetando su dignidad y autonomía.
-
-![Equipo de psiquiatría](/uploads/2024/03/psiquiatra.png)
