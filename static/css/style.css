@@ -111,7 +111,7 @@ nav {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: var(--primary) url('/web/images/backgrounds/hero-hands.jpg') center/cover;
+  background: var(--primary) url('/images/backgrounds/hero-hands.jpg') center/cover;
   color: var(--white);
   padding: 120px 20px 80px;
   text-align: center;
