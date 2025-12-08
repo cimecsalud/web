@@ -10,7 +10,7 @@ En CIMEC Salud ofrecemos cuidado integral de la piel con diagnóstico y tratamie
 
 ### ¿Qué es la dermatología?
 
-![Dermatología en Ciudad Real](/uploads/2024/03/Frame-3-3.png)
+![Equipo de dermatología](/uploads/2024/07/Frame-3-3.png)
 
 La dermatología es la especialidad médica que se dedica al estudio, diagnóstico y tratamiento de las enfermedades de la piel, el cabello y las uñas.
 
@@ -30,7 +30,6 @@ En CIMEC Salud contamos con dermatólogos con amplia experiencia que utilizan t�
 
 Ofrecemos un servicio integral que incluye desde consultas dermatológicas generales hasta procedimientos especializados, siempre con el objetivo de mejorar la salud y apariencia de tu piel.
 
-![Equipo de dermatología](/uploads/2024/07/Frame-3-3.png)
 
 ### ¿Dónde estamos?
 

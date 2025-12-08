@@ -10,7 +10,8 @@ En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de alergias 
 
 ### ¿Qué es la alergología?
 
-![Alergología en Ciudad Real](/uploads/2024/03/Frame-3-3.png)
+![Equipo de alergología](/uploads/2024/07/Frame-3-3.png)
+
 
 La alergología es la especialidad médica que se dedica al diagnóstico, tratamiento y prevención de las enfermedades alérgicas y trastornos del sistema inmunológico.
 
@@ -29,8 +30,6 @@ Atendemos alergias respiratorias, alimentarias, cutáneas, a medicamentos y otra
 En CIMEC Salud contamos con alergólogos altamente cualificados que utilizan las técnicas diagnósticas más avanzadas, incluyendo pruebas cutáneas y análisis específicos para identificar con precisión los alérgenos responsables.
 
 Ofrecemos un enfoque integral que combina el tratamiento médico con educación y prevención, ayudando a nuestros pacientes a controlar sus alergias y mejorar significativamente su calidad de vida.
-
-![Equipo de alergología](/uploads/2024/07/Frame-3-3.png)
 
 ### ¿Dónde estamos?
 

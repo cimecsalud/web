@@ -10,7 +10,7 @@ En CIMEC Salud ofrecemos tratamientos estéticos personalizados para realzar tu 
 
 ### ¿Qué es la medicina estética?
 
-![Medicina Estética en Ciudad Real](/uploads/2024/03/Frame-3-3.png)
+![Equipo de medicina estética](/uploads/2024/07/Frame-3-3.png)
 
 La medicina estética es una especialidad médica que se centra en mejorar la apariencia física mediante procedimientos no invasivos o mínimamente invasivos, respetando siempre la naturalidad y armonía del rostro y cuerpo.
 
@@ -29,8 +29,6 @@ Trabajamos con un enfoque integral, evaluando cada caso de forma individualizada
 En CIMEC Salud contamos con especialistas en medicina estética con amplia formación y experiencia en los últimos tratamientos y técnicas estéticas.
 
 Utilizamos productos de la más alta calidad y tecnología de vanguardia para garantizar resultados óptimos y seguros, siempre priorizando la salud y el bienestar de nuestros pacientes.
-
-![Equipo de medicina estética](/uploads/2024/07/Frame-3-3.png)
 
 ### ¿Dónde estamos?
 

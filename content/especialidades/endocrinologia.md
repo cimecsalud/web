@@ -10,7 +10,7 @@ En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de trastorno
 
 ### ¿Qué es la endocrinología?
 
-![Endocrinología en Ciudad Real](/uploads/2024/03/Frame-3-3.png)
+![Equipo de endocrinología](/uploads/2024/07/Frame-3-3.png)
 
 La endocrinología es la especialidad médica que estudia las glándulas endocrinas y las hormonas que producen, así como los trastornos relacionados con el sistema endocrino y el metabolismo.
 
@@ -29,8 +29,6 @@ Ofrecemos un enfoque integral que combina el tratamiento médico con recomendaci
 En CIMEC Salud contamos con endocrinólogos altamente cualificados que utilizan las últimas tecnologías diagnósticas para evaluar y tratar trastornos endocrinos de forma precisa.
 
 Trabajamos de manera personalizada con cada paciente, diseñando planes de tratamiento adaptados a sus necesidades específicas, siempre con el objetivo de mejorar su salud y calidad de vida.
-
-![Equipo de endocrinología](/uploads/2024/07/Frame-3-3.png)
 
 ### ¿Dónde estamos?
 

@@ -10,7 +10,7 @@ En CIMEC Salud ofrecemos salud integral de la mujer con atención especializada 
 
 ### ¿Qué es la ginecología y obstetricia?
 
-![Ginecología en Ciudad Real](/uploads/2024/03/Frame-3-3.png)
+![Equipo de ginecología](/uploads/2024/07/Frame-3-3.png)
 
 La ginecología y obstetricia es la especialidad médica que se dedica al cuidado de la salud reproductiva de la mujer, abarcando desde la adolescencia hasta la menopausia, así como el seguimiento del embarazo y el parto.
 
@@ -29,8 +29,6 @@ Realizamos revisiones ginecológicas periódicas, ecografías, citologías y otr
 En CIMEC Salud contamos con ginecólogas altamente cualificadas con amplia experiencia en el cuidado de la salud femenina en todas las etapas de la vida.
 
 Ofrecemos un trato cercano y personalizado, creando un ambiente de confianza donde cada mujer se sienta cómoda y bien atendida, siempre con los más altos estándares de calidad médica.
-
-![Equipo de ginecología](/uploads/2024/07/Frame-3-3.png)
 
 ### ¿Dónde estamos?
 
