@@ -29,8 +29,3 @@ Realizamos diagnósticos precisos y ofrecemos tratamientos personalizados, siemp
 En CIMEC Salud contamos con dermatólogos con amplia experiencia que utilizan técnicas diagnósticas avanzadas para identificar y tratar problemas dermatológicos de forma efectiva.
 
 Ofrecemos un servicio integral que incluye desde consultas dermatológicas generales hasta procedimientos especializados, siempre con el objetivo de mejorar la salud y apariencia de tu piel.
-
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

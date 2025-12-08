@@ -33,7 +33,3 @@ A través de estas técnicas podemos diagnosticar la causa del dolor, descartar 
 Además, nuestro equipo de radiodiagnóstico trabaja de manera conjunta con las demás especialidades de la clínica para ofrecer en todo momento un cuidado integral y personalizado.
 
 ![Equipo de radiodiagnóstico](/uploads/2024/06/Frame-3-1.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

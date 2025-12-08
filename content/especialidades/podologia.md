@@ -29,7 +29,3 @@ En CIMEC Salud contamos con podólogos altamente cualificados que utilizan tecno
 Trabajamos tanto en el tratamiento de patologías existentes como en la prevención de futuras afecciones, ayudando a nuestros pacientes a mantener una buena salud podológica y una mejor calidad de vida.
 
 ![Equipo de podología](/uploads/2024/07/Frame-3-7.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

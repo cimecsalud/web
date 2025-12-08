@@ -29,7 +29,3 @@ Trabajamos con pacientes de todas las edades, desde lesiones deportivas hasta re
 En CIMEC Salud contamos con especialistas en medicina física y rehabilitación que trabajan de forma coordinada para ofrecer tratamientos integrales y personalizados.
 
 Utilizamos técnicas avanzadas y equipamiento de última generación para acelerar la recuperación y optimizar los resultados, siempre con un enfoque centrado en el paciente y sus objetivos de recuperación.
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

@@ -30,7 +30,3 @@ Atendemos alergias respiratorias, alimentarias, cutáneas, a medicamentos y otra
 En CIMEC Salud contamos con alergólogos altamente cualificados que utilizan las técnicas diagnósticas más avanzadas, incluyendo pruebas cutáneas y análisis específicos para identificar con precisión los alérgenos responsables.
 
 Ofrecemos un enfoque integral que combina el tratamiento médico con educación y prevención, ayudando a nuestros pacientes a controlar sus alergias y mejorar significativamente su calidad de vida.
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

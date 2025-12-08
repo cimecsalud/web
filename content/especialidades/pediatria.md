@@ -31,7 +31,3 @@ Establecemos relaciones cercanas con las familias, ofreciendo un cuidado persona
 Nuestra labor va más allá de la práctica médica convencional, comprometiéndonos totalmente con un correcto desarrollo de la salud y el bienestar infantil.
 
 ![Equipo de pediatría](/uploads/2024/06/Frame-3-2.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

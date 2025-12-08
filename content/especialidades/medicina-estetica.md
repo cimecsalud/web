@@ -29,7 +29,3 @@ Trabajamos con un enfoque integral, evaluando cada caso de forma individualizada
 En CIMEC Salud contamos con especialistas en medicina estética con amplia formación y experiencia en los últimos tratamientos y técnicas estéticas.
 
 Utilizamos productos de la más alta calidad y tecnología de vanguardia para garantizar resultados óptimos y seguros, siempre priorizando la salud y el bienestar de nuestros pacientes.
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

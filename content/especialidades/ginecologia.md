@@ -29,7 +29,3 @@ Realizamos revisiones ginecológicas periódicas, ecografías, citologías y otr
 En CIMEC Salud contamos con ginecólogas altamente cualificadas con amplia experiencia en el cuidado de la salud femenina en todas las etapas de la vida.
 
 Ofrecemos un trato cercano y personalizado, creando un ambiente de confianza donde cada mujer se sienta cómoda y bien atendida, siempre con los más altos estándares de calidad médica.
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

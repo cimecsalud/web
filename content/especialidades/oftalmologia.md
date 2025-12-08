@@ -29,7 +29,3 @@ En CIMEC Salud disponemos de tecnología de última generación para el diagnós
 Nuestro equipo de oftalmólogos trabaja de manera personalizada con cada paciente, ofreciendo soluciones adaptadas a sus necesidades visuales específicas.
 
 ![Equipo de oftalmología](/uploads/2024/07/Frame-3-4.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

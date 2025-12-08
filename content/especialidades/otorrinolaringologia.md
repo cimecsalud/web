@@ -29,7 +29,3 @@ En CIMEC Salud contamos con un equipo de otorrinolaringólogos altamente cualifi
 Nuestro objetivo es mejorar la calidad de vida de nuestros pacientes, tratando desde problemas auditivos hasta patologías más complejas de las vías respiratorias superiores.
 
 ![Equipo de ORL](/uploads/2024/07/Frame-3-5.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

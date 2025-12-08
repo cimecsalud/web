@@ -33,7 +33,3 @@ Nos apoyamos en un enfoque multidisciplinario, colaborando con fisioterapeutas, 
 ## Especialistas en...
 
 {{< subspecialties specialty="traumatologia" >}}
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

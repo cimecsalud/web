@@ -29,7 +29,3 @@ En CIMEC Salud somos expertos en el cuidado de la salud cardiovascular de nuestr
 Además, nuestro equipo de cardiólogos no solo está enfocado en el tratamiento, sino que concede máxima prioridad a la prevención de patologías y dificultades a través de la educación sobre hábitos de vida saludables, y trabajan en estrecha colaboración con los demás profesionales de CIMEC Salud para garantizar una atención integral y personalizada, preservando y mejorando la calidad de vida de quienes confían en nosotros su salud cardiovascular.
 
 ![Equipo de cardiología](/uploads/2024/07/Frame-3-3.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

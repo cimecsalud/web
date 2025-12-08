@@ -29,8 +29,3 @@ Trabajamos con dolor de origen músculo-esquelético, neuropático, oncológico 
 En CIMEC Salud contamos con profesionales altamente cualificados en el tratamiento del dolor, con formación específica en técnicas de medicina del dolor y procedimientos intervencionistas.
 
 Nuestro enfoque es multidisciplinar, trabajando en colaboración con otros especialistas para ofrecer un tratamiento integral que no solo alivie el dolor, sino que también mejore la funcionalidad y la calidad de vida del paciente.
-
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

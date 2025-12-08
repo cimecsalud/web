@@ -29,7 +29,3 @@ En CIMEC Salud creemos que una alimentación adecuada es fundamental para manten
 Trabajamos en colaboración con otras especialidades de la clínica para ofrecer un enfoque integral que combine nutrición, ejercicio y hábitos de vida saludables.
 
 ![Equipo de nutrición](/uploads/2024/03/nutricionista.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

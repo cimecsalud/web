@@ -25,8 +25,3 @@ Además de abordar problemas físicos, desempeña un papel clave en la prevenci�
 Nuestro enfoque va más allá de tratar problemas actuales. Nuestro objetivo es trabajar con cada paciente para prevenir futuras lesiones y promover su bienestar físico en general. En ese sentido, colaboramos con pacientes que buscan recuperarse de lesiones, aliviar dolores musculares, mejorar su movilidad, mejorar su sistema respiratorio y cardiovascular y optimizar su calidad de vida.
 
 ![Equipo de fisioterapeutas](/uploads/2025/01/fisios-especialistas.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}
-

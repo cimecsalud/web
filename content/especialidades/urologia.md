@@ -31,7 +31,3 @@ En CIMEC Salud somos especialistas en urología, ofreciendo atención integral p
 Trabajamos de manera personalizada con cada paciente, abordando desde problemas comunes hasta casos complejos, siempre con el objetivo de mejorar su calidad de vida y bienestar.
 
 ![Equipo de urología](/uploads/2024/06/Frame-3.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

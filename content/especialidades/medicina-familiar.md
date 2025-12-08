@@ -23,7 +23,3 @@ Los médicos de familia de CIMEC Salud destacan por una estrecha relación con c
 Nuestros médicos de familia no solo recopilan los datos más importantes sobre la salud de los pacientes, sino que también realizan técnicas como exploraciones físicas: auscultación, palpación o percusión para obtener más información sobre posibles problemas de salud, así como la comprobación de su capacidad pulmonar, vacunación o exámenes de fluidos, como sangre y orina, y la interpretación de sus parámetros.
 
 ![Equipo de medicina familiar](/uploads/2024/07/Frame-3-6.png)
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

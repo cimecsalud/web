@@ -29,7 +29,3 @@ Ofrecemos un enfoque integral que combina el tratamiento médico con recomendaci
 En CIMEC Salud contamos con endocrinólogos altamente cualificados que utilizan las últimas tecnologías diagnósticas para evaluar y tratar trastornos endocrinos de forma precisa.
 
 Trabajamos de manera personalizada con cada paciente, diseñando planes de tratamiento adaptados a sus necesidades específicas, siempre con el objetivo de mejorar su salud y calidad de vida.
-
-### ¿Dónde estamos?
-
-{{< map-location >}}

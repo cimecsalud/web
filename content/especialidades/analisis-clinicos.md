@@ -32,7 +32,3 @@ En CIMEC Salud contamos con un laboratorio equipado con la tecnología más avan
 Trabajamos con las mejores marcas del sector y seguimos estrictos controles de calidad para asegurar que nuestros pacientes reciban los resultados más fiables en el menor tiempo posible.
 
 Además, ofrecemos la posibilidad de realizar extracciones sin cita previa en horarios amplios, adaptándonos a las necesidades de nuestros pacientes.
-
-### ¿Dónde estamos?
-
-{{< map-location >}}
