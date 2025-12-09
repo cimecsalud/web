@@ -8,13 +8,22 @@ En CIMEC Salud ofrecemos tratamientos estéticos personalizados para realzar tu 
 
 ## Nuestros servicios de medicina estética
 
-### ¿Qué es la medicina estética?
-
 ![Equipo de medicina estética](/uploads/2024/07/Frame-3-3.png)
 
-La medicina estética es una especialidad médica que se centra en mejorar la apariencia física mediante procedimientos no invasivos o mínimamente invasivos, respetando siempre la naturalidad y armonía del rostro y cuerpo.
+En Medicina Estética ofrecemos un enfoque integral que combina ciencia, experiencia médica y resultados naturalmente armoniosos.
+Todos nuestros procedimientos son realizados exclusivamente por médicos, garantizando la mayor seguridad, y tras una valoración personalizada para realizar el tratamiento más adecuado a cada paciente.
 
-Nuestro equipo de medicina estética ofrece tratamientos personalizados utilizando las técnicas más avanzadas y seguras del mercado, desde tratamientos faciales rejuvenecedores hasta procedimientos corporales para mejorar la silueta.
+Contamos con tecnología avanzada como el láser CO₂ de última generación, que permite tratar múltiples patologías:
+
+- Cicatrices postquirúrgicas (oncológicas, cesáreas, traumatológicas, etc.).
+- Mejora de la calidad de la piel.
+- Rejuvenecimiento de manera precisa y controlada sin necesidad quirúrgica.
+
+Complementamos nuestro trabajo con tratamientos faciales diseñados para realzar la belleza propia de cada persona, respetando siempre la naturalidad del rostro.
+
+Además, incorporamos medicina regenerativa, una disciplina que utiliza los recursos del propio cuerpo para estimular la reparación y la renovación celular, logrando resultados progresivos, seguros y coherentes con la biología de cada paciente.
+
+Nuestro compromiso es ofrecer resultados naturales y seguros, donde la salud, la ética y el bienestar del paciente son siempre la prioridad.
 
 Trabajamos con un enfoque integral, evaluando cada caso de forma individualizada para ofrecer resultados naturales y armoniosos que realcen la belleza de cada paciente.
 

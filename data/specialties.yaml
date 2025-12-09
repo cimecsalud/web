@@ -548,9 +548,7 @@ specialties:
     icon: /images/icons/rejuvenation-icon.svg
   - name: Medicina antiaging
     icon: /images/icons/antiaging-icon.svg
-  - name: Tratamientos corporales
-    icon: /images/icons/body-icon.svg
-  - name: Mesoterapia
+  - name: Facial y capilar
     icon: /images/icons/meso-icon.svg
 - name: Alergología
   icon: /images/icons/Alergologia-Cimec-Salud.svg
