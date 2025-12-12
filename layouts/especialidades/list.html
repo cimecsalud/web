@@ -1,11 +1,12 @@
 {{ define "main" }}
 <div class="container">
   <h1>{{ .Title }}</h1>
-  
+
   {{ .Content }}
-  
+
   <div class="grid">
     {{ range .Site.Data.specialties.specialties }}
+    {{ if .show_home }}
     <a href="{{ .url }}" class="card especialidad-card">
       <div class="icon-wrapper">
         <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
@@ -16,6 +17,7 @@
       <p><strong>Horario extracciones:</strong> L-V de 9h a 11h (con cita previa)</p>
       {{ end }}
     </a>
+    {{ end }}
     {{ end }}
   </div>
 

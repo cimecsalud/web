@@ -157,6 +157,8 @@ specialties:
     icon: /images/icons/food-donation_2862081-1.svg
   - name: Alergología pediátrica
     icon: /images/icons/asmr_3767456-1.svg
+  - name: Nefrología pediátrica
+    icon: /images/icons/infecciones-urinarias-icon.svg
 - name: Urología
   icon: /images/icons/Urologia-Cimec-Salud.svg
   url: /especialidades/urologia/
@@ -571,3 +573,22 @@ specialties:
     icon: /images/icons/lungs_3767377-1.svg
   - name: Inmunoterapia
     icon: /images/icons/inmuno-icon.svg
+- name: Anestesiología y Reanimación
+  icon: ''
+  url: ''
+  description: ''
+  show_home: false
+  professionals:
+  - name: Patricia Faba Martín
+    college_number: '131305311'
+    position: Anestesista
+    image: /images/profesionales/patricia-faba.jpg
+  - name: Víctor Balandrón González
+    college_number: '131304779'
+    position: Anestesista
+    image: ""
+  - name: María de Gracia Villanueva Carpintero
+    college_number: '131305311'
+    position: Anestesista
+    image: ""
+  subspecialties: []
