@@ -591,4 +591,8 @@ specialties:
     college_number: '131305311'
     position: Anestesista
     image: ""
+  - name: Carlos Manrique de Lara Cadiñanos
+    college_number: ''
+    position: Anestesista
+    image: ""
   subspecialties: []
