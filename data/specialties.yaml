@@ -50,6 +50,7 @@ specialties:
   - name: Ángel González Martínez
     college_number: '131305509'
     position: Traumatólogo
+    image: /images/profesionales/angel-gonzalez.jpg
   - name: Jesús Varas Navas
     college_number: '280502286'
     position: Traumatólogo
