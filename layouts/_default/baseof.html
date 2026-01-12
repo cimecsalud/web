@@ -6,36 +6,60 @@
     <meta name="theme-color" content="#00A9E0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
-    
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ .Permalink | absURL }}">
+
+    <!-- Open Graph / Facebook -->
+    {{ $ogImage := .Params.featured_image | default .Site.Params.og_image | default "/images/og-default.jpg" }}
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink | absURL }}">
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta property="og:image" content="{{ $ogImage | absURL }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ .Permalink | absURL }}">
+    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="twitter:image" content="{{ $ogImage | absURL }}">
+
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png">
     <link rel="apple-touch-icon" href="/images/favicon-192x192.png">
     <meta name="msapplication-TileImage" content="/images/favicon-192x192.png">
-    
+
     <!-- Preload critical CSS -->
     <link rel="preload" href="/css/style.css?v=20241130d" as="style">
     <link rel="stylesheet" href="/css/style.css?v=20241130d">
     <link rel="stylesheet" href="/css/fix-icons.css?v=20241130d">
     <link rel="stylesheet" href="/css/cookie-consent.css?v=20241130">
-    
+
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="https://citaonline.portalns.es">
     <link rel="dns-prefetch" href="https://nshpaciente.portalns.es">
+
+    <!-- Schema.org structured data -->
+    {{ partial "schema-org.html" . }}
 </head>
 <body>
+    <a href="#main-content" class="skip-to-main">Saltar al contenido principal</a>
     {{ partial "header.html" . }}
-    
-    <main>
+
+    <main id="main-content">
         {{ block "main" . }}{{ end }}
     </main>
-    
+
     {{ partial "footer.html" . }}
-    
+
     <!-- Cookie Consent Banner -->
     {{ partial "cookie-consent.html" . }}
-    
+
     <!-- Mobile menu script -->
     <script src="/js/mobile-menu.js"></script>
     <script src="/js/cookie-consent.js"></script>

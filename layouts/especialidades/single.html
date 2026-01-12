@@ -3,14 +3,14 @@
     <div class="container">
         {{ $specialtySlug := path.Base .RelPermalink }}
         {{ $specialtySlug = strings.TrimSuffix "/" $specialtySlug }}
-        
+
         {{ range site.Data.specialties.specialties }}
           {{ $dataSlug := strings.TrimSuffix "/" (path.Base .url) }}
           {{ if eq $dataSlug $specialtySlug }}
             {{ if .video }}
               {{ $videoPath := .video }}
               <div class="specialty-video-container">
-                <video id="specialty-video" width="100%" muted loop playsinline preload="auto" style="max-width: 800px; margin: 2rem auto; display: block; border-radius: 8px;">
+                <video id="specialty-video" width="100%" muted loop playsinline preload="metadata" style="max-width: 800px; margin: 2rem auto; display: block; border-radius: 8px;">
                     <source src="{{ $videoPath }}" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </video>
@@ -18,7 +18,7 @@
             {{ end }}
           {{ end }}
         {{ end }}
-        
+
         {{ .Content }}
     </div>
 </div>
@@ -143,11 +143,11 @@
     .specialty-page h1 {
         font-size: 2rem;
     }
-    
+
     .specialty-page h2 {
         font-size: 1.5rem;
     }
-    
+
     .specialists-grid {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         gap: 1rem;
@@ -159,56 +159,56 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Find all h2 elements with "Especialistas en..." text
     const h2Elements = document.querySelectorAll('.specialty-page h2');
-    
+
     h2Elements.forEach(h2 => {
         if (h2.textContent.trim().toLowerCase().includes('especialistas en')) {
             // Create grid container
             const grid = document.createElement('div');
             grid.className = 'specialists-grid';
-            
+
             // Find all following siblings until next h2 or h3
             let currentElement = h2.nextElementSibling;
             const elementsToMove = [];
-            
+
             while (currentElement) {
                 if (currentElement.tagName === 'H2' || currentElement.tagName === 'H3') {
                     break;
                 }
-                
+
                 // Check if it's an image or paragraph pair
-                if (currentElement.tagName === 'IMG' || 
+                if (currentElement.tagName === 'IMG' ||
                     (currentElement.tagName === 'P' && currentElement.previousElementSibling?.tagName === 'IMG')) {
                     elementsToMove.push(currentElement);
                 }
-                
+
                 currentElement = currentElement.nextElementSibling;
             }
-            
+
             // Group elements into cards
             for (let i = 0; i < elementsToMove.length; i += 2) {
                 const img = elementsToMove[i];
                 const p = elementsToMove[i + 1];
-                
+
                 if (img && img.tagName === 'IMG' && p && p.tagName === 'P') {
                     const card = document.createElement('div');
                     card.className = 'specialist-card';
                     card.appendChild(img.cloneNode(true));
                     card.appendChild(p.cloneNode(true));
                     grid.appendChild(card);
-                    
+
                     // Remove original elements
                     img.remove();
                     p.remove();
                 }
             }
-            
+
             // Insert grid after h2
             if (grid.children.length > 0) {
                 h2.parentNode.insertBefore(grid, h2.nextSibling);
             }
         }
     });
-    
+
     // Auto-play videos
     const video = document.getElementById('specialty-video');
     if (video) {

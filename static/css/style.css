@@ -435,7 +435,7 @@ footer {
   .mobile-menu-toggle {
     display: flex;
   }
-  
+
   /* Mobile menu overlay */
   .nav-menu {
     position: fixed;
@@ -452,54 +452,54 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .nav-menu.active {
     transform: translateX(0);
   }
-  
+
   .nav-links {
     flex-direction: column;
     gap: 0;
     width: 100%;
     margin-bottom: 2rem;
   }
-  
+
   .nav-links li {
     border-bottom: 1px solid var(--light);
   }
-  
+
   .nav-links a {
     display: block;
     padding: 1rem 0;
     font-size: 1.1rem;
   }
-  
+
   .header-buttons {
     flex-direction: column;
     gap: 1rem;
     width: 100%;
   }
-  
+
   .btn-header {
     padding: 12px 20px;
     font-size: 1rem;
     text-align: center;
     width: 100%;
   }
-  
+
   nav {
     justify-content: space-between;
     gap: 1rem;
   }
-  
+
   .hero h1 {
     font-size: 2rem;
   }
-  
+
   .hero p {
     font-size: 1.1rem;
   }
-  
+
   .btn-secondary {
     margin-left: 0;
     margin-top: 1rem;
@@ -508,7 +508,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .grid {
     grid-template-columns: 1fr;
   }
@@ -1002,12 +1002,12 @@ main pre code {
   .team-section h3 {
     font-size: 1.5rem;
   }
-  
+
   .cta-contact .cta-buttons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .cta-contact .btn {
     width: 100%;
     max-width: 300px;
@@ -1108,26 +1108,35 @@ main pre code {
 }
 
 /* ===== ACCESSIBILITY ===== */
-a:focus,
-button:focus {
-  outline: 2px solid var(--primary);
-  outline-offset: 2px;
+*:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 3px;
 }
 
 /* Skip to main content link for screen readers */
 .skip-to-main {
   position: absolute;
+  top: 0;
   left: -9999px;
-  z-index: 999;
-  padding: 1em;
+  z-index: 9999;
+  padding: 0.75rem 1.25rem;
   background: var(--primary);
-  color: white;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-.skip-to-main:focus {
+.skip-to-main:focus-visible {
   left: 50%;
   transform: translateX(-50%);
-  top: 0;
 }
 
 /* ===== CAROUSEL ESPECIALIDADES ===== */
@@ -1223,17 +1232,17 @@ button:focus {
     width: 60px;
     height: 60px;
   }
-  
+
   .carousel-label {
     font-size: 0.7rem;
     max-width: 100px;
     min-height: 28px;
   }
-  
+
   .carousel-track {
     gap: 2.5rem;
   }
-  
+
   .carousel-item {
     min-height: 110px;
   }
