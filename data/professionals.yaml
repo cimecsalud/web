@@ -250,12 +250,12 @@ professionals:
   image: /images/profesionales/patricia-faba.jpg
   education:
   - Licenciada en Medicina y Cirugía por la Universidad San Pablo CEU, Madrid (2006-2012).
-  - 'Médico Residente en Anestesiología, Reanimación y Terapéutica del dolor en el Hospital General Universitario de Ciudad Real (2013-2017), calificación: excelente.'
-  - 'Doctora en Medicina por la Universidad de Castilla-La Mancha (2015-2018). Tesis doctoral: "Test de seguridad y efectividad
-    en el control de fluidos y distribución del fármaco durante el desarrollo de un modelo experimental porcino de acceso
-    laparoscópico para cirugía citorreductora y quimiohipertermia mediante un sistema cerrado con recirculación de CO2". Mención
-    "cum laude".'
-  - Obtención de la primera parte del diploma europeo anestesiología reanimación y cuidados críticos: EDAIC (2016).
+  - |
+      Médico Residente en Anestesiología, Reanimación y Terapéutica del dolor en el Hospital General Universitario de Ciudad Real (2013-2017), calificación: excelente.
+  - |
+      Doctora en Medicina por la Universidad de Castilla-La Mancha (2015-2018).
+      Tesis doctoral: "Test de seguridad y efectividad en el control de fluidos y distribución del fármaco durante el desarrollo de un modelo experimental porcino de acceso laparoscópico para cirugía citorreductora y quimiohipertermia mediante un sistema cerrado con recirculación de CO2". Mención "cum laude".
+  - "Obtención de la primera parte del diploma europeo anestesiología reanimación y cuidados críticos: EDAIC (2016)."
   - Máster en Medicina Estética por la Universidad a distancia de Madrid con prácticas presenciales del Máster de Córdoba,
     homologado por la Sociedad Española de Medicina Estética (2024).
   - Máster en Gestión clínica, Dirección Médica y Asistencial. Título de Universidad CEU San Pablo Cardenal Herrera Oria (2021-2022).
@@ -263,11 +263,10 @@ professionals:
   - Máster en enfermedades infecciosas por la Universidad CEU San Pablo (2018-2019).
   - Máster Anestesiología pediátrica por la Facultad Francisco de Vitoria (2017-2018).
   - Actualizaciones en Anestesia Pediátrica para Anestesiólogos no Pediátricos por el Hospital Universitario Niño Jesús (2018-2019).
-  - Máster animalaria, para acreditación en categoría B y C en experimentación animal: ciencia y tecnología del animal de
-      laboratorio. Prácticas de formación en experimentación animal. Hospital Universitario La Paz.iDiPaz (2014).
-  - Título GIC: Instructor de RCP por la ERC (Consejo Europeo de resucitación) (2025).
-  - Actualmente cursando: Máster en Actualización en Anestesiología y Reanimación en Universidad CEU San Pablo Cardenal Herrera
-      Oria.
+  - |
+      Máster animalaria, para acreditación en categoría B y C en experimentación animal: ciencia y tecnología del animal de laboratorio. Prácticas de formación en experimentación animal. Hospital Universitario La Paz.iDiPaz (2014).
+  - "Título GIC: Instructor de RCP por la ERC (Consejo Europeo de resucitación) (2025)."
+  - "Actualmente cursando: Máster en Actualización en Anestesiología y Reanimación en Universidad CEU San Pablo Cardenal Herrera Oria."
   professional_experience:
   - Facultativo especialista de área de Anestesiología, Reanimación y Terapéutica del dolor en el Hospital General Universitario
     de Ciudad Real (Mayo 2017 - Actualidad).
@@ -288,18 +287,14 @@ professionals:
   - Miembro del grupo de Anestesiología pediátrica en el Hospital General Universitario de Ciudad Real (2022 - Actualidad).
   - Miembro del Comité de lactancia de la Unidad de Calidad del Hospital General Universitario de Ciudad Real (2022 - Actualidad).
   - Miembro de Sociedad Española de Anestesiología y Reanimación (SEDAR) (2022 - Actualidad).
-  - Analizadora del grupo SENSAR (Sistema Español de Notificación en Seguridad en Anestesia y Reanimación) del Hospital General
-    universitario de Ciudad Real (Mayo 2019 - Actualidad).
+  - Analizadora del grupo SENSAR (Sistema Español de Notificación en Seguridad en Anestesia y Reanimación) del Hospital General universitario de Ciudad Real (Mayo 2019 - Actualidad).
   - Miembro del Comité de Reanimación y soporte vital del Hospital General de Ciudad Real (Enero 2018 - Actualidad).
   - Miembro del Comité de ventilación mecánica del Hospital General de Ciudad Real (Septiembre 2018 - Actualidad).
   - Miembro de Sociedad Española de Enfermedades Infecciosas y Microbiología Clínica (SEIMC) (Mayo 2017 - Actualidad).
-  - Miembro del Consejo asesor del Boletín científico del Hospital General Universitario de Ciudad Real: Apuntes de Ciencia
-      (Enero 2015 - Actualidad).
-  - Ponente en la 8ª jornada castellano-manchegas de anestesiología, reanimación y terapia del dolor, en la mesa de anestesiología
-    pediátrica.
+  - "Miembro del Consejo asesor del Boletín científico del Hospital General Universitario de Ciudad Real: Apuntes de Ciencia (Enero 2015 - Actualidad)."
+  - Ponente en la 8ª jornada castellano-manchegas de anestesiología, reanimación y terapia del dolor, en la mesa de anestesiología pediátrica.
   - Investigadora colaboradora en múltiples proyectos de investigación y ensayos clínicos multicéntricos.
-  - Autora de publicaciones en revistas científicas internacionales como Journal of Investigative Surgery, Journal of Clinical
-    Monitoring and Computing, y Archivos de Bronconeumología.
+  - Autora de publicaciones en revistas científicas internacionales como Journal of Investigative Surgery, Journal of Clinical Monitoring and Computing, y Archivos de Bronconeumología.
   id: patricia-faba-martin
 - name: Ana Morales Hidalgo
   college_number: '132882978'
