@@ -286,12 +286,12 @@ specialties:
     icon: /images/icons/Radiologia-Cimec-Salud.svg
   - name: Ecografía
     icon: /images/icons/ecografia-icon.svg
-  - name: TAC
-    icon: /images/icons/tac-icon.svg
+  # - name: TAC
+  #   icon: /images/icons/tac-icon.svg
   - name: Resonancia magnética
     icon: /images/icons/resonancia-icon.svg
-  - name: Mamografía
-    icon: /images/icons/mamografia-icon.svg
+  # - name: Mamografía
+  #   icon: /images/icons/mamografia-icon.svg
 - name: Rehabilitación
   icon: /images/icons/Rehabilitacion-Cimec-Salud.svg
   url: /especialidades/rehabilitacion/
