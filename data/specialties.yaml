@@ -168,8 +168,8 @@ specialties:
   - id: iria-lopez-mesa
     position: Oftalmóloga
   subspecialties:
-  - name: Cirugía refractiva
-    icon: /images/icons/cirugia-refractiva-icon.svg
+  # - name: Cirugía refractiva
+  #   icon: /images/icons/cirugia-refractiva-icon.svg
   - name: Cataratas
     icon: /images/icons/cataratas-icon.svg
   - name: Glaucoma
