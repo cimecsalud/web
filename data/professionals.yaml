@@ -23,6 +23,7 @@ professionals:
   - Varias ponencias en congresos nacionales e internacionales.
   - Premio Mauricio y Antonio Riosalido de la Sociedad Española de Cirugía Ortopédica y Traumatología (SECOT).
   id: luis-moraleda-novo
+
 - name: Carlos Alberto Encinas Ullan
   college_number: '282861304'
   position: Traumatólogo
@@ -43,6 +44,29 @@ professionals:
   - 'Miembro de varias sociedades científicas: Sociedad Española de Cirugía Ortopédica y Traumatología, (SECOT), Sociedad
     Española de Rodilla (SEROD) y Asociación Española de Artroscopia (AEA).'
   id: carlos-alberto-encinas-ullan
+
+- name: Aarón Martínez
+  college_number: '282879132'
+  position: Traumatólogo
+  education:
+  - Licenciado en Medicina y Cirugía por la universidad De Santiago de Compostela
+  - Especialista en Cirugía Ortopédica y Traumatología formado en la Fundación Jiménez Díaz de Madrid.
+  - Formación específica en patología del miembro superior (mano, muñeca y hombro).
+  - Estancias formativas nacionales e internacionales en centros de alta especialización en cirugía de la mano y del hombro, como el instituto Dr Piñal de cirugía de la Mano o la Shulthess Klinik de Zúrich.
+  - Formación en técnicas de cirugía mínimamente invasiva y artroscopia de hombro y muñeca.
+  - Especialista en cirugía de hombro, incluyendo artroscopia y procedimientos reconstructivos; cirugía de muñeca, con dominio de técnicas artroscópicas y reparación de lesiones complejas; cirugía de mano y microcirugía reconstructiva; tratamiento de deformidades adquiridas de la mano.
+  professional_experience:
+  - Traumatólogo especialista en cirugía de mano, muñeca y hombro con enfoque en tratamiento quirúrgico y no quirúrgico de las patologías del miembro superior.
+  - Responsable de la unidad de miembro superior en la Policlínica del Rosario (Ibiza), liderando abordajes complejos en traumatología de mano y hombro.
+  - Experiencia en microcirugía, reconstrucción y tratamiento de deformidades adquiridas de la mano.
+  - Atención clínica cercana y profesional centrada en el paciente, con práctica activa en múltiples aseguradoras.
+  scientific_experience:
+  - Miembro de la Sociedad Española de Cirugía Ortopédica y Traumatología.
+  - Miembro de la Sociedad Española de Cirugía de la Mano.
+  - Ponencias en congresos nacionales e internacionales centradas en patología de la mano y muñeca.
+  - Autor de publicaciones científicas en cirugía de miembro superior.
+  id: aaron-martinez
+
 - name: Fernando Escámez Fernández
   college_number: '282872175'
   position: Traumatólogo

@@ -16,6 +16,8 @@ specialties:
     position: Traumatólogo
   - id: jesus-varas-navas
     position: Traumatólogo
+  - id: aaron-martinez
+    position: Traumatólogo
   subspecialties:
   - name: Traumatología infantil y del adolescente
     icon: /images/icons/traumatologia-infantil.svg
