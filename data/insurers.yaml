@@ -1,9 +1,13 @@
 insurers:
+  - name: "Adeslas"
+    logo: "/images/aseguradoras/adeslas.jpg"
+
   - name: "Asisa"
     logo: "/images/aseguradoras/asisa.jpg"
+
   - name: "Sanitas"
     logo: "/images/aseguradoras/sanitas.jpg"
-    
+
   - name: "Mapfre"
     logo: "/images/aseguradoras/mapfre.jpg"
 
@@ -21,4 +25,3 @@ insurers:
 
   - name: "hna"
     logo: "/images/aseguradoras/hna.webp"
-
