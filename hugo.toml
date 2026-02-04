@@ -9,11 +9,12 @@ disableHugoGeneratorInject = true
 canonifyURLs = true
 
 [params]
-  description = "Clínica de especialidades médicas en Ciudad Real"
+  description = "Clínica de especialidades en Ciudad Real. Resonancia magnética, radiodiagnóstico, traumatología, cardiología, pediatría y más. Cita online y portal del paciente."
   phone = "926 966 446"
   email = "info@cimecsalud.com"
   address = "Av. Parque de los Cabañeros 3, 13005 - Ciudad Real"
   schedule = "L-V de 8h a 22h"
+  og_image = "/images/Cimec-Salud-clinica-privada_01.webp"
 
 [caches]
   [caches.images]
@@ -53,6 +54,12 @@ canonifyURLs = true
     name = "Portal del Paciente"
     url = "/portal-del-paciente/"
     weight = 8
+
+# Sitemap for search engines
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 # Minification settings
 [minify]

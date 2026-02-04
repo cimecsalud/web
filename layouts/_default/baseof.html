@@ -11,7 +11,7 @@
     <link rel="canonical" href="{{ .Permalink | absURL }}">
 
     <!-- Open Graph / Facebook -->
-    {{ $ogImage := .Params.featured_image | default .Site.Params.og_image | default "/images/og-default.jpg" }}
+    {{ $ogImage := .Params.featured_image | default .Site.Params.og_image | default "/images/logo.png" }}
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">

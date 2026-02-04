@@ -10,14 +10,43 @@
   "url": "{{ .Site.BaseURL }}",
   "telephone": "{{ .Site.Params.phone }}",
   "email": "{{ .Site.Params.email }}",
+  "image": "{{ (.Site.Params.og_image | default "/images/logo.png") | absURL }}",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "08:00",
+    "closes": "22:00"
+  },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "{{ .Site.Params.address }}",
+    "streetAddress": "Av. Parque de los Cabañeros 3",
     "addressLocality": "Ciudad Real",
     "addressRegion": "Castilla-La Mancha",
     "postalCode": "13005",
     "addressCountry": "ES"
   }
+}
+</script>
+{{ end }}
+
+{{ if not .IsHome }}
+{{ $base := .Site.BaseURL }}
+{{ $crumbs := slice (dict "name" "Inicio" "url" $base) }}
+{{ if and .CurrentSection (not .CurrentSection.IsHome) }}{{ $crumbs = $crumbs | append (dict "name" .CurrentSection.Title "url" .CurrentSection.Permalink) }}{{ end }}
+{{ if ne .Permalink .CurrentSection.Permalink }}{{ $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) }}{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ range $i, $c := $crumbs }}{{ if $i }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "name": "{{ $c.name }}",
+      "item": "{{ $c.url | absURL }}"
+    }{{ end }}
+  ]
 }
 </script>
 {{ end }}
@@ -29,7 +58,7 @@
   "@type": "Article",
   "headline": "{{ .Title }}",
   "description": "{{ .Description | default .Summary }}",
-  "image": "{{ .Params.featured_image | default "/images/og-default.jpg" | absURL }}",
+  "image": "{{ .Params.featured_image | default .Site.Params.og_image | default "/images/logo.png" | absURL }}",
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
   "author": {
