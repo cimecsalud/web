@@ -275,7 +275,7 @@ specialties:
 - name: Radiodiagnóstico
   icon: /images/icons/Radiologia-Cimec-Salud.svg
   url: /especialidades/radiodiagnostico/
-  description: Estudios de imagen con equipamiento de última generación para diagnóstico preciso y oportuno.
+  description: Resonancia magnética y resonancia magnética con sedación. Estudios de imagen con equipamiento de última generación para diagnóstico preciso y oportuno.
   show_home: true
   video: /videos/Radiodiagnostico.mp4
   professionals:
@@ -291,6 +291,8 @@ specialties:
   # - name: TAC
   #   icon: /images/icons/tac-icon.svg
   - name: Resonancia magnética
+    icon: /images/icons/resonancia-icon.svg
+  - name: Resonancia magnética con sedación
     icon: /images/icons/resonancia-icon.svg
   # - name: Mamografía
   #   icon: /images/icons/mamografia-icon.svg
