@@ -545,6 +545,14 @@ footer {
     display: flex;
   }
 
+  /* Quitar backdrop-filter en mobile: crea containing block para descendants
+     position:fixed y confina el nav-menu dentro del header. */
+  header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: #E8F4F9;
+  }
+
   /* Mobile menu overlay */
   .nav-menu {
     position: fixed;
@@ -555,7 +563,7 @@ footer {
     background: white;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
-    z-index: 999;
+    z-index: 1002;
     padding: 80px 2rem 2rem;
     overflow-y: auto;
     flex-direction: column;

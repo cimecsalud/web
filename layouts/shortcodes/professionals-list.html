@@ -28,6 +28,16 @@
   {{ end }}
 </div>
 
+<label class="prof-filter-select-wrap">
+  <span class="prof-filter-select-label">Filtrar por especialidad</span>
+  <select class="prof-filter-select">
+    <option value="all">Todas las especialidades</option>
+    {{ range sort $allSpecs "name" }}
+    <option value="{{ .slug }}">{{ .name }}</option>
+    {{ end }}
+  </select>
+</label>
+
 <div class="professionals-grid">
   {{ range $prof := hugo.Data.professionals.professionals }}
     {{ $specs := index $profSpecsMap $prof.id }}
@@ -123,22 +133,29 @@
 <script>
 (function () {
   const filters = document.querySelectorAll('.prof-filter');
+  const select = document.querySelector('.prof-filter-select');
   const cards = document.querySelectorAll('.professional-card[data-specs]');
 
-  filters.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const filter = btn.dataset.filter;
-      filters.forEach(b => {
-        const isActive = b === btn;
-        b.classList.toggle('is-active', isActive);
-        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
-      });
-      cards.forEach(c => {
-        const specs = (c.dataset.specs || '').split(' ');
-        c.hidden = !(filter === 'all' || specs.includes(filter));
-      });
+  function applyFilter(filter) {
+    filters.forEach(b => {
+      const isActive = b.dataset.filter === filter;
+      b.classList.toggle('is-active', isActive);
+      b.setAttribute('aria-selected', isActive ? 'true' : 'false');
     });
+    if (select && select.value !== filter) select.value = filter;
+    cards.forEach(c => {
+      const specs = (c.dataset.specs || '').split(' ');
+      c.hidden = !(filter === 'all' || specs.includes(filter));
+    });
+  }
+
+  filters.forEach(btn => {
+    btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
   });
+
+  if (select) {
+    select.addEventListener('change', () => applyFilter(select.value));
+  }
 
   document.addEventListener('click', function (event) {
     const trigger = event.target.closest('[data-prof-modal]');
