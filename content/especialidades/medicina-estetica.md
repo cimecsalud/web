@@ -1,9 +1,6 @@
 ---
 title: "Medicina Estética"
 ---
-
-# Medicina Estética en Ciudad Real
-
 En CIMEC Salud ofrecemos tratamientos estéticos personalizados para realzar tu belleza natural con técnicas avanzadas y seguras.
 
 ## Nuestros servicios de medicina estética

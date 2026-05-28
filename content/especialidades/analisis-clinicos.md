@@ -1,9 +1,6 @@
 ---
 title: "Análisis clínicos"
 ---
-
-# Análisis clínicos en Ciudad Real
-
 En CIMEC Salud ofrecemos un completo servicio de análisis clínicos con la más avanzada tecnología. Nuestro laboratorio realiza todo tipo de pruebas diagnósticas para garantizar resultados precisos y fiables.
 
 ## Nuestros servicios en análisis clínicos

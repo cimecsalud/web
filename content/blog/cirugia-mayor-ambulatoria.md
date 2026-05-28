@@ -150,4 +150,4 @@ En CIMEC Salud, nuestra unidad de recuperación ofrece:
 
 **CIMEC Salud es referencia en Cirugía Mayor Ambulatoria en Ciudad Real.** Nuestro quirófano y unidad de recuperación garantizan tu seguridad y comodidad.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

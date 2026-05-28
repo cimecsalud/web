@@ -71,4 +71,4 @@ El embarazo puede ser un momento emocionalmente intenso. No dudes en:
 
 **En CIMEC Salud contamos con especialistas en ginecología que te acompañarán durante todo tu embarazo.** Estamos aquí para responder tus dudas y brindarte la mejor atención.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

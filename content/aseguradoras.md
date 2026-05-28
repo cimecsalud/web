@@ -1,8 +1,9 @@
 ---
 title: "Aseguradoras"
+layout: "aseguradoras"
 ---
 
-## TRABAJAMOS CON LAS PRINCIPALES ASEGURADORAS PARA FACILITARTE EL MEJOR SERVICIO
+## Trabajamos con las principales aseguradoras para facilitarte el mejor servicio
 
 En CIMEC Salud nos enorgullece colaborar con aseguradoras médicas para garantizar a nuestros pacientes una atención de calidad respaldada por una amplia cobertura. Colaboramos con reconocidas compañías como **Asisa, Sanitas, Mapfre o DKV** para facilitar a nuestros pacientes la tranquilidad de contar con servicios médicos de primer nivel bajo el respaldo de su aseguradora de confianza.
 

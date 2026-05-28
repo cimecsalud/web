@@ -1,10 +1,10 @@
 hero:
-  title: "INNOVACIÓN PARA LA MEJOR ATENCIÓN"
+  title: "Innovación para la mejor atención"
   subtitle: "La clínica médica Cimec Salud destaca por un excelente equipo médico que, apoyado por una tecnología de vanguardia, ofrece un servicio hospitalario completo y de alta calidad en el que el paciente es el centro de nuestra atención."
 
 instalaciones:
   title: "Nuestras instalaciones"
-  subtitle: "UNA CLÍNICA DE VANGUARDIA"
+  subtitle: "Una clínica de vanguardia"
   description: "Nuestro centro médico cuenta con más de 800 metros cuadrados repletos de innovación y vanguardia, que tienen el objetivo de atender con la máxima seguridad a nuestros pacientes en más de una decena de especialidades médicas."
   images:
     - "/images/Cimec-Salud-23.jpg"
@@ -25,8 +25,8 @@ instalaciones:
     - "/images/Cimec-Salud-22.jpg"
 
 valores:
-  title: "QUÉ NOS DEFINE"
-  subtitle: "LA EXCELENCIA MÉDICA ES NUESTRA PRIORIDAD CONSTANTE"
+  title: "Qué nos define"
+  subtitle: "La excelencia médica es nuestra prioridad constante"
   items:
     - icon: "/images/excelencia-cimec.svg"
       title: "Excelencia médica"
@@ -60,5 +60,5 @@ horarios:
       hours: "10:30h - 19:00h"
 
 visitanos:
-  title: "¿VIENES A CONOCERNOS?"
-  subtitle: "ASÍ ES NUESTRA CLÍNICA CIMEC"
+  title: "¿Vienes a conocernos?"
+  subtitle: "Así es nuestra clínica CIMEC"

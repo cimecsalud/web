@@ -1,28 +1,25 @@
 {{ define "main" }}
-<div class="container">
-  <h1>{{ .Title }}</h1>
+{{ partial "page-banner.html" (dict "Page" . "subtitle" "Cuadro médico completo en más de 20 especialidades") }}
+<section class="page-content">
+  <div class="container">
+    {{ .Content }}
 
-  {{ .Content }}
-
-  <div class="grid">
-    {{ range .Site.Data.specialties.specialties }}
-    {{ if .show_home }}
-    <a href="{{ .url }}" class="card especialidad-card">
-      <div class="icon-wrapper">
-        <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
-      </div>
-      <h3>{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</h3>
-      <p>{{ .description }}</p>
-      {{ if eq .url "/especialidades/analisis-clinicos/" }}
-      <p><strong>Horario extracciones:</strong> L-V de 9h a 11h (con cita previa)</p>
+    <div class="grid">
+      {{ range hugo.Data.specialties.specialties }}
+      {{ if .show_home }}
+      <a href="{{ .url }}" class="card especialidad-card">
+        <div class="icon-wrapper">
+          <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
+        </div>
+        <h3>{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</h3>
+        <p>{{ .description }}</p>
+        {{ if eq .url "/especialidades/analisis-clinicos/" }}
+        <p><strong>Horario extracciones:</strong> L-V de 9h a 11h (con cita previa)</p>
+        {{ end }}
+      </a>
       {{ end }}
-    </a>
-    {{ end }}
-    {{ end }}
+      {{ end }}
+    </div>
   </div>
-
-  <div style="text-align: center; margin-top: 2rem;">
-  </div>
-
-</div>
+</section>
 {{ end }}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#00A9E0">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 
     <!-- Canonical -->
@@ -14,7 +14,7 @@
     {{ $ogImage := .Params.featured_image | default .Site.Params.og_image | default "/images/logo.png" }}
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
     <meta property="og:image" content="{{ $ogImage | absURL }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -23,7 +23,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ .Permalink | absURL }}">
-    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
     <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
     <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
@@ -34,11 +34,14 @@
     <link rel="apple-touch-icon" href="/images/favicon-192x192.png">
     <meta name="msapplication-TileImage" content="/images/favicon-192x192.png">
 
-    <!-- Preload critical CSS -->
-    <link rel="preload" href="/css/style.css?v=20241130d" as="style">
-    <link rel="stylesheet" href="/css/style.css?v=20241130d">
-    <link rel="stylesheet" href="/css/fix-icons.css?v=20241130d">
-    <link rel="stylesheet" href="/css/cookie-consent.css?v=20241130">
+    <!-- Critical CSS (fingerprinted by Hugo Pipes) -->
+    {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+    {{ $cookies := resources.Get "css/cookie-consent.css" | minify | fingerprint }}
+    {{ $components := resources.Get "css/components.css" | minify | fingerprint }}
+    <link rel="preload" href="{{ $style.RelPermalink }}" as="style">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $components.RelPermalink }}" integrity="{{ $components.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $cookies.RelPermalink }}" integrity="{{ $cookies.Data.Integrity }}">
 
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="https://citaonline.portalns.es">
@@ -60,8 +63,13 @@
     <!-- Cookie Consent Banner -->
     {{ partial "cookie-consent.html" . }}
 
-    <!-- Mobile menu script -->
-    <script src="/js/mobile-menu.js"></script>
-    <script src="/js/cookie-consent.js"></script>
+    {{ partial "portal-modal.html" . }}
+
+    {{ $mobileMenu := resources.Get "js/mobile-menu.js" | minify | fingerprint }}
+    {{ $cookiesJs := resources.Get "js/cookie-consent.js" | minify | fingerprint }}
+    {{ $portalModalJs := resources.Get "js/portal-modal.js" | minify | fingerprint }}
+    <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}" defer></script>
+    <script src="{{ $cookiesJs.RelPermalink }}" integrity="{{ $cookiesJs.Data.Integrity }}" defer></script>
+    <script src="{{ $portalModalJs.RelPermalink }}" integrity="{{ $portalModalJs.Data.Integrity }}" defer></script>
 </body>
 </html>

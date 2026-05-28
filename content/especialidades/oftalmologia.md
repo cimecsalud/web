@@ -1,9 +1,6 @@
 ---
 title: "Oftalmología"
 ---
-
-# Oftalmología en Ciudad Real
-
 En CIMEC Salud somos especialistas en el cuidado integral de la salud visual, ofreciendo diagnósticos precisos y tratamientos avanzados para todo tipo de afecciones oculares.
 
 ## Nuestros servicios de oftalmología

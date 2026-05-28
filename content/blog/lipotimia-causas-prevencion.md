@@ -53,4 +53,4 @@ La lipotimia puede parecer una reacción preocupante, pero es importante conocer
 
 **En CIMEC Salud estamos aquí para cuidar de tu salud.** Si tienes dudas o necesitas atención médica, no dudes en contactarnos.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

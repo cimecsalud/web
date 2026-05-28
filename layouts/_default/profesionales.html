@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ partial "page-banner.html" (dict "Page" . "subtitle" "Nuestro equipo multidisciplinar de profesionales") }}
+<section class="page-content">
+    <div class="profesionales-page">
+        <div class="container">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}

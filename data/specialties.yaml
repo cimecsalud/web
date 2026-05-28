@@ -384,6 +384,8 @@ specialties:
     position: Ginecóloga
   - id: patricia-descalzo-perez
     position: Ginecóloga
+  - id: jose-angel-espinosa-barrajon
+    position: Ginecólogo
   subspecialties:
   - name: Obstetricia
     icon: /images/icons/pregnancy-icon.svg
@@ -394,6 +396,8 @@ specialties:
   - name: Menopausia
     icon: /images/icons/menopause-icon.svg
   - name: Suelo pélvico
+    icon: /images/icons/pelvic-icon.svg
+  - name: Vulvología
     icon: /images/icons/pelvic-icon.svg
 - name: Medicina Estética
   icon: /images/icons/Medicina-Estetica-Cimec-Salud.svg

@@ -1,9 +1,6 @@
 ---
 title: "Ginecología y Obstetricia"
 ---
-
-# Ginecología y Obstetricia en Ciudad Real
-
 En CIMEC Salud ofrecemos salud integral de la mujer con atención especializada en ginecología y seguimiento del embarazo.
 
 ## Nuestros servicios de ginecología y obstetricia

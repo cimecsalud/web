@@ -48,4 +48,4 @@ Las revisiones médicas anuales no solo ayudan a detectar enfermedades tempranam
 
 **En CIMEC Salud ofrecemos revisiones médicas completas adaptadas a tus necesidades.** Nuestro equipo de profesionales está preparado para cuidar de tu salud.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

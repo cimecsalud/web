@@ -1,9 +1,6 @@
 ---
 title: "Endocrinología"
 ---
-
-# Endocrinología en Ciudad Real
-
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de trastornos hormonales y metabólicos con atención especializada y personalizada.
 
 ## Nuestros servicios de endocrinología

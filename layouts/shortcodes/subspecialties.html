@@ -2,14 +2,14 @@
 {{ $subspecialties := slice }}
 
 {{/* Buscar la especialidad en specialties.yaml y obtener sus subspecialties */}}
-{{ range site.Data.specialties.specialties }}
+{{ range hugo.Data.specialties.specialties }}
   {{ $currentURL := .url }}
   {{ $specialtySlug := "" }}
   {{ if hasPrefix $currentURL "/especialidades/" }}
     {{ $specialtySlug = strings.TrimPrefix "/especialidades/" $currentURL }}
     {{ $specialtySlug = strings.TrimSuffix "/" $specialtySlug }}
   {{ end }}
-  
+
   {{ if eq $specialtySlug $specialtyParam }}
     {{ $subspecialties = .subspecialties }}
   {{ end }}

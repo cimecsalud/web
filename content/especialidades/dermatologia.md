@@ -1,9 +1,6 @@
 ---
 title: "Dermatología"
 ---
-
-# Dermatología en Ciudad Real
-
 En CIMEC Salud ofrecemos cuidado integral de la piel con diagnóstico y tratamiento de enfermedades dermatológicas mediante técnicas avanzadas.
 
 ## Nuestros servicios de dermatología

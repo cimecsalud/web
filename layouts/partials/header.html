@@ -14,9 +14,7 @@
             <div class="nav-menu">
                 <ul class="nav-links">
                     {{ range .Site.Menus.main }}
-                    {{ if ne .Name "Portal del Paciente" }}
                     <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
-                    {{ end }}
                     {{ end }}
                 </ul>
                 <div class="header-buttons">

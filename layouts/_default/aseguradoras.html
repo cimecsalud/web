@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ partial "page-banner.html" (dict "Page" . "subtitle" "Trabajamos con las principales compañías de seguros médicos") }}
+
+<section class="aseguradoras-logos">
+    <div class="container">
+        <div class="aseguradoras-content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<section class="como-funciona">
+    <div class="container">
+        <h2>¿Cómo funciona?</h2>
+        <div class="como-funciona-grid">
+            <div class="como-funciona-step">
+                <div class="step-number">1</div>
+                <h3>Verifica tu cobertura</h3>
+                <p>Consulta con tu aseguradora si CIMEC Salud está incluido en tu póliza</p>
+            </div>
+            <div class="como-funciona-step">
+                <div class="step-number">2</div>
+                <h3>Pide cita</h3>
+                <p>Solicita tu cita a través de nuestro sistema online o por teléfono</p>
+            </div>
+            <div class="como-funciona-step">
+                <div class="step-number">3</div>
+                <h3>Presenta tu tarjeta</h3>
+                <p>Trae tu tarjeta sanitaria de la aseguradora el día de la consulta</p>
+            </div>
+            <div class="como-funciona-step">
+                <div class="step-number">4</div>
+                <h3>Recibe atención</h3>
+                <p>Nuestros profesionales te atenderán según la cobertura de tu póliza</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="aseguradoras-cta">
+    <div class="container">
+        <h2>¿Tienes dudas?</h2>
+        <p class="aseguradoras-cta-text">
+            Contacta con nosotros y te ayudaremos con cualquier consulta sobre tu seguro médico
+        </p>
+        <div class="aseguradoras-cta-buttons">
+            <a href="tel:+34926966446" class="btn">LLAMAR AHORA</a>
+            <a href="mailto:info@cimecsalud.com" class="btn btn-secondary">EMAIL</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

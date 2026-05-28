@@ -1,294 +1,158 @@
-{{ $globalIndex := 0 }}
-{{ $professionalsMap := dict }}
-{{ range site.Data.professionals.professionals }}
-  {{ $professionalsMap = merge $professionalsMap (dict .id .) }}
+{{/* Map: prof_id -> []{name, slug, position} */}}
+{{ $profSpecsMap := dict }}
+{{ $allSpecs := slice }}
+
+{{ range $specialty := hugo.Data.specialties.specialties }}
+  {{ $slug := "" }}
+  {{ if $specialty.url }}
+    {{ $slug = path.Base (strings.TrimSuffix "/" $specialty.url) }}
+  {{ else }}
+    {{ $slug = anchorize $specialty.name }}
+  {{ end }}
+  {{ $hasProfs := false }}
+  {{ range $profRef := $specialty.professionals }}
+    {{ $hasProfs = true }}
+    {{ $entry := dict "name" $specialty.name "slug" $slug "position" $profRef.position }}
+    {{ $existing := index $profSpecsMap $profRef.id | default (slice) }}
+    {{ $profSpecsMap = merge $profSpecsMap (dict $profRef.id ($existing | append $entry)) }}
+  {{ end }}
+  {{ if $hasProfs }}
+    {{ $allSpecs = $allSpecs | append (dict "name" $specialty.name "slug" $slug) }}
+  {{ end }}
 {{ end }}
 
-{{ range $specIndex, $specialty := site.Data.specialties.specialties }}
-<div class="specialty-section">
-  <h2 class="specialty-title">{{ $specialty.name }}</h2>
+<div class="prof-filters" role="tablist" aria-label="Filtrar por especialidad">
+  <button type="button" class="prof-filter is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+  {{ range sort $allSpecs "name" }}
+  <button type="button" class="prof-filter" data-filter="{{ .slug }}" role="tab" aria-selected="false">{{ .name }}</button>
+  {{ end }}
+</div>
 
-  <div class="professionals-grid">
-    {{ range $profIndex, $profRef := $specialty.professionals }}
-      {{ $prof := index $professionalsMap $profRef.id }}
-      {{ if $prof }}
-      <div class="professional-card-compact">
-        <div class="professional-card-header" onclick="toggleProfessionalCard(this)">
-          <div class="professional-photo">
+<div class="professionals-grid">
+  {{ range $prof := hugo.Data.professionals.professionals }}
+    {{ $specs := index $profSpecsMap $prof.id }}
+    {{ if $specs }}
+      {{ $modalId := printf "prof-modal-%s" $prof.id }}
+      {{ $slugs := slice }}
+      {{ $positions := slice }}
+      {{ range $specs }}
+        {{ $slugs = $slugs | append .slug }}
+        {{ $positions = $positions | append .position }}
+      {{ end }}
+      {{ $positionsText := delimit ($positions | uniq) " · " }}
+      <button type="button" class="professional-card" data-prof-modal="{{ $modalId }}" data-specs="{{ delimit $slugs " " }}" aria-haspopup="dialog">
+        <div class="professional-photo">
+          {{ if $prof.image }}
+          <img src="{{ $prof.image }}" alt="">
+          {{ else }}
+          <div class="professional-photo-placeholder" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+          </div>
+          {{ end }}
+        </div>
+        <div class="professional-basic-info">
+          <h3>{{ $prof.name }}</h3>
+          <p class="position">{{ $positionsText }}</p>
+        </div>
+      </button>
+
+      <dialog id="{{ $modalId }}" class="professional-modal" aria-labelledby="{{ $modalId }}-title">
+        <header class="professional-modal-header">
+          <form method="dialog" class="professional-modal-close-form">
+            <button type="submit" class="professional-modal-close" aria-label="Cerrar">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              </svg>
+            </button>
+          </form>
+          <div class="professional-photo professional-photo--large">
             {{ if $prof.image }}
-            <img src="{{ $prof.image }}" alt="{{ $prof.name }}">
+            <img src="{{ $prof.image }}" alt="">
             {{ else }}
-            <div class="professional-photo-placeholder">
+            <div class="professional-photo-placeholder" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
               </svg>
             </div>
             {{ end }}
           </div>
-          <div class="professional-basic-info">
-            <h3>{{ $prof.name }}</h3>
-            <p class="position">{{ $profRef.position }}</p>
-          </div>
-          <div class="expand-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
-            </svg>
-          </div>
-        </div>
-
-        <div class="professional-detail" style="display: none;">
-          <div class="professional-detail-content">
+          <div>
+            <h2 id="{{ $modalId }}-title">{{ $prof.name }}</h2>
+            <p class="position">{{ $positionsText }}</p>
             {{ if $prof.college_number }}
             <p class="college-number"><strong>Nº COLEGIADO:</strong> {{ $prof.college_number }}</p>
             {{ end }}
-
-            {{ if $prof.education }}
-            <div class="detail-section">
-              <h4>Formación</h4>
-              <ul>
-                {{ range $prof.education }}
-                <li>{{ . }}</li>
-                {{ end }}
-              </ul>
-            </div>
-            {{ end }}
-
-            {{ if $prof.professional_experience }}
-            <div class="detail-section">
-              <h4>Experiencia Profesional</h4>
-              <ul>
-                {{ range $prof.professional_experience }}
-                <li>{{ . }}</li>
-                {{ end }}
-              </ul>
-            </div>
-            {{ end }}
-
-            {{ if $prof.scientific_experience }}
-            <div class="detail-section">
-              <h4>Experiencia Científica</h4>
-              <ul>
-                {{ range $prof.scientific_experience }}
-                <li>{{ . }}</li>
-                {{ end }}
-              </ul>
-            </div>
-            {{ end }}
           </div>
+        </header>
+
+        <div class="professional-modal-body">
+          {{ if $prof.education }}
+          <section class="detail-section">
+            <h4>Formación</h4>
+            <ul>
+              {{ range $prof.education }}<li>{{ . }}</li>{{ end }}
+            </ul>
+          </section>
+          {{ end }}
+
+          {{ if $prof.professional_experience }}
+          <section class="detail-section">
+            <h4>Experiencia profesional</h4>
+            <ul>
+              {{ range $prof.professional_experience }}<li>{{ . }}</li>{{ end }}
+            </ul>
+          </section>
+          {{ end }}
+
+          {{ if $prof.scientific_experience }}
+          <section class="detail-section">
+            <h4>Experiencia científica</h4>
+            <ul>
+              {{ range $prof.scientific_experience }}<li>{{ . }}</li>{{ end }}
+            </ul>
+          </section>
+          {{ end }}
         </div>
-      </div>
-      {{ end }}
-    {{ $globalIndex = add $globalIndex 1 }}
+      </dialog>
     {{ end }}
-  </div>
+  {{ end }}
 </div>
-{{ end }}
 
 <script>
-function toggleProfessionalCard(headerEl) {
-  const card = headerEl.closest('.professional-card-compact');
-  const detail = card.querySelector('.professional-detail');
-  const icon = card.querySelector('.expand-icon svg');
-  const isOpen = detail.style.display === 'block';
+(function () {
+  const filters = document.querySelectorAll('.prof-filter');
+  const cards = document.querySelectorAll('.professional-card[data-specs]');
 
-  // Cerrar todas las otras cards
-  document.querySelectorAll('.professional-detail').forEach(d => {
-    const c = d.closest('.professional-card-compact');
-    const i = c.querySelector('.expand-icon svg');
-    d.style.display = 'none';
-    c.classList.remove('expanded');
-    if (i) {
-      i.style.transform = 'rotate(0deg)';
-    }
+  filters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+      filters.forEach(b => {
+        const isActive = b === btn;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      cards.forEach(c => {
+        const specs = (c.dataset.specs || '').split(' ');
+        c.hidden = !(filter === 'all' || specs.includes(filter));
+      });
+    });
   });
 
-  // Abrir solo la card pulsada si antes estaba cerrada
-  if (!isOpen) {
-    detail.style.display = 'block';
-    card.classList.add('expanded');
-    if (icon) {
-      icon.style.transform = 'rotate(180deg)';
+  document.addEventListener('click', function (event) {
+    const trigger = event.target.closest('[data-prof-modal]');
+    if (trigger) {
+      const modal = document.getElementById(trigger.dataset.profModal);
+      if (modal && typeof modal.showModal === 'function') {
+        event.preventDefault();
+        modal.showModal();
+      }
+      return;
     }
-  }
-}
+    if (event.target.matches('.professional-modal')) {
+      event.target.close();
+    }
+  });
+})();
 </script>
-
-<style>
-.specialty-section {
-  margin-bottom: 3rem;
-}
-
-.specialty-title {
-  color: #00A9E0;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 3px solid #00A9E0;
-}
-
-.professionals-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.professional-card-compact {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-.professional-card-compact:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-}
-
-.professional-card-compact.expanded {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-.professional-card-header {
-  display: flex;
-  align-items: center;
-  padding: 1.5rem;
-  cursor: pointer;
-  gap: 1rem;
-}
-
-.professional-photo {
-  flex-shrink: 0;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  overflow: hidden;
-  background: linear-gradient(135deg, #00A9E0 0%, #0088b8 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.professional-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.professional-photo-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.professional-photo-placeholder svg {
-  width: 50px;
-  height: 50px;
-}
-
-.professional-basic-info {
-  flex: 1;
-}
-
-.professional-basic-info h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.1rem;
-  color: #2c3e50;
-}
-
-.professional-basic-info .position {
-  margin: 0;
-  color: #00A9E0;
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
-.expand-icon {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  color: #00A9E0;
-}
-
-.expand-icon svg {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.3s ease;
-}
-
-.professional-detail {
-  border-top: 1px solid #e0e0e0;
-  animation: slideDown 0.3s ease;
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    max-height: 0;
-  }
-  to {
-    opacity: 1;
-    max-height: 1000px;
-  }
-}
-
-.professional-detail-content {
-  padding: 1.5rem;
-}
-
-.college-number {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-.detail-section {
-  margin-bottom: 1.5rem;
-}
-
-.detail-section:last-child {
-  margin-bottom: 0;
-}
-
-.detail-section h4 {
-  color: #00A9E0;
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-}
-
-.detail-section ul {
-  margin: 0;
-  padding-left: 1.5rem;
-  list-style-type: disc;
-}
-
-.detail-section li {
-  margin-bottom: 0.5rem;
-  color: #555;
-  line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-  .professionals-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .professional-card-header {
-    padding: 1rem;
-  }
-
-  .professional-photo {
-    width: 60px;
-    height: 60px;
-  }
-
-  .professional-basic-info h3 {
-    font-size: 1rem;
-  }
-}
-</style>

@@ -333,5 +333,26 @@ professionals:
 - name: Carlos Manrique de Lara Cadiñanos
   college_number: ''
   position: Anestesista
-  image: ''
+  image: /images/profesionales/carlos-manrique.jpg
   id: carlos-manrique-de-lara-cadinanos
+
+- name: José Ángel Espinosa Barrajón
+  position: Ginecólogo
+  image: /images/profesionales/jose-angel-espinosa.jpg
+  education:
+  - Licenciatura en Medicina y Cirugía por la Universidad Autónoma de Madrid (1995).
+  - Especialista vía MIR en Ginecología y Obstetricia en la Fundación Jiménez Díaz – Clínica de la Concepción, Madrid (1996-2000).
+  - Máster Propio en Ginecoestética por el CEU-Universidad Cardenal Herrera.
+  - Máster Propio en Cirugía Mínimamente Invasiva en Ginecología por el CEU-Universidad Cardenal Herrera.
+  professional_experience:
+  - Jefe Asociado de Obstetricia y Ginecología en el Hospital Universitario Quirónsalud Madrid (2006-2014).
+  - Jefe de Servicio del Hospital Quirónsalud San José (2013-2017).
+  - Jefe de Equipo de Obstetricia y Ginecología y Director de la Unidad de Parto Afectivo en el Hospital San Francisco de Asís, Madrid (2018-2023).
+  - Coordinador de Urgencias de Obstetricia y Ginecología en el Hospital San Francisco de Asís, Madrid (2018-2023).
+  - Consulta de Ginecoestética y Patología Vulvar en el Instituto Natividad Cano (desde 2024).
+  - Unidad de Dolor Vulvar Pablo Lázaro en Fisio-Especialistas (desde 2025).
+  scientific_experience:
+  - Profesor Asociado del Grado de Medicina de la Universidad Alfonso X el Sabio, Madrid (desde 2021).
+  - Profesor Asociado del Máster Universitario en Fisioterapia en Técnicas Avanzadas para la Mujer de la Universidad Europea de Madrid (desde 2008).
+  - Profesor Asociado del Curso de Experto en Fisioterapia en las Disfunciones del Suelo Pélvico, CSEU La Salle de Madrid (desde 2014).
+  id: jose-angel-espinosa-barrajon

@@ -105,4 +105,4 @@ Muchas personas cometen el error de esperar hasta que el dolor sea insoportable 
 
 **En CIMEC Salud contamos con fisioterapeutas experimentados** listos para ayudarte a recuperar tu movilidad y calidad de vida.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

@@ -1,0 +1,21 @@
+<dialog id="portal-modal" class="portal-modal" aria-labelledby="portal-modal-title">
+  <form method="dialog" class="portal-modal-close-form">
+    <button type="submit" class="portal-modal-close" aria-label="Cerrar">&times;</button>
+  </form>
+  <h2 id="portal-modal-title">Portal del Paciente</h2>
+  <p>¿Ya tienes una cuenta?</p>
+  <div class="portal-modal-actions">
+    <a href="{{ .Site.Params.portal_login_url }}" target="_blank" rel="noopener noreferrer" class="portal-modal-btn portal-modal-btn-primary">
+      Sí, acceder a mi cuenta
+    </a>
+    {{ with .Site.Params.portal_register_url }}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="portal-modal-btn portal-modal-btn-secondary">
+      No, crear nuevo usuario
+    </a>
+    {{ else }}
+    <button type="button" class="portal-modal-btn portal-modal-btn-secondary" disabled title="Próximamente">
+      Crear nuevo usuario (próximamente)
+    </button>
+    {{ end }}
+  </div>
+</dialog>

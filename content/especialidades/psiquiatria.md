@@ -1,9 +1,6 @@
 ---
 title: "Psiquiatría"
 ---
-
-# Psiquiatría en Ciudad Real
-
 Salud somos especialistas en el diagnóstico y tratamiento de trastornos mentales, combinando terapias psicológicas y farmacológicas para ofrecer una atención integral a nuestros pacientes.
 
 ## Nuestros servicios de psiquiatría

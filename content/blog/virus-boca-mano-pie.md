@@ -46,4 +46,4 @@ Aunque la mayoría de los casos son leves, es importante consultar a un médico 
 
 **En CIMEC Salud estamos aquí para cuidar de ti y de tu familia.** Si tienes dudas o necesitas atención médica, no dudes en contactarnos.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

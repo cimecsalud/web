@@ -116,4 +116,4 @@ La terapia cognitivo-conductual (TCC) ha demostrado ser muy efectiva para tratar
 
 **En CIMEC Salud contamos con especialistas en salud mental** que pueden ayudarte a manejar la ansiedad y recuperar tu bienestar.
 
-📞 **926 966 446** | ✉️ **info@cimecsalud.com**
+Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

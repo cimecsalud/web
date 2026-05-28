@@ -1,9 +1,6 @@
 ---
 title: "Alergología"
 ---
-
-# Alergología en Ciudad Real
-
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de alergias y enfermedades del sistema inmunológico.
 
 ## Nuestros servicios de alergología

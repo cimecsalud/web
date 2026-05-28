@@ -1,5 +1,6 @@
 baseURL = "https://cimecsalud.com"
-languageCode = "es-es"
+defaultContentLanguage = "es"
+locale = "es-es"
 title = "CIMEC Salud - Clínica de Especialidades en Ciudad Real"
 
 # Performance optimizations
@@ -15,6 +16,8 @@ canonifyURLs = true
   address = "Av. Parque de los Cabañeros 3, 13005 - Ciudad Real"
   schedule = "L-V de 8h a 22h"
   og_image = "/images/Cimec-Salud-clinica-privada_01.webp"
+  portal_login_url = "https://nshpaciente.portalns.es:9201/cimec"
+  portal_register_url = "https://nshpaciente.portalns.es:9201/registrar/cimec"
 
 [caches]
   [caches.images]
@@ -50,10 +53,6 @@ canonifyURLs = true
     name = "Blog"
     url = "/blog/"
     weight = 6
-  [[menu.main]]
-    name = "Portal del Paciente"
-    url = "/portal-del-paciente/"
-    weight = 8
 
 # Sitemap for search engines
 [sitemap]
