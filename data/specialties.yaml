@@ -8,10 +8,6 @@ specialties:
   professionals:
   - id: luis-moraleda-novo
     position: Traumatólogo
-  - id: carlos-alberto-encinas-ullan
-    position: Traumatólogo
-  - id: fernando-escamez-fernandez
-    position: Traumatólogo
   - id: angel-gonzalez-martinez
     position: Traumatólogo
   - id: jesus-varas-navas
@@ -77,9 +73,7 @@ specialties:
   description: Cuidado especializado para la salud de los más pequeños, desde el nacimiento hasta la adolescencia.
   show_home: true
   video: /videos/Pediatria.mp4
-  professionals:
-  - id: elena-reyzabal-ereno
-    position: Pediatra
+  professionals: []
   subspecialties:
   - name: Control del niño sano
     icon: /images/icons/baby_3723672-1.svg
@@ -320,11 +314,7 @@ specialties:
   url: /especialidades/unidad-del-dolor/
   description: Tratamiento integral del dolor crónico con técnicas avanzadas para mejorar tu calidad de vida.
   show_home: true
-  professionals:
-  - id: agustin-mendiola-de-la-osa
-    position: Especialista en Dolor
-  - id: javier-manuel-del-saz-de-la-torre
-    position: Especialista en Dolor
+  professionals: []
   subspecialties:
   - name: Dolor crónico
     icon: /images/icons/chronic-pain-icon.svg
@@ -341,9 +331,7 @@ specialties:
   url: /especialidades/endocrinologia/
   description: Diagnóstico y tratamiento de trastornos hormonales y metabólicos con atención especializada.
   show_home: true
-  professionals:
-  - id: adriana-martinez-araujo
-    position: Endocrina
+  professionals: []
   subspecialties:
   - name: Diabetes
     icon: /images/icons/diabetes-icon.svg
@@ -360,9 +348,7 @@ specialties:
   url: /especialidades/dermatologia/
   description: Cuidado integral de la piel con diagnóstico y tratamiento de enfermedades dermatológicas.
   show_home: true
-  professionals:
-  - id: omar-al-wattar-ceballos
-    position: Dermatólogo
+  professionals: []
   subspecialties:
   - name: Dermatología médica
     icon: /images/icons/Dermatologia-Cimec-Salud.svg

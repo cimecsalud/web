@@ -24,27 +24,6 @@ professionals:
   - Premio Mauricio y Antonio Riosalido de la Sociedad Española de Cirugía Ortopédica y Traumatología (SECOT).
   id: luis-moraleda-novo
 
-- name: Carlos Alberto Encinas Ullan
-  college_number: '282861304'
-  position: Traumatólogo
-  image: /images/profesionales/carlos-alberto-encinas.png
-  education:
-  - Licenciado en Medicina por la Universidad de Salamanca.
-  - Especialidad de Cirugía Ortopédica y Traumatología en el Hospital Universitario La Paz.
-  - Especialidad en cirugía de rodilla.
-  - Certificado de capacitación para realizar cirugía de prótesis de rodilla robotizada, tanto con Robot Mako (Stryker) como
-    con Robot Rosa (Zimmer-Biomet).
-  professional_experience:
-  - Profesor del plan nacional de formación en artroscopia promovido por la Asociación Española de Artroscopia (AEA).
-  - Instructor de la Sociedad Española de Rodilla (SEROD) en artroscopia de rodilla.
-  - Colaborador clínico docente del Departamento de Cirugía de la Facultad de Medicina de la Universidad Autónoma de Madrid.
-  scientific_experience:
-  - Autor de numerosos artículos en revistas nacionales e internacionales, así como de varios capítulos de libros relacionados
-    con la patología de la rodilla.
-  - 'Miembro de varias sociedades científicas: Sociedad Española de Cirugía Ortopédica y Traumatología, (SECOT), Sociedad
-    Española de Rodilla (SEROD) y Asociación Española de Artroscopia (AEA).'
-  id: carlos-alberto-encinas-ullan
-
 - name: Aarón Martínez Ulloa
   college_number: '282879132'
   position: Traumatólogo
@@ -67,10 +46,6 @@ professionals:
   - Autor de publicaciones científicas en cirugía de miembro superior.
   id: aaron-martinez
 
-- name: Fernando Escámez Fernández
-  college_number: '282872175'
-  position: Traumatólogo
-  id: fernando-escamez-fernandez
 - name: Ángel González Martínez
   college_number: '131305509'
   position: Traumatólogo
@@ -124,11 +99,6 @@ professionals:
   - Ponente en 75 conferencias nacionales e internacionales.
   - Investigador principal en 27 proyectos de Investigación.
   id: fernando-lozano-ruiz-poveda
-- name: Elena Reyzabal Ereño
-  college_number: '131305605'
-  position: Pediatra
-  image: ''
-  id: elena-reyzabal-ereno
 - name: Ana García Torres
   college_number: '131305386'
   position: Uróloga
@@ -218,26 +188,6 @@ professionals:
   position: Rehabilitadora
   image: ''
   id: cristina-tomas-gomez
-- name: Agustín Mendiola de la Osa
-  college_number: '131305165'
-  position: Especialista en Dolor
-  image: ''
-  id: agustin-mendiola-de-la-osa
-- name: Javier Manuel del Saz de la Torre
-  college_number: '132861142'
-  position: Especialista en Dolor
-  image: ''
-  id: javier-manuel-del-saz-de-la-torre
-- name: Adriana Martínez Araujo
-  college_number: '132204070'
-  position: Endocrina
-  image: /images/profesionales/adriana-martinez.jpg
-  id: adriana-martinez-araujo
-- name: Omar Al-Wattar Ceballos
-  college_number: '131305574'
-  position: Dermatólogo
-  image: ''
-  id: omar-al-wattar-ceballos
 - name: María del Carmen Martín-Albo Prieto
   college_number: '131305480'
   position: Ginecóloga
