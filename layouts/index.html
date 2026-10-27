@@ -35,7 +35,7 @@
                 {{ range hugo.Data.specialties.specialties }}
                 {{ if .show_home }}
                 <a href="{{ .url }}" class="carousel-item" title="{{ .name }}">
-                    <img src="{{ .icon }}" alt="{{ .name }}" width="70" height="70" loading="lazy">
+                    <img src="{{ .icon }}" alt="" width="70" height="70" loading="lazy">
                     <span class="carousel-label">{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</span>
                 </a>
                 {{ end }}
@@ -44,7 +44,7 @@
                 {{ range hugo.Data.specialties.specialties }}
                 {{ if .show_home }}
                 <a href="{{ .url }}" class="carousel-item" title="{{ .name }}">
-                    <img src="{{ .icon }}" alt="{{ .name }}" width="70" height="70" loading="lazy">
+                    <img src="{{ .icon }}" alt="" width="70" height="70" loading="lazy">
                     <span class="carousel-label">{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</span>
                 </a>
                 {{ end }}

@@ -9,7 +9,7 @@
       {{ if .show_home }}
       <a href="{{ .url }}" class="card especialidad-card">
         <div class="icon-wrapper">
-          <img src="{{ .icon }}" alt="{{ .name }}" width="80" height="80" loading="lazy">
+          <img src="{{ .icon }}" alt="" width="80" height="80" loading="lazy">
         </div>
         <h3>{{ if .short_name }}{{ .short_name }}{{ else }}{{ .name }}{{ end }}</h3>
         <p>{{ .description }}</p>

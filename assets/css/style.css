@@ -424,9 +424,16 @@ footer {
   margin-bottom: 2rem;
 }
 
-.footer-info h4 {
+/* h2 for a valid heading order; styled like the former h4 */
+.footer-info .footer-title {
   color: var(--accent);
+  font-size: 1rem;
+  text-align: inherit;
   margin-bottom: 1rem;
+}
+
+.footer-info .footer-title::after {
+  display: none;
 }
 
 .footer-info a {
