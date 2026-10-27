@@ -54,13 +54,13 @@
 }
 
 .cookie-consent-text a {
-    color: #00A9E0;
+    color: var(--primary-light);
     text-decoration: underline;
     font-weight: 600;
 }
 
 .cookie-consent-text a:hover {
-    color: #0088b8;
+    color: var(--white);
 }
 
 .cookie-consent-buttons {
@@ -82,12 +82,12 @@
 }
 
 .cookie-btn-accept {
-    background: #00A9E0;
+    background: var(--primary);
     color: white;
 }
 
 .cookie-btn-accept:hover {
-    background: #0088b8;
+    background: var(--primary-dark);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 169, 224, 0.4);
 }

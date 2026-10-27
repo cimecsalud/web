@@ -390,8 +390,8 @@
 }
 
 .portal-modal .portal-modal-btn-primary:hover {
-    background: #0088b8;
-    border-color: #0088b8;
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
 }
 
 .portal-modal .portal-modal-btn-secondary {

@@ -9,8 +9,12 @@
 
 :root {
   /* Colores reales de CIMEC Salud */
-  --primary: #00A9E0;            /* Azul CIMEC — solo para texto/iconos sobre blanco. Contraste con blanco: 2.6:1 (NO usar como fondo de texto blanco). */
-  --primary-dark: #0088b8;
+  /* Azul CIMEC accesible: contraste 5:1 con blanco y 4.8:1 sobre #f8f9fa (WCAG AA).
+     Vale para texto sobre fondo claro y como fondo de texto blanco. */
+  --primary: #0077A3;
+  --primary-dark: #005F82;
+  --primary-brand: #00A9E0;      /* Azul CIMEC original — solo decorativo (contraste 2.7:1, NO para texto) */
+  --primary-light: #4FC3EC;      /* Para texto/enlaces sobre fondos oscuros (5:1 sobre #2C3E50) */
   --primary-deep: #003057;       /* Azul navy oscuro para fondos con texto blanco (contraste 12:1) */
   --secondary: #7C3F96;          /* Morado CIMEC (usar con cuidado, suele chocar visualmente) */
   --accent: #00BFA5;             /* Verde turquesa (decorativo, no en titulares) */
