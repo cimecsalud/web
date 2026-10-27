@@ -2,7 +2,7 @@
 
 Sitio web estático de la clínica CIMEC Salud, generado con **Hugo**.
 
-- Hugo: `hugo v0.152.2` (extended)
+- Hugo: `hugo v0.162.0` (extended)
 - Lenguaje principal: Español (`es-es`)
 
 ---
@@ -11,7 +11,7 @@ Sitio web estático de la clínica CIMEC Salud, generado con **Hugo**.
 
 ### Requisitos
 
-- Hugo Extended instalado (>= 0.152.2)
+- Hugo Extended instalado (>= 0.162.0, la misma versión que usa el despliegue en `.github/workflows/hugo.yml`)
 
 ### Ejecutar en local
 
