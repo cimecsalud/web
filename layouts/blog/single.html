@@ -16,7 +16,7 @@
 
       {{ with .Params.featured_image }}
       <div class="blog-featured-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          {{ partial "responsive-image.html" (dict "src" . "alt" $.Title "priority" true) }}
       </div>
       {{ end }}
 

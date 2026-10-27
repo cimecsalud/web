@@ -1,6 +1,14 @@
 {{ define "main" }}
 
 <!-- Hero -->
+{{ with resources.Get "images/backgrounds/hero-hands.jpg" }}
+{{ $small := .Resize "800x webp q60" }}
+{{ $large := .Resize "1600x webp q60" }}
+<style>
+    .hero { background-image: url('{{ $small.RelPermalink }}'); }
+    @media (min-width: 801px) { .hero { background-image: url('{{ $large.RelPermalink }}'); } }
+</style>
+{{ end }}
 <section class="hero">
     <div class="container">
         <h1>CIMEC Salud</h1>

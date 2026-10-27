@@ -1,0 +1,8 @@
+{{- if .Title -}}
+<figure>
+  {{ partial "responsive-image.html" (dict "src" .Destination "alt" .Text) }}
+  <figcaption>{{ .Title }}</figcaption>
+</figure>
+{{- else -}}
+{{ partial "responsive-image.html" (dict "src" .Destination "alt" .Text) }}
+{{- end -}}

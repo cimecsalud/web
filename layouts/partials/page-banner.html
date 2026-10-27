@@ -12,6 +12,7 @@
 
 <section class="page-banner{{ if $image }} page-banner--image{{ end }}">
     {{ if $image }}
+    {{ with resources.Get (strings.TrimPrefix "/" $image) }}{{ if ne .MediaType.SubType "svg" }}{{ $image = (.Resize "1600x webp q70").RelPermalink }}{{ end }}{{ end }}
     <div class="page-banner-image" style="background-image: url('{{ $image }}');"></div>
     {{ end }}
     <div class="page-banner-overlay">

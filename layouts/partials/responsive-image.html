@@ -1,0 +1,34 @@
+{{- /*
+  Responsive <img> for raster images under static/images or static/uploads
+  (mounted into assets/ in hugo.toml). Generates WebP variants with srcset and
+  sets width/height to avoid layout shifts. SVGs and missing files fall back to
+  a plain <img>.
+
+  Params (dict): src (required), alt, class, sizes, loading ("lazy" default),
+  priority (true: eager + fetchpriority=high, for the LCP image), maxWidth.
+*/ -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $sizes := .sizes | default "(max-width: 800px) 100vw, 800px" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- if .priority }}{{ $loading = "eager" }}{{ end -}}
+{{- $maxWidth := .maxWidth | default 1600 -}}
+{{- $img := resources.Get (strings.TrimPrefix "/" $src) -}}
+{{- if and $img (in (slice "image/jpeg" "image/png" "image/webp") $img.MediaType.Type) -}}
+  {{- $set := slice -}}
+  {{- $fallback := "" -}}
+  {{- range slice 480 800 1200 1600 -}}
+    {{- if and (le . $img.Width) (le . $maxWidth) -}}
+      {{- $r := $img.Resize (printf "%dx webp q75" .) -}}
+      {{- $set = $set | append (printf "%s %dw" $r.RelPermalink .) -}}
+      {{- $fallback = $r -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $fallback -}}
+    {{- $fallback = $img.Resize (printf "%dx webp q75" $img.Width) -}}
+    {{- $set = slice (printf "%s %dw" $fallback.RelPermalink $img.Width) -}}
+  {{- end -}}
+  <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $set ", " }}" sizes="{{ $sizes }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}"{{ with .class }} class="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="async"{{ if .priority }} fetchpriority="high"{{ end }}>
+{{- else -}}
+  <img src="{{ $src }}" alt="{{ $alt }}"{{ with .class }} class="{{ . }}"{{ end }} loading="{{ $loading }}">
+{{- end -}}

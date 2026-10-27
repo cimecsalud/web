@@ -21,6 +21,22 @@ canonifyURLs = true
   # Google Analytics 4 Measurement ID (G-XXXXXXXXXX). Empty = no analytics.
   ga4_id = "G-GV2T37NT3Y"
 
+# Expose static images to Hugo Pipes so templates can generate WebP variants
+# (see layouts/partials/responsive-image.html). Files are still served as-is.
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+  [[module.mounts]]
+    source = "static/uploads"
+    target = "assets/uploads"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

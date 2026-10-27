@@ -167,7 +167,8 @@ nav {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: var(--primary) url('/images/backgrounds/hero-hands.jpg') center/cover;
+  /* Background image is set in layouts/index.html with responsive WebP variants */
+  background: var(--primary) center/cover;
   color: var(--white);
   padding: 120px 20px 80px;
   text-align: center;

@@ -572,6 +572,7 @@
 
 .team-section img {
     max-width: 600px;
+    height: auto;
     margin: 1rem auto;
     display: block;
 }
