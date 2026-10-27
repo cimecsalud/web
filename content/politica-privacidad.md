@@ -28,6 +28,8 @@ Puede contactar para temas referentes a la normativa de protección de datos, as
 
 - Si Ud. es paciente, para gestionar su expediente.
 
+- Si Ud. visita nuestra web y acepta las cookies analíticas: para medir el resultado de nuestras campañas, es decir, cuántas visitas llegan desde cada campaña y cuántas contactan con la clínica. Esta es la única finalidad; no se utilizan para publicidad personalizada, remarketing ni elaboración de perfiles. Más información en la [Política de Cookies](/politica-cookies/).
+
 ### Plazos o criterios de conservación. ¿Por cuánto tiempo conservaremos sus datos?
 - Si Ud. ejercita un derecho relacionado con la protección de datos: se conservarán durante tres años desde la terminación de la atención del derecho. Prescripción de infracciones muy graves.
  
@@ -45,6 +47,8 @@ Puede contactar para temas referentes a la normativa de protección de datos, as
 
 - Si Ud. es paciente, los conservaremos 5 años según la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica.
  
+
+- Si Ud. visita nuestra web y acepta las cookies analíticas: los datos de medición se conservan en Google Analytics durante un máximo de 14 meses y después se eliminan automáticamente.
 
 ### Legitimación ¿Por qué estamos legitimados para tratar sus datos personales?
 
@@ -66,6 +70,8 @@ Porque el tratamiento necesario para la satisfacción de intereses legítimos pe
 
 - Si Ud. es paciente, con el consentimiento que nos otorga en el formulario de alta.
  
+
+- Si Ud. visita nuestra web y acepta las cookies analíticas: con su consentimiento (artículo 6.1.a) del Reglamento (UE) 2016/679 General de Protección de Datos y artículo 22.2 de la Ley 34/2002 de Servicios de la Sociedad de la Información), que puede retirar en cualquier momento desde «Configurar cookies», al pie de la página.
 
 ### Obligación de facilitar sus datos ¿Por qué tiene o no obligación de facilitar sus datos?
 
@@ -92,6 +98,8 @@ Los datos no se cederán a terceros ni realizaremos ninguna transferencia intern
 
 - Si es Ud. paciente, y sólo en su caso, a administraciones públicas competentes en la materia previa solicitud por la misma.
  
+
+- Si Ud. visita nuestra web y acepta las cookies analíticas: los datos de navegación los trata Google Ireland Limited como encargado del tratamiento, a través de Google Analytics. Google puede transferirlos a Google LLC en Estados Unidos, que está adherida al Marco de Privacidad de Datos UE-EE. UU. (Decisión de adecuación de la Comisión Europea de 10 de julio de 2023).
 
 ### ¿Cuáles son sus derechos cuando nos facilita sus datos y como puede ejercerlos?
 

@@ -46,21 +46,70 @@
         loadAnalytics();
     }
 
-    // Reject cookies
+    // Reject cookies (also used to withdraw a previous acceptance)
     function rejectCookies() {
         setCookie(COOKIE_NAME, 'rejected', COOKIE_EXPIRY_DAYS);
         hideBanner();
+        disableAnalytics();
+    }
+
+    // Stop GA4 for this page and remove its cookies
+    function disableAnalytics() {
+        if (GA4_ID) {
+            window[`ga-disable-${GA4_ID}`] = true;
+        }
+        const rootDomain = location.hostname.split('.').slice(-2).join('.');
+        document.cookie.split(';').forEach(function(cookie) {
+            const name = cookie.split('=')[0].trim();
+            if (name === '_ga' || name.startsWith('_ga_')) {
+                [location.hostname, `.${rootDomain}`].forEach(function(domain) {
+                    document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain=${domain}`;
+                });
+                document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/`;
+            }
+        });
+    }
+
+    // GA4 Measurement ID, injected from hugo.toml (params.ga4_id)
+    const GA4_ID = document.currentScript && document.currentScript.dataset.ga4Id;
+    let analyticsLoaded = false;
+
+    // Classify a link as a contact conversion, or null if it is not one
+    function contactMethod(link) {
+        const href = link.getAttribute('href') || '';
+        if (href.startsWith('tel:')) return 'telefono';
+        if (href.startsWith('mailto:')) return 'email';
+        if (href.includes('citaonline.portalns.es')) return 'cita_online';
+        if (href.includes('nshpaciente.portalns.es')) {
+            return href.includes('/registrar/') ? 'registro_portal' : 'acceso_portal';
+        }
+        return null;
     }
 
     // Load analytics (only if cookies are accepted)
     function loadAnalytics() {
-        // Add your analytics code here (Google Analytics, etc.)
-        // Example:
-        // if (typeof gtag !== 'undefined') {
-        //     gtag('consent', 'update', {
-        //         'analytics_storage': 'granted'
-        //     });
-        // }
+        if (!GA4_ID || analyticsLoaded) return;
+        analyticsLoaded = true;
+
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', GA4_ID, { allow_google_signals: false });
+
+        // GA4 attributes each event to the session's UTM source/medium/campaign
+        document.addEventListener('click', function(event) {
+            const link = event.target.closest('a[href]');
+            if (!link) return;
+            const method = contactMethod(link);
+            if (method) {
+                window.gtag('event', 'contacto', { metodo: method });
+            }
+        });
     }
 
     // Initialize
@@ -86,6 +135,11 @@
         if (rejectBtn) {
             rejectBtn.addEventListener('click', rejectCookies);
         }
+
+        // "Configurar cookies" links let the user change their choice at any time
+        document.querySelectorAll('.cookie-settings-link').forEach(function(btn) {
+            btn.addEventListener('click', showBanner);
+        });
     }
 
     // Run on DOM ready

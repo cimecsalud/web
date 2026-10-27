@@ -69,7 +69,7 @@
     {{ $cookiesJs := resources.Get "js/cookie-consent.js" | minify | fingerprint }}
     {{ $portalModalJs := resources.Get "js/portal-modal.js" | minify | fingerprint }}
     <script src="{{ $mobileMenu.RelPermalink }}" integrity="{{ $mobileMenu.Data.Integrity }}" defer></script>
-    <script src="{{ $cookiesJs.RelPermalink }}" integrity="{{ $cookiesJs.Data.Integrity }}" defer></script>
+    <script src="{{ $cookiesJs.RelPermalink }}" integrity="{{ $cookiesJs.Data.Integrity }}"{{ with .Site.Params.ga4_id }} data-ga4-id="{{ . }}"{{ end }} defer></script>
     <script src="{{ $portalModalJs.RelPermalink }}" integrity="{{ $portalModalJs.Data.Integrity }}" defer></script>
 </body>
 </html>

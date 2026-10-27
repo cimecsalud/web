@@ -18,6 +18,8 @@ canonifyURLs = true
   og_image = "/images/Cimec-Salud-clinica-privada_01.webp"
   portal_login_url = "https://nshpaciente.portalns.es:9201/cimec"
   portal_register_url = "https://nshpaciente.portalns.es:9201/registrar/cimec"
+  # Google Analytics 4 Measurement ID (G-XXXXXXXXXX). Empty = no analytics.
+  ga4_id = "G-GV2T37NT3Y"
 
 [caches]
   [caches.images]
