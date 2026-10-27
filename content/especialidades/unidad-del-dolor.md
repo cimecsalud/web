@@ -1,5 +1,6 @@
 ---
 title: "Unidad del Dolor"
+description: "Unidad del Dolor en Ciudad Real: tratamiento integral del dolor crónico con técnicas avanzadas para recuperar tu bienestar y calidad de vida."
 ---
 En CIMEC Salud ofrecemos tratamiento integral del dolor crónico con técnicas avanzadas para mejorar tu calidad de vida y recuperar tu bienestar.
 

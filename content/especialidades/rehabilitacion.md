@@ -1,5 +1,6 @@
 ---
 title: "Rehabilitación"
+description: "Rehabilitación en Ciudad Real: recuperación funcional y mejora de la movilidad con programas personalizados adaptados a cada paciente."
 ---
 En CIMEC Salud somos especialistas en la recuperación funcional y mejora de la movilidad mediante programas personalizados de rehabilitación adaptados a las necesidades de cada paciente.
 

@@ -1,5 +1,6 @@
 ---
 title: "Conoce los siguientes pasos tras un test de embarazo positivo"
+description: "Qué hacer tras un test de embarazo positivo: confirmar el resultado, la primera cita prenatal, ácido fólico, hábitos saludables y señales de alarma."
 date: 2024-12-13
 categories: ["Consejos"]
 featured_image: "/uploads/2024/12/positive-pregnancy-test-portrait-desperate-young-woman-holding-pregnancy-test-stick-1.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Psiquiatría"
+description: "Psiquiatría en Ciudad Real: diagnóstico y tratamiento de trastornos mentales combinando terapias psicológicas y farmacológicas."
 ---
 Salud somos especialistas en el diagnóstico y tratamiento de trastornos mentales, combinando terapias psicológicas y farmacológicas para ofrecer una atención integral a nuestros pacientes.
 

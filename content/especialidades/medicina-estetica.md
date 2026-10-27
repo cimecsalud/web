@@ -1,5 +1,6 @@
 ---
 title: "Medicina Estética"
+description: "Medicina estética en Ciudad Real: láser CO₂, tratamientos faciales y medicina regenerativa, siempre realizados por médicos y tras una valoración personalizada."
 ---
 En CIMEC Salud ofrecemos tratamientos estéticos personalizados para realzar tu belleza natural con técnicas avanzadas y seguras.
 

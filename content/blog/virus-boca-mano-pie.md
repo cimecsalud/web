@@ -1,5 +1,6 @@
 ---
 title: "Qué es, síntomas y tratamientos del virus Boca-Mano-Pie"
+description: "Qué es el virus Boca-Mano-Pie, cómo se contagia, qué síntomas produce en niños y adultos y cuál es su tratamiento y prevención."
 date: 2024-11-29
 categories: ["Consejos"]
 featured_image: "/uploads/2024/12/side-view-doctor-wearing-medical-gown.jpg"

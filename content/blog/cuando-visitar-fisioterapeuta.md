@@ -1,5 +1,6 @@
 ---
 title: "Cuándo es el momento de visitar al fisioterapeuta"
+description: "Señales de que es el momento de acudir al fisioterapeuta: dolor persistente, lesiones, recuperación tras cirugía y prevención. Fisioterapia en Ciudad Real."
 date: 2024-06-13
 categories: ["Consejos"]
 featured_image: "/uploads/2024/12/close-up-physiotherapist-working-with-patient-clinic.jpg"

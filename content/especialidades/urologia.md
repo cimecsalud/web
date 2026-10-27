@@ -1,5 +1,6 @@
 ---
 title: "Urología"
+description: "Urología en Ciudad Real: diagnóstico y tratamiento de trastornos del sistema urinario y del aparato reproductor masculino en CIMEC Salud."
 ---
 Especialidad médica que se centra en el diagnóstico y tratamiento de trastornos del sistema urinario y del sistema reproductor, con el objetivo de mantener la salud urológica y mejorar la calidad de vida.
 

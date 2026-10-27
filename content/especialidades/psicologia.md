@@ -1,5 +1,6 @@
 ---
 title: "Psicología"
+description: "Psicología en Ciudad Real: cuidado de la salud mental y el bienestar emocional en un espacio seguro y profesional para abordar cada caso."
 ---
  Salud somos especialistas en el cuidado de la salud mental y el bienestar emocional, ofreciendo un espacio seguro y profesional para abordar diversos desafíos psicológicos.
 

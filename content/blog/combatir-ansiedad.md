@@ -1,5 +1,6 @@
 ---
 title: "Técnicas efectivas y consejos prácticos para combatir la ansiedad"
+description: "Técnicas efectivas y consejos prácticos para controlar la ansiedad en el día a día, y cuándo conviene pedir ayuda a un profesional de la psicología."
 date: 2024-11-07
 categories: ["General"]
 featured_image: "/uploads/2024/12/medical-assistant-helping-patient-with-physiotherapy-exercises.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Principales causas de la lipotimia y cómo prevenirla"
+description: "Qué es la lipotimia, cuáles son sus causas más frecuentes y qué puedes hacer para prevenirla."
 date: 2024-07-17
 categories: ["Consejos"]
 featured_image: "/uploads/2024/07/principales-causas-lipotimia.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Política de Cookies"
+description: "Qué cookies utiliza la web de CIMEC Salud, para qué sirven y cómo aceptarlas, rechazarlas o cambiar tu elección en cualquier momento."
 date: 2024-01-01
 draft: false
 ---

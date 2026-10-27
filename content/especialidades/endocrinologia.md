@@ -1,5 +1,6 @@
 ---
 title: "Endocrinología"
+description: "Endocrinología en Ciudad Real: diagnóstico y tratamiento de trastornos hormonales y metabólicos, como la diabetes, con atención personalizada."
 ---
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de trastornos hormonales y metabólicos con atención especializada y personalizada.
 

@@ -1,5 +1,6 @@
 ---
 title: "Médico de familia"
+description: "Médico de familia en Ciudad Real: atención general, diagnóstico, tratamiento y prevención para cuidar de tu salud a lo largo de toda la vida."
 ---
  Salud velamos por el bienestar de las personas a través de un cuidado general impartido por médicos de cabecera, quienes atienden todas las necesidades de sus pacientes a lo largo de su vida, como el diagnóstico y tratamiento de enfermedades, hasta la prevención de las mismas.
 

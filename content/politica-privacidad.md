@@ -1,5 +1,6 @@
 ---
 title: "Política de Privacidad"
+description: "Cómo trata CIMEC Salud tus datos personales: responsable, finalidades, plazos de conservación, base legal y cómo ejercer tus derechos."
 date: 2024-01-01
 draft: false
 ---

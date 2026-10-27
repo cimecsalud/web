@@ -1,5 +1,6 @@
 ---
 title: "¿Por qué elegir CIMEC Salud como tu centro médico?"
+description: "Por qué elegir CIMEC Salud como centro médico en Ciudad Real: especialistas de excelencia, tecnología avanzada e instalaciones modernas."
 date: 2025-01-22
 categories: ["General"]
 featured_image: "/uploads/2024/12/Cimec-salud-1.jpg"

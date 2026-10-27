@@ -1,5 +1,6 @@
 ---
 title: "La importancia de realizarse revisiones médicas anuales"
+description: "Por qué es importante hacerse una revisión médica cada año: detectar enfermedades a tiempo, prevenir riesgos y cuidar tu salud a largo plazo."
 date: 2025-02-28
 categories: ["General"]
 featured_image: "/uploads/2024/12/side-view-smiley-doctor-weighing-baby.jpg"

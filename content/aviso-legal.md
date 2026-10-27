@@ -1,5 +1,6 @@
 ---
 title: "Aviso Legal"
+description: "Aviso legal del sitio web de CIMEC Salud SL, clínica de especialidades médicas en Ciudad Real: datos identificativos y condiciones de uso."
 date: 2024-01-01
 draft: false
 ---
