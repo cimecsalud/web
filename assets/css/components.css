@@ -1452,7 +1452,8 @@
     color: var(--primary);
 }
 
-.visitanos-section {
+/* section.… beats the generic section:nth-child(even) light background */
+section.visitanos-section {
     padding: 5rem 0;
     background: var(--primary-deep);
     color: white;

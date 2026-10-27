@@ -6,4 +6,6 @@ layout: "profesionales"
 
 En la clínica CIMEC encontrarás los mejores profesionales trabajando en un completo equipo multidisciplinar.
 
+<h2 class="visually-hidden">Nuestros profesionales</h2>
+
 {{< professionals-list >}}
