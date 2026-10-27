@@ -8,8 +8,6 @@ description: "Psicología en Ciudad Real: cuidado de la salud mental y el bienes
 
 ### ¿Qué es la psicología clínica?
 
-![Psicología en Ciudad Real](/uploads/2024/03/Cimec-Salud-Psicologia-Salud-mental-1024x660.webp)
-
 La psicología clínica es una rama de la psicología que se enfoca en el estudio, diagnóstico y tratamiento de trastornos mentales y emocionales.
 
 Nuestros psicólogos utilizan diversas técnicas terapéuticas basadas en la evidencia científica para ayudar a las personas a superar dificultades emocionales, mejorar sus relaciones y desarrollar herramientas para afrontar los desafíos de la vida.

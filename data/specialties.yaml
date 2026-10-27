@@ -251,7 +251,7 @@ specialties:
   url: /especialidades/psiquiatria/
   description: Tratamiento especializado en salud mental con enfoque integral y personalizado.
   show_home: true
-  video: /videos/Psiquiatria.mp4
+  video: /videos/Psicologia.mp4
   professionals:
   - id: francisco-javier-lopez-canovas
     position: Psiquiatra

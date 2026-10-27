@@ -8,8 +8,6 @@ description: "Nutrición y dietética en Ciudad Real: asesoramiento personalizad
 
 ### ¿Qué es la nutrición clínica?
 
-![Nutrición en Ciudad Real](/uploads/2025/02/nutricion-ciudad-real-1024x660.webp)
-
 La nutrición clínica es la ciencia que estudia la relación entre alimentación y salud, enfocándose en el diseño de planes nutricionales personalizados para prevenir y tratar enfermedades.
 
 Nuestros nutricionistas trabajan de manera individualizada con cada paciente, evaluando sus necesidades específicas, hábitos alimenticios y objetivos de salud para crear planes nutricionales adaptados y sostenibles.
@@ -26,4 +24,3 @@ En CIMEC Salud creemos que una alimentación adecuada es fundamental para manten
 
 Trabajamos en colaboración con otras especialidades de la clínica para ofrecer un enfoque integral que combine nutrición, ejercicio y hábitos de vida saludables.
 
-![Equipo de nutrición](/uploads/2024/03/nutricionista.png)
