@@ -14,7 +14,7 @@
       <div class="instalaciones-gallery">
         {{ range $index, $image := $clinica.instalaciones.images }}
         <div class="gallery-item fade-in" data-delay="{{ mul $index 100 }}">
-          {{ partial "responsive-image.html" (dict "src" $image "alt" "Instalaciones CIMEC Salud" "sizes" (cond (lt $index 2) "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 800px" "(max-width: 768px) 100vw, (max-width: 992px) 50vw, 400px") "maxWidth" 1200) }}
+          {{ partial "responsive-image.html" (dict "src" $image "alt" "Instalaciones CIMEC Salud" "sizes" "(max-width: 992px) 50vw, 300px" "maxWidth" 800) }}
         </div>
         {{ end }}
       </div>

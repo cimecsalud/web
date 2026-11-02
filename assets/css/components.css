@@ -708,6 +708,7 @@
 .blog-article {
     max-width: 820px;
     margin: 0 auto;
+    padding: 0 20px; /* en móvil el texto iba pegado a los bordes */
 }
 
 .blog-article .blog-meta {
@@ -1099,10 +1100,11 @@
     line-height: 1.8;
 }
 
+/* Cuadrícula uniforme: 16 fotos = 4 filas de 4, todas con la misma proporción */
 .instalaciones-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     margin-top: 3rem;
 }
 
@@ -1114,17 +1116,14 @@
     transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
 }
 
-.gallery-item:nth-child(1),
-.gallery-item:nth-child(2) {
-    grid-column: span 2;
-    aspect-ratio: 21/10;
-}
-
-.gallery-item:nth-child(n+3) {
+.gallery-item {
     aspect-ratio: 4/3;
 }
 
 .gallery-item img {
+    position: absolute;
+    inset: 0;
+    margin: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1411,11 +1410,6 @@ section.visitanos-section {
     .instalaciones-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
-    .gallery-item:nth-child(1),
-    .gallery-item:nth-child(2) {
-        grid-column: span 1;
-        aspect-ratio: 4/3;
-    }
     .valores-grid {
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
@@ -1426,11 +1420,7 @@ section.visitanos-section {
     .hero-subtitle { font-size: 1rem; }
     .section-title { font-size: 1.8rem; }
     .section-subtitle { font-size: 1rem; }
-    .instalaciones-gallery { grid-template-columns: 1fr; }
-    .gallery-item:nth-child(1),
-    .gallery-item:nth-child(2) {
-        grid-column: span 1;
-    }
+    .instalaciones-gallery { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
     .valores-grid { grid-template-columns: 1fr; gap: 1.5rem; }
     .horarios-grid { grid-template-columns: 1fr; gap: 1.5rem; }
     .cta-buttons { flex-direction: column; align-items: stretch; }
@@ -1560,3 +1550,33 @@ a.insurer-logo { display: flex; }
     .page-banner--compact h1 { font-size: 1.7rem; }
     .banner-ctas .banner-btn { flex: 1 1 100%; }
 }
+
+/* === Ajustes de estilo generales (nov. 2026) === */
+
+/* Título principal: barra corta centrada en lugar de una raya a todo el ancho */
+main h1 { border-bottom: 0; padding-bottom: 0; }
+.page-banner h1::after,
+.hero h1::after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 3px;
+    margin: 1rem auto 0;
+    border-radius: 2px;
+    background: var(--primary-light);
+}
+
+/* Subtítulos dentro del contenido: alineados a la izquierda y sin barra, para leer de corrido.
+   Los títulos de sección de la portada y de los bloques destacados siguen centrados. */
+.page-content h2,
+.aseguradoras-content h2 {
+    text-align: left;
+}
+.page-content h2::after,
+.aseguradoras-content h2::after { content: none; }
+
+/* Cabeceras de página: sin el relleno genérico de "section", más compactas */
+.page-banner { padding: 0; }
+.page-banner-overlay { padding: 3.25rem 20px 3rem; }
+.page-banner h1 { margin: 0; }
+.page-content .cta-contact h2 { text-align: center; }
