@@ -2,7 +2,7 @@
 title: "Podología"
 description: "Podología en Ciudad Real: cuidado integral de los pies con diagnósticos precisos y tratamientos podológicos efectivos."
 ---
-Salud somos especialistas en el cuidado integral de los pies, ofreciendo diagnósticos precisos y tratamientos efectivos para mantener la salud podológica de nuestros pacientes.
+En CIMEC Salud somos especialistas en el cuidado integral de los pies, ofreciendo diagnósticos precisos y tratamientos efectivos para mantener la salud podológica de nuestros pacientes.
 
 ## Nuestros servicios de podología
 

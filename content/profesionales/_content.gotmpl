@@ -1,0 +1,37 @@
+{{- /* Una página por profesional (/profesionales/<id>/) generada desde data/professionals.yaml.
+       Solo para quien figura en alguna especialidad de data/specialties.yaml. Los perfiles sin
+       formación ni experiencia salen con noindex: una página con solo el nombre es contenido pobre. */ -}}
+{{- $specMap := dict -}}
+{{- range $sp := hugo.Data.specialties.specialties -}}
+  {{- range $sp.professionals -}}
+    {{- $entry := dict "name" $sp.name "url" $sp.url "position" .position -}}
+    {{- $list := (index $specMap .id) | default slice -}}
+    {{- $specMap = merge $specMap (dict .id ($list | append $entry)) -}}
+  {{- end -}}
+{{- end -}}
+{{- range $prof := hugo.Data.professionals.professionals -}}
+  {{- with index $specMap $prof.id -}}
+    {{- $specs := . -}}
+    {{- $positions := slice -}}
+    {{- range $specs }}{{ $positions = $positions | append .position }}{{ end -}}
+    {{- $job := delimit ($positions | uniq) " · " -}}
+    {{- $hasBio := or $prof.education $prof.professional_experience $prof.scientific_experience -}}
+    {{- $desc := printf "%s, %s en CIMEC Salud (Ciudad Real)." $prof.name $job -}}
+    {{- if $hasBio }}{{ $desc = printf "%s Formación, experiencia y cita online." $desc }}{{ end -}}
+    {{- with $prof.college_number }}{{ $desc = printf "%s Nº de colegiado %s." $desc . }}{{ end -}}
+    {{- $.AddPage (dict
+      "path" $prof.id
+      "kind" "page"
+      "title" $prof.name
+      "params" (dict
+        "prof_id" $prof.id
+        "job_title" $job
+        "image" $prof.image
+        "description" $desc
+        "seo_title" (printf "%s, %s en Ciudad Real" $prof.name $job)
+        "noindex" (not $hasBio)
+        "specialties" $specs
+      )
+    ) -}}
+  {{- end -}}
+{{- end -}}

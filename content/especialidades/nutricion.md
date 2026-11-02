@@ -2,7 +2,7 @@
 title: "Nutrición"
 description: "Nutrición y dietética en Ciudad Real: asesoramiento personalizado para mejorar tus hábitos alimenticios y llevar un estilo de vida saludable."
 ---
- Salud somos especialistas en nutrición y dietética, ofreciendo asesoramiento personalizado para mejorar los hábitos alimenticios y promover un estilo de vida saludable.
+En CIMEC Salud somos especialistas en nutrición y dietética, ofreciendo asesoramiento personalizado para mejorar los hábitos alimenticios y promover un estilo de vida saludable.
 
 ## Nuestros servicios de nutrición
 

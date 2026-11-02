@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#00A9E0">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    {{ $title := partial "seo-title.html" . }}
+    <title>{{ $title }}</title>
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+
+    {{ if partial "is-noindex.html" . }}<meta name="robots" content="noindex, follow">{{ end }}
 
     <!-- Canonical -->
     <link rel="canonical" href="{{ .Permalink | absURL }}">
@@ -14,7 +17,7 @@
     {{ $ogImage := .Params.featured_image | default .Site.Params.og_image | default "/images/logo.png" }}
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:title" content="{{ $title }}">
     <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
     <meta property="og:image" content="{{ $ogImage | absURL }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -23,7 +26,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ .Permalink | absURL }}">
-    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
     <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 

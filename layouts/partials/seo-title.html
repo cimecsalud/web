@@ -1,0 +1,14 @@
+{{- /* <title> de cada página. Prioridad: seo_title > "<Especialidad> en Ciudad Real" > título.
+       Se añade la marca solo si cabe (Google corta hacia los 60 caracteres). */ -}}
+{{- $t := "" -}}
+{{- if .IsHome -}}
+  {{- $t = site.Params.home_title | default site.Title -}}
+{{- else -}}
+  {{- $base := .Params.seo_title | default .Title -}}
+  {{- if and (not .Params.seo_title) .IsPage (eq .Section "especialidades") -}}
+    {{- $base = printf "%s en Ciudad Real" .Title -}}
+  {{- end -}}
+  {{- $t = printf "%s | %s" $base site.Params.brand -}}
+  {{- if gt (strings.RuneCount $t) 65 }}{{ $t = $base }}{{ end -}}
+{{- end -}}
+{{- return $t -}}

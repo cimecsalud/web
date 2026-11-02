@@ -1,5 +1,6 @@
 ---
 title: "Aseguradoras"
+seo_title: "Aseguradoras: Adeslas, Asisa, Sanitas, DKV y más"
 description: "Trabajamos con las principales aseguradoras médicas en Ciudad Real. Consulta si tu seguro tiene cobertura en CIMEC Salud y pide cita online o por teléfono."
 layout: "aseguradoras"
 ---

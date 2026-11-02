@@ -2,7 +2,7 @@
 title: "Pediatría"
 description: "Pediatría en Ciudad Real: atención integral de la salud de niños y adolescentes, seguimiento del crecimiento y tratamiento de enfermedades infantiles."
 ---
- Salud somos especialistas en la atención integral de la salud de niños y adolescentes. Contamos con equipo de profesionales médicos especialistas en el diagnóstico y tratamiento de las enfermedades que puedan afectar a la promoción y desarrollo de un crecimiento saludable.
+En CIMEC Salud somos especialistas en la atención integral de la salud de niños y adolescentes. Contamos con equipo de profesionales médicos especialistas en el diagnóstico y tratamiento de las enfermedades que puedan afectar a la promoción y desarrollo de un crecimiento saludable.
 
 ## Nuestros servicios en pediatría
 

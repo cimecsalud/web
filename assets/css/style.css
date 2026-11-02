@@ -203,6 +203,9 @@ nav {
 }
 
 .hero .subtitle {
+  display: block;
+  margin-top: 0.5rem;
+  text-shadow: none;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;

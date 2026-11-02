@@ -10,6 +10,9 @@ disableHugoGeneratorInject = true
 canonifyURLs = true
 
 [params]
+  # Marca corta para el <title> de las páginas internas ("Cardiología en Ciudad Real | CIMEC Salud")
+  brand = "CIMEC Salud"
+  home_title = "Clínica de especialidades médicas en Ciudad Real | CIMEC Salud"
   description = "Clínica de especialidades en Ciudad Real. Resonancia magnética, radiodiagnóstico, traumatología, cardiología, pediatría y más. Cita online y portal del paciente."
   phone = "926 966 446"
   email = "info@cimecsalud.com"
@@ -71,6 +74,10 @@ canonifyURLs = true
     name = "Blog"
     url = "/blog/"
     weight = 6
+
+# Solo categorías del blog (las etiquetas no se usan). Sus listados llevan noindex.
+[taxonomies]
+  category = "categories"
 
 # Sitemap for search engines
 [sitemap]

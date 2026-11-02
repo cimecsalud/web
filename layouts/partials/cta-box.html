@@ -1,0 +1,9 @@
+{{/* Misma caja que el shortcode cta-contact, para usar desde plantillas. Params: title, description. */}}
+<div class="cta-contact">
+  {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+  {{ with .description }}<p>{{ . }}</p>{{ end }}
+  <div class="cta-buttons">
+    <a href="tel:+34{{ replace site.Params.phone " " "" }}" class="btn">{{ site.Params.phone }}</a>
+    <a href="https://citaonline.portalns.es/cimec" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Pedir Cita Online</a>
+  </div>
+</div>

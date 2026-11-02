@@ -1,8 +1,9 @@
 ---
 title: "Radiodiagnóstico"
+seo_title: "Resonancia magnética y radiología en Ciudad Real"
 description: "Resonancia magnética y resonancia magnética con sedación en Ciudad Real. RM de 1,5 teslas, ecografía y radiología. Diagnóstico por imagen con los mejores especialistas."
 ---
-CIMEC Salud somos especialistas en el uso de técnicas de obtención de imágenes del organismo por medio de tecnologías avanzadas como equipos de Rayos X, para facilitar el diagnóstico de enfermedades y, así, guiar su tratamiento, mejorando la salud del paciente.
+En CIMEC Salud somos especialistas en el uso de técnicas de obtención de imágenes del organismo por medio de tecnologías avanzadas como equipos de Rayos X, para facilitar el diagnóstico de enfermedades y, así, guiar su tratamiento, mejorando la salud del paciente.
 
 ## Nuestros servicios de radiodiagnóstico
 

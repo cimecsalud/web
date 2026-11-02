@@ -2,7 +2,7 @@
 title: "Traumatología"
 description: "Traumatología en Ciudad Real: diagnóstico y tratamiento de lesiones de huesos, músculos y articulaciones para mejorar tu calidad de vida."
 ---
- Salud somos especialistas en el diagnóstico y tratamiento de lesiones y trastornos del sistema musculoesquelético. Nuestro equipo médico se enfoca en el cuidado integral de huesos, músculos y articulaciones, mejorando la calidad de vida de nuestros pacientes.
+En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de lesiones y trastornos del sistema musculoesquelético. Nuestro equipo médico se enfoca en el cuidado integral de huesos, músculos y articulaciones, mejorando la calidad de vida de nuestros pacientes.
 
 ![Importancia de la traumatología](/uploads/2024/11/importancia-traumatologia-1024x682.jpg)
 

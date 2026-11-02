@@ -25,6 +25,24 @@
           {{ end }}
 
           {{ .Content }}
+
+          {{/* Equipo de la especialidad, enlazado a cada perfil (enlazado interno para SEO) */}}
+          {{ $slug := strings.TrimSuffix "/" (path.Base .RelPermalink) }}
+          {{ range hugo.Data.specialties.specialties }}
+            {{ if and .professionals (eq (strings.TrimSuffix "/" (path.Base .url)) $slug) }}
+            <div class="specialty-team">
+              <h2>Profesionales de {{ $.Title }}</h2>
+              <div class="professionals-grid">
+                {{ range .professionals }}
+                  {{ $ref := . }}
+                  {{ range where hugo.Data.professionals.professionals "id" $ref.id }}
+                    {{ partial "professional-card.html" (dict "prof" . "position" $ref.position) }}
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          {{ end }}
       </div>
   </div>
 </section>

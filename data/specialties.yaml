@@ -31,11 +31,11 @@ specialties:
   - id: miguel-barba-valverde
     position: Coordinador
   - id: antonio-lopez-albarracin
-    position: Fisioterapéuta
+    position: Fisioterapeuta
   - id: ana-tordesillas-sanchez
-    position: Fisioterapéuta
+    position: Fisioterapeuta
   - id: juan-carlos-carrasco-aparicio
-    position: Fisioterapéuta
+    position: Fisioterapeuta
   subspecialties:
   - name: Fisioterapia deportiva
     icon: /images/icons/TRAUMATOLOGIA-DEPORTIVA.svg

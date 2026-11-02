@@ -1,0 +1,2 @@
+{{- /* true si la página no debe indexarse: noindex en front matter o listados de categorías. */ -}}
+{{- return (or .Params.noindex (in (slice "taxonomy" "term") .Kind)) -}}

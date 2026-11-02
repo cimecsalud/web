@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $prof := index (where hugo.Data.professionals.professionals "id" .Params.prof_id) 0 }}
+{{ partial "page-banner.html" (dict "Page" . "subtitle" .Params.job_title) }}
+<section class="page-content">
+  <div class="container profile-page">
+    <div class="profile-header">
+      <div class="professional-photo professional-photo--profile">
+        {{ with $prof.image }}
+        {{ partial "responsive-image.html" (dict "src" . "alt" (printf "%s, %s" $prof.name $.Params.job_title) "sizes" "180px" "maxWidth" 480 "priority" true) }}
+        {{ else }}
+        <div class="professional-photo-placeholder" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        </div>
+        {{ end }}
+      </div>
+      <div>
+        <p class="profile-specialties">
+          {{ range $i, $s := .Params.specialties }}{{ if $i }} · {{ end }}{{ if $s.url }}<a href="{{ $s.url }}">{{ $s.name }} en Ciudad Real</a>{{ else }}{{ $s.name }}{{ end }}{{ end }}
+        </p>
+        {{ with $prof.college_number }}<p class="college-number"><strong>Nº de colegiado:</strong> {{ . }}</p>{{ end }}
+      </div>
+    </div>
+
+    {{ with $prof.education }}
+    <div class="detail-section">
+      <h2>Formación</h2>
+      <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+    {{ end }}
+    {{ with $prof.professional_experience }}
+    <div class="detail-section">
+      <h2>Experiencia profesional</h2>
+      <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+    {{ end }}
+    {{ with $prof.scientific_experience }}
+    <div class="detail-section">
+      <h2>Experiencia científica</h2>
+      <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+    {{ end }}
+
+    {{ partial "cta-box.html" (dict "title" (printf "Pide cita con %s" $prof.name) "description" "En CIMEC Salud, Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h.") }}
+
+    <p class="profile-back"><a href="/profesionales/">← Ver todo el cuadro médico</a></p>
+  </div>
+</section>
+{{ end }}

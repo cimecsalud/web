@@ -1,4 +1,5 @@
 ---
 title: "El blog de CIMEC"
-description: "Somos una clínica de excelencia en Ciudad Real, especializada en ofrecer los mejores servicios médicos para cuidar de ti y de los tuyos."
+seo_title: "Blog de salud"
+description: "Consejos de salud y artículos de los especialistas de CIMEC Salud, clínica de especialidades médicas en Ciudad Real."
 ---
