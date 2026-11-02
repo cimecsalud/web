@@ -142,3 +142,11 @@ SUB = {
     ("Alergología", "Asma"): "devices/asthma-inhaler",
     ("Alergología", "Inmunoterapia"): "body/antibody",
 }
+
+# Otros iconos de la web (ruta bajo static/images/icons/ -> icono). También deben ser únicos.
+OTHER = {
+    "valores/excelencia": "symbols/award-ribbon",
+    "valores/empatia": "symbols/eco-care",
+    "valores/innovacion": "symbols/life-science",
+    "valores/compromiso": "symbols/health",
+}

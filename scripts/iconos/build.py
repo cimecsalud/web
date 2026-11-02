@@ -6,7 +6,7 @@ Sin --apply solo genera los SVG en <cache_dir>/out y una hoja de previsualizaci�
 import os, re, sys, unicodedata, urllib.request, html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from mapping import MAIN, SUB  # noqa: E402
+from mapping import MAIN, SUB, OTHER  # noqa: E402
 
 REPO, CACHE = sys.argv[1], sys.argv[2]
 APPLY = "--apply" in sys.argv
@@ -48,7 +48,7 @@ def build(spec):
 
 
 # Cada icono final debe ser único
-specs = list(MAIN.values()) + list(SUB.values())
+specs = list(MAIN.values()) + list(SUB.values()) + list(OTHER.values())
 dupes = {s for s in specs if specs.count(s) > 1}
 assert not dupes, f"Iconos repetidos: {dupes}"
 
@@ -97,8 +97,12 @@ if APPLY:
     dest = os.path.join(REPO, "static/images/icons/especialidades")
     os.makedirs(dest, exist_ok=True)
     for kind, key, fname, i, indent in items:
-        os.replace(os.path.join(OUT, fname), os.path.join(dest, fname)) if False else None
         open(os.path.join(dest, fname), "w").write(open(os.path.join(OUT, fname)).read())
         lines[i] = f"{indent}icon: /images/icons/especialidades/{fname}"
     open(yaml_path, "w", encoding="utf-8").write("\n".join(lines))
-    print("aplicado en", dest)
+    # Otros iconos (valores de la clínica…): se escriben en static/images/icons/<ruta>.svg
+    for path, spec in OTHER.items():
+        f = os.path.join(REPO, "static/images/icons", path + ".svg")
+        os.makedirs(os.path.dirname(f), exist_ok=True)
+        open(f, "w").write(build(spec))
+    print("aplicado en", dest, "y", len(OTHER), "iconos más")
