@@ -1,6 +1,7 @@
 ---
 title: "Traumatología"
-description: "Traumatología en Ciudad Real: diagnóstico y tratamiento de lesiones de huesos, músculos y articulaciones para mejorar tu calidad de vida."
+seo_title: "Traumatólogo en Ciudad Real · Traumatología"
+description: "Traumatólogos en Ciudad Real: lesiones de huesos, músculos y articulaciones, traumatología deportiva, infantil y regenerativa. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de lesiones y trastornos del sistema musculoesquelético. Nuestro equipo médico se enfoca en el cuidado integral de huesos, músculos y articulaciones, mejorando la calidad de vida de nuestros pacientes.
 

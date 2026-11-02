@@ -1,6 +1,7 @@
 ---
 title: "Fisioterapia"
-description: "Fisioterapia en Ciudad Real: técnicas terapéuticas y ejercicios para aliviar el dolor, mejorar la movilidad y recuperar la función física."
+seo_title: "Fisioterapeuta en Ciudad Real · Fisioterapia"
+description: "Fisioterapeutas en Ciudad Real: tratamiento del dolor, lesiones y recuperación de la movilidad con técnicas terapéuticas. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en el uso de técnicas terapéuticas y ejercicios para mejorar la movilidad, aliviar el dolor y restaurar la función física de nuestros pacientes, contribuyendo a la recuperación y bienestar de los pacientes.
 

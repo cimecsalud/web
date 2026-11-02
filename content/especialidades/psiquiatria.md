@@ -1,6 +1,7 @@
 ---
 title: "Psiquiatría"
-description: "Psiquiatría en Ciudad Real: diagnóstico y tratamiento de trastornos mentales combinando terapias psicológicas y farmacológicas."
+seo_title: "Psiquiatra en Ciudad Real · Psiquiatría"
+description: "Psiquiatra en Ciudad Real: diagnóstico y tratamiento de trastornos mentales, combinando terapia psicológica y farmacológica. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de trastornos mentales, combinando terapias psicológicas y farmacológicas para ofrecer una atención integral a nuestros pacientes.
 

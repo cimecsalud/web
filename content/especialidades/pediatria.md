@@ -1,6 +1,7 @@
 ---
 title: "Pediatría"
-description: "Pediatría en Ciudad Real: atención integral de la salud de niños y adolescentes, seguimiento del crecimiento y tratamiento de enfermedades infantiles."
+seo_title: "Pediatra en Ciudad Real · Pediatría"
+description: "Pediatras en Ciudad Real: atención integral de niños y adolescentes, seguimiento del crecimiento y enfermedades infantiles. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en la atención integral de la salud de niños y adolescentes. Contamos con equipo de profesionales médicos especialistas en el diagnóstico y tratamiento de las enfermedades que puedan afectar a la promoción y desarrollo de un crecimiento saludable.
 

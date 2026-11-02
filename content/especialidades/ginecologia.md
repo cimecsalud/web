@@ -1,6 +1,7 @@
 ---
 title: "Ginecología y Obstetricia"
-description: "Ginecología y obstetricia en Ciudad Real: salud integral de la mujer, revisiones ginecológicas y seguimiento del embarazo en CIMEC Salud."
+seo_title: "Ginecólogo en Ciudad Real · Ginecología"
+description: "Ginecólogos en Ciudad Real: revisiones ginecológicas, salud integral de la mujer y seguimiento del embarazo. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud ofrecemos salud integral de la mujer con atención especializada en ginecología y seguimiento del embarazo.
 

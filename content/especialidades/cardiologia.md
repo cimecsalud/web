@@ -1,6 +1,7 @@
 ---
 title: "Cardiología"
-description: "Cardiología en Ciudad Real: diagnóstico, tratamiento y prevención de enfermedades del corazón y del sistema cardiovascular en CIMEC Salud."
+seo_title: "Cardiólogo en Ciudad Real · Cardiología"
+description: "Cardiólogo en Ciudad Real: diagnóstico, tratamiento y prevención de enfermedades del corazón y del sistema cardiovascular. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de enfermedades del corazón y del sistema cardiovascular, con el objetivo de mantener la salud cardiaca del paciente y prevenir todas las posibles complicaciones.
 

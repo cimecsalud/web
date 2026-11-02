@@ -1,6 +1,7 @@
 ---
 title: "Podología"
-description: "Podología en Ciudad Real: cuidado integral de los pies con diagnósticos precisos y tratamientos podológicos efectivos."
+seo_title: "Podólogo en Ciudad Real · Podología"
+description: "Podólogo en Ciudad Real: cuidado integral de los pies, diagnóstico preciso y tratamientos podológicos. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en el cuidado integral de los pies, ofreciendo diagnósticos precisos y tratamientos efectivos para mantener la salud podológica de nuestros pacientes.
 

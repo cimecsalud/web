@@ -1,6 +1,7 @@
 ---
 title: "Otorrinolaringología"
-description: "Otorrinolaringología en Ciudad Real: diagnóstico y tratamiento de enfermedades del oído, la nariz y la garganta, y de cabeza y cuello."
+seo_title: "Otorrino en Ciudad Real · Otorrinolaringología"
+description: "Otorrino en Ciudad Real: diagnóstico y tratamiento de enfermedades del oído, la nariz y la garganta, y de cabeza y cuello. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en el diagnóstico y tratamiento de enfermedades del oído, la nariz y la garganta, así como de las estructuras relacionadas de cabeza y cuello.
 

@@ -1,6 +1,7 @@
 ---
 title: "Nutrición"
-description: "Nutrición y dietética en Ciudad Real: asesoramiento personalizado para mejorar tus hábitos alimenticios y llevar un estilo de vida saludable."
+seo_title: "Nutricionista en Ciudad Real · Nutrición y dietética"
+description: "Nutricionista en Ciudad Real: asesoramiento personalizado para mejorar tus hábitos alimenticios y tu salud. Pide cita en CIMEC Salud."
 ---
 En CIMEC Salud somos especialistas en nutrición y dietética, ofreciendo asesoramiento personalizado para mejorar los hábitos alimenticios y promover un estilo de vida saludable.
 
