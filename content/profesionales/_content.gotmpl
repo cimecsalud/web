@@ -1,10 +1,10 @@
 {{- /* Una página por profesional (/profesionales/<id>/) generada desde data/professionals.yaml.
-       Solo para quien figura en alguna especialidad de data/specialties.yaml. Los perfiles sin
-       formación ni experiencia salen con noindex: una página con solo el nombre es contenido pobre. */ -}}
+       Solo para quien figura en alguna especialidad de data/specialties.yaml. Todas se indexan,
+       también las que aún no tienen currículum, para que se pueda encontrar a cada profesional por su nombre. */ -}}
 {{- $specMap := dict -}}
 {{- range $sp := hugo.Data.specialties.specialties -}}
   {{- range $sp.professionals -}}
-    {{- $entry := dict "name" $sp.name "url" $sp.url "position" .position -}}
+    {{- $entry := dict "name" $sp.name "url" $sp.url "position" .position "description" $sp.description -}}
     {{- $list := (index $specMap .id) | default slice -}}
     {{- $specMap = merge $specMap (dict .id ($list | append $entry)) -}}
   {{- end -}}
@@ -29,7 +29,6 @@
         "image" $prof.image
         "description" $desc
         "seo_title" (printf "%s, %s en Ciudad Real" $prof.name $job)
-        "noindex" (not $hasBio)
         "specialties" $specs
       )
     ) -}}

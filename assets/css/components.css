@@ -1487,3 +1487,14 @@ section.visitanos-section {
 /* Tarjetas del cuadro médico y de cada especialidad: ahora son enlaces al perfil */
 a.professional-card { text-decoration: none; }
 .specialty-team { margin-top: 3rem; }
+
+/* Caja de cita dentro de las especialidades: .specialty-page h3/p la pintaban azul y gris */
+.specialty-page .cta-contact h3,
+.specialty-page .cta-contact p { color: white; }
+.specialty-page .cta-contact h3 { margin-top: 0; }
+
+/* Enlaces del texto de las especialidades en el azul de la marca */
+.specialty-page p a,
+.specialty-page li a { color: var(--primary); }
+.specialty-page p a:hover,
+.specialty-page li a:hover { color: var(--primary-dark); }

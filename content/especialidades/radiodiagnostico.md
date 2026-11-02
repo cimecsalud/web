@@ -65,3 +65,48 @@ A través de estas técnicas podemos diagnosticar la causa del dolor, descartar 
 Además, nuestro equipo de radiodiagnóstico trabaja de manera conjunta con las demás especialidades de la clínica para ofrecer en todo momento un cuidado integral y personalizado.
 
 ![Equipo de radiodiagnóstico](/uploads/2024/06/Frame-3-1.png)
+
+## Ecografía y radiografías en Ciudad Real
+
+Además de la resonancia magnética, el servicio de radiodiagnóstico realiza ecografías y radiología simple:
+
+- **Ecografía**: utiliza ultrasonidos, no emite radiación y permite ver los tejidos en tiempo real. La **ecografía musculoesquelética** es muy útil para valorar tendones, músculos, ligamentos y pequeñas articulaciones, por ejemplo en lesiones del hombro, la rodilla o el tobillo. La ecografía también se usa para estudiar otras zonas del cuerpo, según lo que indique tu médico.
+- **Radiografía (rayos X)**: es una prueba rápida y suele ser el primer paso para estudiar huesos y articulaciones, como fracturas o artrosis. Utiliza una dosis baja de radiación. Las telerradiografías permiten obtener la columna completa o los miembros inferiores completos en una sola imagen.
+
+Cada prueba aporta una información distinta, por eso es el médico quien decide cuál es la más adecuada en cada caso.
+
+## Cómo prepararte para la prueba
+
+Antes de la prueba te preguntarán por tus antecedentes y por el motivo del estudio. Trae la petición del médico, si la tienes, y las pruebas o informes anteriores relacionados, para que el radiólogo pueda compararlos.
+
+- **Resonancia magnética**: avisa si llevas marcapasos, desfibrilador, implantes, prótesis, clips quirúrgicos o cualquier objeto metálico en el cuerpo, si estás o puedes estar embarazada y si tienes claustrofobia. Antes de entrar tendrás que quitarte los objetos metálicos (joyas, relojes, tarjetas).
+- **Radiografía**: avisa si estás o puedes estar embarazada.
+- **Ecografía**: algunas ecografías requieren una preparación previa, como estar en ayunas o con la vejiga llena. Si es tu caso, te lo indicarán al darte la cita.
+
+## Radiodiagnóstico coordinado con otras especialidades
+
+Las pruebas de imagen ayudan a otras especialidades de la clínica a confirmar un diagnóstico y planificar el tratamiento. Es habitual en [traumatología](/especialidades/traumatologia/), [rehabilitación](/especialidades/rehabilitacion/), [fisioterapia](/especialidades/fisioterapia/) y la [unidad del dolor](/especialidades/unidad-del-dolor/), y en [pediatría](/especialidades/pediatria/) cuando un niño necesita una resonancia magnética con sedación.
+
+## Preguntas frecuentes sobre radiodiagnóstico
+
+### ¿Necesito volante para hacerme una resonancia magnética?
+
+Normalmente, la resonancia magnética la solicita un médico, que indica qué zona hay que estudiar y por qué. Si vas a través de tu seguro médico, lo habitual es que pida una autorización previa: consulta las condiciones de tu póliza. Puedes ver las [aseguradoras con las que trabajamos](/aseguradoras/).
+
+### ¿La resonancia magnética tiene radiación?
+
+No. La resonancia magnética utiliza campos magnéticos y ondas de radio, no rayos X. La radiografía sí utiliza radiación, aunque en dosis bajas, y la ecografía no la utiliza.
+
+### Tengo claustrofobia, ¿puedo hacerme una resonancia?
+
+Coméntalo al pedir la cita. Muchas personas con claustrofobia leve completan la prueba con información previa y acompañamiento. Si no es posible, existe la opción de la resonancia magnética con sedación, que se valora de forma individual.
+
+### ¿Puedo hacerme una resonancia si llevo una prótesis o un marcapasos?
+
+Depende del tipo de dispositivo. Muchos implantes y prótesis actuales son compatibles con la resonancia, pero algunos marcapasos y otros dispositivos no lo son o requieren condiciones especiales. Avisa siempre antes de la prueba y, si puedes, trae el informe o la tarjeta del dispositivo.
+
+### ¿Qué diferencia hay entre una resonancia, una ecografía y una radiografía?
+
+La radiografía muestra muy bien el hueso; la ecografía permite valorar tendones, músculos y otros tejidos blandos en tiempo real; y la resonancia ofrece un gran detalle de las partes blandas, las articulaciones, la columna y el sistema nervioso. Tu médico elegirá la que mejor responda a tu caso.
+
+{{< cta-contact title="Pide cita para resonancia magnética en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

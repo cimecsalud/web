@@ -40,6 +40,15 @@
     </div>
     {{ end }}
 
+    {{ range .Params.specialties }}
+    {{ if and .url .description }}
+    <div class="detail-section">
+      <h2>{{ .name }} en CIMEC Salud</h2>
+      <p>{{ .description }} <a href="{{ .url }}">Más sobre {{ lower .name }} en Ciudad Real</a>.</p>
+    </div>
+    {{ end }}
+    {{ end }}
+
     {{ partial "cta-box.html" (dict "title" (printf "Pide cita con %s" $prof.name) "description" "En CIMEC Salud, Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h.") }}
 
     <p class="profile-back"><a href="/profesionales/">← Ver todo el cuadro médico</a></p>
