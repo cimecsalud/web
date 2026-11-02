@@ -77,4 +77,4 @@ No hay una edad fija. Si te preocupa cómo camina tu hijo o hija, si se queja de
 
 En consulta privada, por lo general, puedes acudir directamente. Si vas a través de tu seguro médico, revisa las condiciones de tu póliza. Puedes ver las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un podólogo en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un podólogo en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

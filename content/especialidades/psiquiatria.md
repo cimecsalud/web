@@ -81,4 +81,4 @@ En consulta privada, por lo general, puedes pedir cita directamente. Si vas a tr
 
 Sí. Todo lo que hables con el psiquiatra está protegido por el secreto profesional.
 
-{{< cta-contact title="Pide cita con psiquiatría en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con psiquiatría en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

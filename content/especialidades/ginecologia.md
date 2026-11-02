@@ -1,5 +1,5 @@
 ---
-title: "Ginecología y Obstetricia"
+title: "Ginecología y obstetricia"
 seo_title: "Ginecólogo en Ciudad Real · Ginecología"
 description: "Ginecólogos en Ciudad Real: revisiones ginecológicas, salud integral de la mujer y seguimiento del embarazo. Pide cita en CIMEC Salud."
 ---
@@ -76,4 +76,4 @@ Para muchas consultas sí. Si te van a hacer una citología, suele ser mejor cam
 
 Depende de tu póliza. Consulta las condiciones con tu aseguradora y revisa las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con ginecología en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con ginecología en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

@@ -55,7 +55,7 @@ Si quieres saber más sobre la prevención, lee nuestro artículo sobre [la impo
 
 ### ¿Qué diferencia hay entre el médico de familia y el médico de cabecera?
 
-Ninguna en la práctica: son dos formas de llamar al mismo profesional. El nombre de la especialidad es Medicina Familiar y Comunitaria.
+Ninguna en la práctica: son dos formas de llamar al mismo profesional. El nombre de la especialidad es Medicina familiar y Comunitaria.
 
 ### ¿Para qué sirve un médico de familia privado si ya tengo uno en la sanidad pública?
 
@@ -69,4 +69,4 @@ Depende de la edad, los antecedentes y las enfermedades de cada persona. Tu méd
 
 Depende de tu póliza: consulta las condiciones con tu aseguradora. Puedes ver las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un médico de familia en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un médico de familia en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

@@ -80,4 +80,4 @@ Sí. Lo que hables con el psicólogo está protegido por el secreto profesional.
 
 Depende de tu póliza: consulta las condiciones con tu aseguradora. Puedes ver las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un psicólogo en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un psicólogo en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

@@ -27,8 +27,10 @@
 }
 
 @media (max-width: 768px) {
-    .section-video { min-height: 60vh; }
-    .video-container { height: 60vh; min-height: 60vh; }
+    /* El vídeo lleva texto incrustado: en móvil se muestra entero (16:9) en vez de recortarlo a 60vh */
+    .section-video { min-height: 0; padding: 0; }
+    .video-container { height: auto; min-height: 0; }
+    .video-container video { height: auto; object-fit: contain; }
 }
 
 /* === layouts/partials/page-banner.html === */
@@ -1584,3 +1586,35 @@ main h1 { border-bottom: 0; padding-bottom: 0; }
 .page-banner-overlay { padding: 3.25rem 20px 3rem; }
 .page-banner h1 { margin: 0; }
 .page-content .cta-contact h2 { text-align: center; }
+
+/* Tarjetas del cuadro médico: sin el margen vertical heredado de una regla antigua (style.css) */
+.professionals-grid .professional-card { margin: 0; }
+
+/* Rejillas de exactamente 4 elementos: una fila en escritorio, 2x2 en tableta (evita una tarjeta sola) */
+.grid-4,
+.como-funciona-grid { grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+@media (max-width: 992px) {
+    .grid-4,
+    .como-funciona-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+    .grid-4,
+    .como-funciona-grid { grid-template-columns: 1fr; }
+}
+
+/* Enlace "Cómo llegar" del pie */
+.footer-info .footer-directions { color: var(--primary-light); font-weight: 600; }
+
+/* Nombre y especialidad alineados igual en las tarjetas del cuadro médico */
+.professional-basic-info { text-align: left; }
+
+/* Botones de sección de la portada: separados y centrados */
+.section-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.professional-basic-info h3,
+.professional-basic-info .position { text-align: left; }

@@ -24,7 +24,7 @@ Nuestras instalaciones están equipadas con la tecnología médica más moderna,
 
 ### 3. Amplia variedad de especialidades
 
-Ofrecemos más de 15 especialidades médicas bajo un mismo techo, lo que facilita la coordinación de tu atención médica y evita desplazamientos innecesarios.
+Ofrecemos más de 20 especialidades médicas bajo un mismo techo, lo que facilita la coordinación de tu atención médica y evita desplazamientos innecesarios.
 
 ### 4. Atención personalizada
 
@@ -36,7 +36,7 @@ Estamos ubicados en una zona de fácil acceso en Ciudad Real, con disponibilidad
 
 ### 6. Horario amplio
 
-Nuestro horario de Lunes a Viernes de 9h a 20h facilita que puedas acudir sin interferir con tus obligaciones laborales.
+Nuestro horario de lunes a viernes de 8h a 22h facilita que puedas acudir sin interferir con tus obligaciones laborales.
 
 ### 7. Múltiples aseguradoras
 
@@ -50,5 +50,5 @@ En CIMEC Salud, nuestro compromiso es proporcionar una atención médica integra
 
 **Ven a conocernos y descubre por qué CIMEC Salud es la mejor opción para tu salud y la de tu familia.**
 
-<svg class="inline-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg> Av. Parque de los Cabañeros 3, 13005 - Ciudad Real
+<svg class="inline-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg> Av. Parque de Cabañeros, 3, 13005 Ciudad Real
 Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

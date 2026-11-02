@@ -72,4 +72,4 @@ Hoy no tiene una cura definitiva, pero sí hay medidas que pueden ayudar a contr
 
 En consulta privada, por lo general, puedes pedir cita directamente. Si vas a través de tu seguro médico, algunas pólizas piden una prescripción o autorización previa: consulta las condiciones con tu aseguradora. Puedes ver las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita en la Unidad del Dolor en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita en la Unidad del Dolor en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

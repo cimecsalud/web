@@ -80,4 +80,4 @@ Sí, se pueden estudiar a cualquier edad cuando hay motivo para ello. El especia
 
 Depende de tu póliza: algunas piden autorización previa para la consulta o las pruebas. Consulta las condiciones con tu aseguradora y revisa las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un alergólogo en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un alergólogo en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

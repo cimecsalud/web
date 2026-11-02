@@ -15,6 +15,7 @@
                     <svg class="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
                     {{ .Site.Params.address }}
                 </p>
+                <p><a href="https://www.google.com/maps/dir/?api=1&amp;destination={{ .Site.Params.address | urlquery }}" target="_blank" rel="noopener noreferrer" class="footer-directions">Cómo llegar →</a></p>
             </div>
             <div>
                 <h2 class="footer-title">Horario</h2>
@@ -37,14 +38,8 @@
                 </div>
             </div>
         </div>
-        <iframe loading="lazy"
-                src="https://maps.google.com/maps?q=Av.%20Parque%20de%20Caba%C3%B1eros%2C%203%2C%2C%2013005%20Ciudad%20Real&#038;t=m&#038;z=15&#038;output=embed&#038;iwloc=near"
-                title="Av. Parque de Cabañeros, 3, 13005 Ciudad Real"
-                aria-label="Av. Parque de Cabañeros, 3, 13005 Ciudad Real"
-                class="footer-map"
-                ></iframe>
         <div class="footer-legal">
-            <p><a href="/aviso-legal/">Aviso Legal</a> | <a href="/politica-privacidad/">Política de Privacidad</a> | <a href="/politica-cookies/">Política de Cookies</a> | <button type="button" class="cookie-settings-link">Configurar cookies</button></p>
+            <p><a href="/aviso-legal/">Aviso legal</a> | <a href="/politica-privacidad/">Política de privacidad</a> | <a href="/politica-cookies/">Política de cookies</a> | <button type="button" class="cookie-settings-link">Configurar cookies</button></p>
         </div>
         <p class="copyright">&copy; {{ now.Year }} CIMEC Salud. Todos los derechos reservados.</p>
     </div>

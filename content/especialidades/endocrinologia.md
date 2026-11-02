@@ -73,4 +73,4 @@ En consulta privada, por lo general, puedes pedir cita directamente. Si vas a tr
 
 Para la consulta en sí no suele ser necesario. Lo que sí puede requerir ayuno es el análisis de sangre: sigue las indicaciones que te den al pedirlo.
 
-{{< cta-contact title="Pide cita con endocrinología en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con endocrinología en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

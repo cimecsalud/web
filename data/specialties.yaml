@@ -174,7 +174,7 @@ specialties:
     icon: /images/icons/especialidades/oftalmologia-retina.svg
   - name: Oftalmología pediátrica
     icon: /images/icons/especialidades/oftalmologia-oftalmologia-pediatrica.svg
-- name: Análisis Clínicos
+- name: Análisis clínicos
   icon: /images/icons/especialidades/analisis-clinicos.svg
   url: /especialidades/analisis-clinicos/
   description: Laboratorio equipado con la última tecnología para todo tipo de pruebas diagnósticas. Resultados rápidos y
@@ -183,11 +183,11 @@ specialties:
   show_home: true
   video: /videos/Analisis-clinicos.mp4
   professionals: []
-- name: Medicina Familiar
+- name: Medicina familiar
   icon: /images/icons/especialidades/medicina-familiar.svg
   url: /especialidades/medicina-familiar/
   description: Atención médica integral para toda la familia. Prevención, diagnóstico y tratamiento de enfermedades comunes.
-  short_name: Médico de Familia
+  short_name: Médico de familia
   show_home: true
   video: /videos/Familia.mp4
   professionals:
@@ -360,7 +360,7 @@ specialties:
     icon: /images/icons/especialidades/dermatologia-tricologia.svg
   - name: Dermatología pediátrica
     icon: /images/icons/especialidades/dermatologia-dermatologia-pediatrica.svg
-- name: Ginecología y Obstetricia
+- name: Ginecología y obstetricia
   icon: /images/icons/especialidades/ginecologia-y-obstetricia.svg
   url: /especialidades/ginecologia/
   description: Salud integral de la mujer con atención especializada en ginecología y seguimiento del embarazo.
@@ -385,14 +385,14 @@ specialties:
     icon: /images/icons/especialidades/ginecologia-y-obstetricia-suelo-pelvico.svg
   - name: Vulvología
     icon: /images/icons/especialidades/ginecologia-y-obstetricia-vulvologia.svg
-- name: Medicina Estética
+- name: Medicina estética
   icon: /images/icons/especialidades/medicina-estetica.svg
   url: /especialidades/medicina-estetica/
   description: Tratamientos estéticos personalizados para realzar tu belleza natural con técnicas avanzadas.
   show_home: true
   professionals:
   - id: patricia-faba-martin
-    position: Medicina Estética
+    position: Medicina estética
   subspecialties:
   - name: Tratamientos faciales
     icon: /images/icons/especialidades/medicina-estetica-tratamientos-faciales.svg
@@ -421,7 +421,7 @@ specialties:
     icon: /images/icons/especialidades/alergologia-asma.svg
   - name: Inmunoterapia
     icon: /images/icons/especialidades/alergologia-inmunoterapia.svg
-- name: Anestesiología y Reanimación
+- name: Anestesiología y reanimación
   icon: /images/icons/especialidades/anestesiologia-y-reanimacion.svg
   url: ''
   description: ''

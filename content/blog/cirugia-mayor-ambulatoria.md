@@ -1,15 +1,15 @@
 ---
 related_specialties: ["traumatologia", "otorrinolaringologia", "urologia"]
-title: "Cirugía Mayor Ambulatoria: Qué es y sus ventajas"
-description: "Qué es la Cirugía Mayor Ambulatoria, qué ventajas tiene y cómo se realiza en el quirófano de CIMEC Salud en Ciudad Real, sin ingreso hospitalario."
+title: "Cirugía mayor ambulatoria: qué es y sus ventajas"
+description: "Qué es la cirugía mayor ambulatoria, qué ventajas tiene y cómo se realiza en el quirófano de CIMEC Salud en Ciudad Real, sin ingreso hospitalario."
 date: 2024-05-15
 categories: ["General"]
 featured_image: "/uploads/2024/03/quirofano.jpg"
 ---
 
-La Cirugía Mayor Ambulatoria (CMA) representa un avance significativo en la medicina moderna, permitiendo realizar intervenciones quirúrgicas complejas sin necesidad de ingreso hospitalario prolongado. En CIMEC Salud, contamos con un quirófano especializado en CMA que combina seguridad, tecnología y comodidad.
+La cirugía mayor ambulatoria (CMA) representa un avance significativo en la medicina moderna, permitiendo realizar intervenciones quirúrgicas complejas sin necesidad de ingreso hospitalario prolongado. En CIMEC Salud, contamos con un quirófano especializado en CMA que combina seguridad, tecnología y comodidad.
 
-## ¿Qué es la Cirugía Mayor Ambulatoria?
+## ¿Qué es la cirugía mayor ambulatoria?
 
 La CMA es un tipo de cirugía en la que el paciente:
 
@@ -54,7 +54,7 @@ En nuestro quirófano de cirugía mayor ambulatoria realizamos diversos procedim
 - Laparoscopia diagnóstica
 - Conización cervical
 
-## Ventajas de la Cirugía Mayor Ambulatoria
+## Ventajas de la cirugía mayor ambulatoria
 
 ### 1. Menor riesgo de infecciones
 
@@ -92,7 +92,7 @@ Los quirófanos de CMA utilizan:
 - Equipamiento de última generación
 - Protocolos de control del dolor optimizados
 
-## Proceso de Cirugía Mayor Ambulatoria
+## Proceso de cirugía mayor ambulatoria
 
 ### Antes de la cirugía
 
@@ -150,6 +150,6 @@ En CIMEC Salud, nuestra unidad de recuperación ofrece:
 
 ---
 
-**CIMEC Salud es referencia en Cirugía Mayor Ambulatoria en Ciudad Real.** Nuestro quirófano y unidad de recuperación garantizan tu seguridad y comodidad.
+**CIMEC Salud es referencia en cirugía mayor ambulatoria en Ciudad Real.** Nuestro quirófano y unidad de recuperación garantizan tu seguridad y comodidad.
 
 Teléfono: **926 966 446** &middot; Email: **info@cimecsalud.com**

@@ -79,4 +79,4 @@ Sí, la otorrinolaringología trata a pacientes de todas las edades. En los niñ
 
 Depende de tu póliza: algunas permiten acudir directamente y otras piden autorización previa. Consulta las condiciones con tu aseguradora y revisa las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un otorrino en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un otorrino en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

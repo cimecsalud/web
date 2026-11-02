@@ -78,4 +78,4 @@ Sí. La dermatitis atópica es frecuente en la infancia y la dermatología pedi�
 
 En consulta privada, por lo general, puedes acudir directamente. Si vas con tu seguro médico, algunas pólizas piden autorización previa: consulta las condiciones con tu aseguradora y revisa las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un dermatólogo en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un dermatólogo en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

@@ -109,4 +109,4 @@ Depende del tipo de dispositivo. Muchos implantes y prótesis actuales son compa
 
 La radiografía muestra muy bien el hueso; la ecografía permite valorar tendones, músculos y otros tejidos blandos en tiempo real; y la resonancia ofrece un gran detalle de las partes blandas, las articulaciones, la columna y el sistema nervioso. Tu médico elegirá la que mejor responda a tu caso.
 
-{{< cta-contact title="Pide cita para resonancia magnética en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita para resonancia magnética en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

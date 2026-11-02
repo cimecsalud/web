@@ -25,7 +25,7 @@ Nos encargamos de toda la tramitación con tu aseguradora, simplificando el proc
 
 ### Amplio cuadro médico
 
-Contamos con especialistas en más de 15 áreas médicas, todos cubiertos por las principales aseguradoras.
+Contamos con especialistas en más de 20 especialidades médicas, todos cubiertos por las principales aseguradoras.
 
 ### Instalaciones modernas
 
@@ -52,7 +52,7 @@ Es muy sencillo:
 3. **Trae tu tarjeta sanitaria** el día de la cita
 4. **Nosotros nos encargamos** de todo lo demás
 
-## Cirugía Mayor Ambulatoria
+## Cirugía mayor ambulatoria
 
 Nuestro quirófano de cirugía mayor ambulatoria está disponible para pacientes con seguro médico, permitiendo realizar intervenciones quirúrgicas sin ingreso hospitalario:
 

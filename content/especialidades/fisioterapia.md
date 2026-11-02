@@ -72,4 +72,4 @@ Ropa cómoda que permita mover y descubrir la zona a tratar.
 
 Si quieres saber más, lee nuestro artículo [cuándo es el momento de visitar al fisioterapeuta](/blog/cuando-visitar-fisioterapeuta/).
 
-{{< cta-contact title="Pide cita con fisioterapia en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con fisioterapia en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

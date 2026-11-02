@@ -78,4 +78,4 @@ En las revisiones del pediatra se comprueba la visión de forma básica. Si se d
 
 Depende de tu póliza. Consulta las condiciones con tu aseguradora y revisa las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con un oftalmólogo en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un oftalmólogo en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

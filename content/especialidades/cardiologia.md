@@ -78,4 +78,4 @@ La lipotimia es una sensación de desvanecimiento que suele ser benigna, por eje
 
 Depende de tu póliza: algunas permiten acudir directamente y otras piden una autorización previa. Consulta las condiciones con tu aseguradora y revisa las [aseguradoras con las que trabajamos](/aseguradoras/).
 
-{{< cta-contact title="Pide cita con cardiología en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con cardiología en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

@@ -5,8 +5,6 @@ date: 2024-01-01
 draft: false
 ---
 
-## Aviso Legal
-
 En cumplimiento de las obligaciones establecidas en el artículo 10 de la Ley 34/2002, LSSI, se procede a informar al visitante que se encuentra en una página web propiedad de CIMEC Salud SL con domicilio social en AVENIDA DEL PARQUE DE CABAÑEROS, 3 – BL 2 PLT BJ, 13005, CIUDAD REAL, con CIF B09702564.
 
 La sociedad está inscrita en el Registro Mercantil de Ciudad Real Tomo 700, Folio 142, Hoja CR-32580
@@ -54,8 +52,6 @@ CIMEC Salud SL no se hace responsable de los errores de seguridad que se puedan 
 CIMEC Salud SL utiliza programas de detección de virus para controlar todos los Contenidos que introduce en el Sitio Web. No obstante, CIMEC Salud SL no garantiza la ausencia de virus ni de otros elementos en el Sitio Web introducidos por terceros ajenos a CIMEC Salud SL que puedan producir alteraciones en los sistemas físicos o lógicos de los Usuarios o en los documentos electrónicos y ficheros almacenados en sus sistemas. En consecuencia, CIMEC Salud SL no será en ningún caso responsable de cualesquiera daños y perjuicios de toda índole que pudieran derivarse de la presencia de virus u otros elementos que puedan producir alteraciones en los sistemas físicos o lógicos, documentos electrónicos o ficheros de los Usuarios.
 
 Asimismo, CIMEC Salud SL utiliza diversas medidas de protección de su Sitio Web contra ataques informáticos de terceros. No obstante, CIMEC Salud SL no garantiza que terceros no autorizados puedan tener acceso al tipo de uso del Sitio Web que hace el Usuario o las condiciones, características y circunstancias en las cuales se realiza dicho uso. En consecuencia CIMEC Salud SL no será en ningún caso responsable de los daños y perjuicios que pudieran derivarse de dicho acceso no autorizado.
-
-CIMEC Salud SL utiliza programas de detección de virus para controlar todos los Contenidos que introduce en el Sitio Web. No obstante, CIMEC Salud SL no garantiza la ausencia de virus ni de otros elementos en el Sitio Web introducidos por terceros ajenos a CIMEC Salud SL que puedan producir alteraciones en los sistemas físicos o lógicos de los Usuarios o en los documentos electrónicos y ficheros almacenados en sus sistemas. En consecuencia, CIMEC Salud SL no será en ningún caso responsable de cualesquiera daños y perjuicios de toda índole que pudieran derivarse de la presencia de virus u otros elementos que puedan producir alteraciones en los sistemas físicos o lógicos, documentos electrónicos o ficheros de los Usuarios.
 
 CIMEC Salud SL no garantiza la inexistencia de interrupciones o errores en el acceso a la página Web o a su contenido, ni que ésta se encuentre actualizada. CIMEC Salud SL llevará a cabo, siempre que no concurran causas que lo hagan imposible o de difícil ejecución y tan pronto tenga noticia de los errores, desconexiones o falta de actualización en los contenidos, todas a aquellas labores tendentes a subsanar los errores, restablecer la comunicación y actualizar los contenidos.
 

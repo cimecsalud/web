@@ -74,4 +74,4 @@ CIMEC Salud SL puede modificar esta Política de Cookies en función de exigenci
 Si tiene dudas sobre esta política de cookies, puede contactar con CIMEC Salud en:
 - Email: info@cimecsalud.com
 - Teléfono: 926 966 446
-- Dirección: Av. Parque de los Cabañeros 3, 13005 - Ciudad Real
+- Dirección: Av. Parque de Cabañeros, 3, 13005 Ciudad Real

@@ -1,5 +1,5 @@
 ---
-title: "Medicina Estética"
+title: "Medicina estética"
 description: "Medicina estética en Ciudad Real: láser CO₂, tratamientos faciales y medicina regenerativa, siempre realizados por médicos y tras una valoración personalizada."
 ---
 En CIMEC Salud ofrecemos tratamientos estéticos personalizados para realzar tu belleza natural con técnicas avanzadas y seguras.
@@ -8,7 +8,7 @@ En CIMEC Salud ofrecemos tratamientos estéticos personalizados para realzar tu 
 
 ![Equipo de medicina estética](/uploads/2024/07/Frame-3-3.png)
 
-En Medicina Estética ofrecemos un enfoque integral que combina ciencia, experiencia médica y resultados naturalmente armoniosos.
+En Medicina estética ofrecemos un enfoque integral que combina ciencia, experiencia médica y resultados naturalmente armoniosos.
 Todos nuestros procedimientos los realizan exclusivamente médicos, siempre tras una valoración personalizada para elegir el tratamiento más adecuado a cada paciente.
 
 Contamos con tecnología avanzada como el láser CO₂ de última generación, que permite tratar múltiples patologías:
@@ -86,4 +86,4 @@ Como cualquier tratamiento médico, puede tenerlos. Tras el láser es frecuente 
 
 Los tratamientos con finalidad estética no suelen estar incluidos en las pólizas de salud. Si tienes dudas, consulta las condiciones con tu aseguradora.
 
-{{< cta-contact title="Pide cita con medicina estética en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con medicina estética en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}

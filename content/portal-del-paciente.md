@@ -9,21 +9,21 @@ Para acceder es necesario estar registrado con el DNI.
 
 ## ¿Qué te ofrece el Portal del Paciente?
 
-<div class="grid">
+<div class="grid grid-4">
   <div class="card">
-    <h3>Gestión de Citas</h3>
+    <h3>Gestión de citas</h3>
     <p>Solicitud y consulta de cita online</p>
   </div>
   <div class="card">
-    <h3>Imágenes Diagnósticas</h3>
+    <h3>Imágenes diagnósticas</h3>
     <p>Consulta de imágenes y resultados de pruebas diagnósticas</p>
   </div>
   <div class="card">
-    <h3>Resultados de Analíticas</h3>
+    <h3>Resultados de analíticas</h3>
     <p>Consulta de resultados de analíticas</p>
   </div>
   <div class="card">
-    <h3>Informes Médicos</h3>
+    <h3>Informes médicos</h3>
     <p>Consulta de informes médicos</p>
   </div>
 </div>

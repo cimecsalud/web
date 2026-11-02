@@ -86,4 +86,4 @@ No. Las técnicas regenerativas pueden ser una opción en algunas lesiones de te
 
 No necesariamente. Muchos problemas de rodilla, hombro o espalda mejoran con tratamiento conservador. La cirugía se valora cuando el tratamiento sin operar no funciona o cuando el tipo de lesión lo requiere.
 
-{{< cta-contact title="Pide cita con un traumatólogo en Ciudad Real" description="Estamos en Av. Parque de los Cabañeros 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
+{{< cta-contact title="Pide cita con un traumatólogo en Ciudad Real" description="Estamos en Av. Parque de Cabañeros, 3, Ciudad Real. De lunes a viernes de 8h a 22h." >}}
