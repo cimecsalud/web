@@ -1,5 +1,8 @@
 {{ define "main" }}
-{{ partial "page-banner.html" (dict "Page" . "title" (printf "%s en Ciudad Real" .Title)) }}
+{{ $slugB := strings.TrimSuffix "/" (path.Base .RelPermalink) }}
+{{ $descB := "" }}
+{{ range hugo.Data.specialties.specialties }}{{ if eq (strings.TrimSuffix "/" (path.Base .url)) $slugB }}{{ $descB = .description }}{{ end }}{{ end }}
+{{ partial "page-banner.html" (dict "Page" . "title" (printf "%s en Ciudad Real" .Title) "subtitle" $descB "cta" true "compact" true) }}
 <section class="page-content">
   <div class="specialty-page">
       <div class="container">

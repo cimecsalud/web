@@ -2,15 +2,19 @@
 {{ $title := .Title }}
 {{ $subtitle := "" }}
 {{ $image := "" }}
+{{ $cta := false }}
+{{ $compact := false }}
 
 {{ if reflect.IsMap . }}
   {{ $page = .Page }}
   {{ $title = .title | default .Page.Title }}
   {{ $subtitle = .subtitle | default "" }}
   {{ $image = .image | default "" }}
+  {{ $cta = .cta | default false }}
+  {{ $compact = .compact | default false }}
 {{ end }}
 
-<section class="page-banner{{ if $image }} page-banner--image{{ end }}">
+<section class="page-banner{{ if $image }} page-banner--image{{ end }}{{ if $compact }} page-banner--compact{{ end }}">
     {{ if $image }}
     {{ with resources.Get (strings.TrimPrefix "/" $image) }}{{ if ne .MediaType.SubType "svg" }}{{ $image = (.Resize "1600x webp q70").RelPermalink }}{{ end }}{{ end }}
     <div class="page-banner-image" style="background-image: url('{{ $image }}');"></div>
@@ -20,6 +24,12 @@
             <h1>{{ $title }}</h1>
             {{ if $subtitle }}
             <p class="banner-subtitle">{{ $subtitle }}</p>
+            {{ end }}
+            {{ if $cta }}
+            <div class="banner-ctas">
+                <a href="https://citaonline.portalns.es/cimec" target="_blank" rel="noopener noreferrer" class="btn banner-btn" data-cta-position="cabecera">Pedir cita online</a>
+                <a href="tel:+34{{ replace site.Params.phone " " "" }}" class="btn banner-btn banner-btn--outline" data-cta-position="cabecera">{{ site.Params.phone }}</a>
+            </div>
             {{ end }}
         </div>
     </div>

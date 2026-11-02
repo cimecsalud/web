@@ -1531,3 +1531,32 @@ a.insurer-logo { display: flex; }
 .blog-related ul { margin: 0.75rem 0 0 1.25rem; }
 .blog-related a { color: var(--primary); font-weight: 600; }
 .insurer-specialties li { break-inside: avoid; margin: 0 0 0.5rem; }
+
+/* Cabecera compacta (especialidades): menos alto, descripción y botones de cita */
+.page-banner--compact { padding: 0; }
+.page-banner--compact .page-banner-overlay { padding: 2.75rem 20px 2.5rem; }
+.page-banner--compact h1 { font-size: 2.2rem; margin: 0; padding-bottom: 0; border-bottom: 0; }
+.banner-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.4rem;
+}
+.page-banner .banner-btn {
+    background: white;
+    color: var(--primary-deep);
+    padding: 11px 26px;
+}
+.page-banner .banner-btn:hover { background: var(--light); }
+.page-banner .banner-btn--outline {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.page-banner .banner-btn--outline:hover { background: rgba(255, 255, 255, 0.12); color: white; }
+@media (max-width: 768px) {
+    .page-banner--compact .page-banner-overlay { padding: 2rem 20px 1.75rem; }
+    .page-banner--compact h1 { font-size: 1.7rem; }
+    .banner-ctas .banner-btn { flex: 1 1 100%; }
+}

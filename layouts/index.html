@@ -5,8 +5,9 @@
 {{ $small := .Resize "800x webp q60" }}
 {{ $large := .Resize "1600x webp q60" }}
 <style>
-    .hero { background-image: url('{{ $small.RelPermalink }}'); }
-    @media (min-width: 801px) { .hero { background-image: url('{{ $large.RelPermalink }}'); } }
+    /* section.hero.hero: más específico que "section:nth-child(even)" de style.css, que pisaba la foto */
+    section.hero.hero { background: var(--primary) url('{{ $small.RelPermalink }}') center/cover no-repeat; }
+    @media (min-width: 801px) { section.hero.hero { background-image: url('{{ $large.RelPermalink }}'); } }
 </style>
 {{ end }}
 <section class="hero">

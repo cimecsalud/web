@@ -1,6 +1,6 @@
 specialties:
 - name: Traumatología
-  icon: /images/icons/Traumatologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/traumatologia.svg
   url: /especialidades/traumatologia/
   description: Diagnóstico, tratamiento y rehabilitación de lesiones del aparato locomotor con tecnología avanzada.
   show_home: true
@@ -16,13 +16,13 @@ specialties:
     position: Traumatólogo
   subspecialties:
   - name: Traumatología infantil y del adolescente
-    icon: /images/icons/traumatologia-infantil.svg
+    icon: /images/icons/especialidades/traumatologia-traumatologia-infantil-y-del-adolescente.svg
   - name: Traumatología deportiva
-    icon: /images/icons/TRAUMATOLOGIA-DEPORTIVA.svg
+    icon: /images/icons/especialidades/traumatologia-traumatologia-deportiva.svg
   - name: Traumatología regenerativa
-    icon: /images/icons/Traumatologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/traumatologia-traumatologia-regenerativa.svg
 - name: Fisioterapia
-  icon: /images/icons/Fisioterapia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/fisioterapia.svg
   url: /especialidades/fisioterapia/
   description: Técnicas terapéuticas y ejercicios para mejorar la movilidad, aliviar el dolor y restaurar la función física.
   show_home: true
@@ -38,17 +38,17 @@ specialties:
     position: Fisioterapeuta
   subspecialties:
   - name: Fisioterapia deportiva
-    icon: /images/icons/TRAUMATOLOGIA-DEPORTIVA.svg
+    icon: /images/icons/especialidades/fisioterapia-fisioterapia-deportiva.svg
   - name: Fisioterapia neurológica
-    icon: /images/icons/fisioterapia-neurologica-icon.svg
+    icon: /images/icons/especialidades/fisioterapia-fisioterapia-neurologica.svg
   - name: Fisioterapia respiratoria
-    icon: /images/icons/lungs_3767377-1.svg
+    icon: /images/icons/especialidades/fisioterapia-fisioterapia-respiratoria.svg
   - name: Fisioterapia pediátrica
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/fisioterapia-fisioterapia-pediatrica.svg
   - name: Rehabilitación
-    icon: /images/icons/Fisioterapia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/fisioterapia-rehabilitacion.svg
 - name: Cardiología
-  icon: /images/icons/Cardiologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/cardiologia.svg
   url: /especialidades/cardiologia/
   description: Cuidado integral de tu salud cardiovascular con equipamiento de última generación para diagnóstico y seguimiento.
   show_home: true
@@ -58,17 +58,17 @@ specialties:
     position: Cardiólogo
   subspecialties:
   - name: Cardiología intervencionista
-    icon: /images/icons/heartbeat_3540194-1.svg
+    icon: /images/icons/especialidades/cardiologia-cardiologia-intervencionista.svg
   - name: Electrofisiología cardiaca
-    icon: /images/icons/pulse_4911199-1.svg
+    icon: /images/icons/especialidades/cardiologia-electrofisiologia-cardiaca.svg
   - name: Cardiología pediátrica
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/cardiologia-cardiologia-pediatrica.svg
   - name: Imagen cardiaca
-    icon: /images/icons/pulse_2721892-1.svg
+    icon: /images/icons/especialidades/cardiologia-imagen-cardiaca.svg
   - name: Rehabilitación cardiaca
-    icon: /images/icons/heart-beat_3163887-1.svg
+    icon: /images/icons/especialidades/cardiologia-rehabilitacion-cardiaca.svg
 - name: Pediatría
-  icon: /images/icons/Pediatria-Cimec-Salud.svg
+  icon: /images/icons/especialidades/pediatria.svg
   url: /especialidades/pediatria/
   description: Cuidado especializado para la salud de los más pequeños, desde el nacimiento hasta la adolescencia.
   show_home: true
@@ -76,19 +76,19 @@ specialties:
   professionals: []
   subspecialties:
   - name: Control del niño sano
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/pediatria-control-del-nino-sano.svg
   - name: Urgencias pediátricas
-    icon: /images/icons/bandage_3897127-1.svg
+    icon: /images/icons/especialidades/pediatria-urgencias-pediatricas.svg
   - name: Dermatología pediátrica
-    icon: /images/icons/skin_3910065-1.svg
+    icon: /images/icons/especialidades/pediatria-dermatologia-pediatrica.svg
   - name: Nutrición pediátrica
-    icon: /images/icons/food-donation_2862081-1.svg
+    icon: /images/icons/especialidades/pediatria-nutricion-pediatrica.svg
   - name: Alergología pediátrica
-    icon: /images/icons/asmr_3767456-1.svg
+    icon: /images/icons/especialidades/pediatria-alergologia-pediatrica.svg
   - name: Nefrología pediátrica
-    icon: /images/icons/infecciones-urinarias-icon.svg
+    icon: /images/icons/especialidades/pediatria-nefrologia-pediatrica.svg
 - name: Urología
-  icon: /images/icons/Urologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/urologia.svg
   url: /especialidades/urologia/
   description: Especialistas en el diagnóstico y tratamiento de enfermedades del sistema urinario y reproductor masculino.
   show_home: true
@@ -98,17 +98,17 @@ specialties:
     position: Uróloga
   subspecialties:
   - name: Urología oncológica
-    icon: /images/icons/urologia-oncologica-icon.svg
+    icon: /images/icons/especialidades/urologia-urologia-oncologica.svg
   - name: Urología reconstructiva
-    icon: /images/icons/urologia-reconstructiva-icon.svg
+    icon: /images/icons/especialidades/urologia-urologia-reconstructiva.svg
   - name: Disfunción eréctil
-    icon: /images/icons/boy_3452370-1.svg
+    icon: /images/icons/especialidades/urologia-disfuncion-erectil.svg
   - name: Incontinencia urinaria
-    icon: /images/icons/kidney_4267382-1.svg
+    icon: /images/icons/especialidades/urologia-incontinencia-urinaria.svg
   - name: Infecciones urinarias
-    icon: /images/icons/infecciones-urinarias-icon.svg
+    icon: /images/icons/especialidades/urologia-infecciones-urinarias.svg
 - name: Otorrinolaringología
-  icon: /images/icons/ORL-Cimec-Salud.svg
+  icon: /images/icons/especialidades/otorrinolaringologia.svg
   url: /especialidades/otorrinolaringologia/
   description: Diagnóstico y tratamiento de enfermedades de oído, nariz y garganta con tecnología avanzada.
   short_name: Otorrinolaringología
@@ -121,17 +121,17 @@ specialties:
     position: Otorrinolaringólogo
   subspecialties:
   - name: Otología
-    icon: /images/icons/otologia-icon.svg
+    icon: /images/icons/especialidades/otorrinolaringologia-otologia.svg
   - name: Rinología
-    icon: /images/icons/rinologia-icon.svg
+    icon: /images/icons/especialidades/otorrinolaringologia-rinologia.svg
   - name: Laringología
-    icon: /images/icons/laringologia-icon.svg
+    icon: /images/icons/especialidades/otorrinolaringologia-laringologia.svg
   - name: Cirugía de cabeza y cuello
-    icon: /images/icons/cirugia-cabeza-cuello-icon.svg
+    icon: /images/icons/especialidades/otorrinolaringologia-cirugia-de-cabeza-y-cuello.svg
   - name: Audiología
-    icon: /images/icons/audiologia-icon.svg
+    icon: /images/icons/especialidades/otorrinolaringologia-audiologia.svg
 - name: Psicología
-  icon: /images/icons/Psicologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/psicologia.svg
   url: /especialidades/psicologia/
   description: Apoyo psicológico para tu bienestar emocional y mental con profesionales expertos.
   show_home: true
@@ -141,17 +141,17 @@ specialties:
     position: Psicóloga
   subspecialties:
   - name: Psicología infantil y adolescente
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/psicologia-psicologia-infantil-y-adolescente.svg
   - name: Terapia de pareja y familiar
-    icon: /images/icons/baby_3036174-1.svg
+    icon: /images/icons/especialidades/psicologia-terapia-de-pareja-y-familiar.svg
   - name: Ansiedad y depresión
-    icon: /images/icons/ansiedad-depresion-icon.svg
+    icon: /images/icons/especialidades/psicologia-ansiedad-y-depresion.svg
   - name: Trastornos de conducta
-    icon: /images/icons/brainstorming_2789752-2.svg
+    icon: /images/icons/especialidades/psicologia-trastornos-de-conducta.svg
   - name: Psicología clínica
-    icon: /images/icons/Psicologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/psicologia-psicologia-clinica.svg
 - name: Oftalmología
-  icon: /images/icons/Oftalmologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/oftalmologia.svg
   url: /especialidades/oftalmologia/
   description: Cuidado integral de la salud visual. Diagnóstico y tratamiento de enfermedades oculares con equipamiento especializado.
   show_home: true
@@ -167,15 +167,15 @@ specialties:
   # - name: Cirugía refractiva
   #   icon: /images/icons/cirugia-refractiva-icon.svg
   - name: Cataratas
-    icon: /images/icons/cataratas-icon.svg
+    icon: /images/icons/especialidades/oftalmologia-cataratas.svg
   - name: Glaucoma
-    icon: /images/icons/glaucoma-icon.svg
+    icon: /images/icons/especialidades/oftalmologia-glaucoma.svg
   - name: Retina
-    icon: /images/icons/retina-icon.svg
+    icon: /images/icons/especialidades/oftalmologia-retina.svg
   - name: Oftalmología pediátrica
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/oftalmologia-oftalmologia-pediatrica.svg
 - name: Análisis Clínicos
-  icon: /images/icons/Analisis-Cimec-Salud.svg
+  icon: /images/icons/especialidades/analisis-clinicos.svg
   url: /especialidades/analisis-clinicos/
   description: Laboratorio equipado con la última tecnología para todo tipo de pruebas diagnósticas. Resultados rápidos y
     precisos.
@@ -184,7 +184,7 @@ specialties:
   video: /videos/Analisis-clinicos.mp4
   professionals: []
 - name: Medicina Familiar
-  icon: /images/icons/Familia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/medicina-familiar.svg
   url: /especialidades/medicina-familiar/
   description: Atención médica integral para toda la familia. Prevención, diagnóstico y tratamiento de enfermedades comunes.
   short_name: Médico de Familia
@@ -197,17 +197,17 @@ specialties:
     position: Médico de familia
   subspecialties:
   - name: Medicina preventiva
-    icon: /images/icons/Familia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/medicina-familiar-medicina-preventiva.svg
   - name: Atención domiciliaria
-    icon: /images/icons/atencion-domiciliaria-icon.svg
+    icon: /images/icons/especialidades/medicina-familiar-atencion-domiciliaria.svg
   - name: Medicina geriátrica
-    icon: /images/icons/medicina-geriatrica-icon.svg
+    icon: /images/icons/especialidades/medicina-familiar-medicina-geriatrica.svg
   - name: Control de enfermedades crónicas
-    icon: /images/icons/enfermedades-cronicas-icon.svg
+    icon: /images/icons/especialidades/medicina-familiar-control-de-enfermedades-cronicas.svg
   - name: Vacunación
-    icon: /images/icons/vacunacion-icon.svg
+    icon: /images/icons/especialidades/medicina-familiar-vacunacion.svg
 - name: Nutrición
-  icon: /images/icons/Nutricion-Cimec-Salud.svg
+  icon: /images/icons/especialidades/nutricion.svg
   url: /especialidades/nutricion/
   description: Planes de alimentación personalizados y educación nutricional para una vida saludable y equilibrada.
   show_home: true
@@ -217,17 +217,17 @@ specialties:
     position: Nutricionista
   subspecialties:
   - name: Nutrición deportiva
-    icon: /images/icons/TRAUMATOLOGIA-DEPORTIVA.svg
+    icon: /images/icons/especialidades/nutricion-nutricion-deportiva.svg
   - name: Nutrición clínica
-    icon: /images/icons/Nutricion-Cimec-Salud.svg
+    icon: /images/icons/especialidades/nutricion-nutricion-clinica.svg
   - name: Control de peso
-    icon: /images/icons/food-donation_2862081-1.svg
+    icon: /images/icons/especialidades/nutricion-control-de-peso.svg
   - name: Nutrición infantil
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/nutricion-nutricion-infantil.svg
   - name: Trastornos alimentarios
-    icon: /images/icons/food-donation_2862081-1.svg
+    icon: /images/icons/especialidades/nutricion-trastornos-alimentarios.svg
 - name: Podología
-  icon: /images/icons/Podologo-Cimec-Salud.svg
+  icon: /images/icons/especialidades/podologia.svg
   url: /especialidades/podologia/
   description: Cuidado especializado de los pies y tratamiento de patologías podológicas con las mejores técnicas.
   show_home: true
@@ -237,17 +237,17 @@ specialties:
     position: Podólogo
   subspecialties:
   - name: Podología deportiva
-    icon: /images/icons/TRAUMATOLOGIA-DEPORTIVA.svg
+    icon: /images/icons/especialidades/podologia-podologia-deportiva.svg
   - name: Podología pediátrica
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/podologia-podologia-pediatrica.svg
   - name: Quiropodología
-    icon: /images/icons/quiropodologia-icon.svg
+    icon: /images/icons/especialidades/podologia-quiropodologia.svg
   - name: Biomecánica
-    icon: /images/icons/Podologo-Cimec-Salud.svg
+    icon: /images/icons/especialidades/podologia-biomecanica.svg
   - name: Pie diabético
-    icon: /images/icons/blood_4266315-1.svg
+    icon: /images/icons/especialidades/podologia-pie-diabetico.svg
 - name: Psiquiatría
-  icon: /images/icons/Psiquiatria-Cimec-Salud.svg
+  icon: /images/icons/especialidades/psiquiatria.svg
   url: /especialidades/psiquiatria/
   description: Tratamiento especializado en salud mental con enfoque integral y personalizado.
   show_home: true
@@ -257,17 +257,17 @@ specialties:
     position: Psiquiatra
   subspecialties:
   - name: Psiquiatría infantil y adolescente
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/psiquiatria-psiquiatria-infantil-y-adolescente.svg
   - name: Psicogeriatría
-    icon: /images/icons/elderly-icon.svg
+    icon: /images/icons/especialidades/psiquiatria-psicogeriatria.svg
   - name: Trastornos del estado de ánimo
-    icon: /images/icons/mood-icon.svg
+    icon: /images/icons/especialidades/psiquiatria-trastornos-del-estado-de-animo.svg
   - name: Esquizofrenia y psicosis
-    icon: /images/icons/Psiquiatria-Cimec-Salud.svg
+    icon: /images/icons/especialidades/psiquiatria-esquizofrenia-y-psicosis.svg
   - name: Adicciones
-    icon: /images/icons/addiction-icon.svg
+    icon: /images/icons/especialidades/psiquiatria-adicciones.svg
 - name: Radiodiagnóstico
-  icon: /images/icons/Radiologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/radiodiagnostico.svg
   url: /especialidades/radiodiagnostico/
   description: Resonancia magnética y resonancia magnética con sedación. Estudios de imagen con equipamiento de última generación para diagnóstico preciso y oportuno.
   show_home: true
@@ -279,19 +279,19 @@ specialties:
     position: Radiólogo
   subspecialties:
   - name: Radiología convencional
-    icon: /images/icons/Radiologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/radiodiagnostico-radiologia-convencional.svg
   - name: Ecografía
-    icon: /images/icons/ecografia-icon.svg
+    icon: /images/icons/especialidades/radiodiagnostico-ecografia.svg
   # - name: TAC
   #   icon: /images/icons/tac-icon.svg
   - name: Resonancia magnética
-    icon: /images/icons/resonancia-icon.svg
+    icon: /images/icons/especialidades/radiodiagnostico-resonancia-magnetica.svg
   - name: Resonancia magnética con sedación
-    icon: /images/icons/resonancia-icon.svg
+    icon: /images/icons/especialidades/radiodiagnostico-resonancia-magnetica-con-sedacion.svg
   # - name: Mamografía
   #   icon: /images/icons/mamografia-icon.svg
 - name: Rehabilitación
-  icon: /images/icons/Rehabilitacion-Cimec-Salud.svg
+  icon: /images/icons/especialidades/rehabilitacion.svg
   url: /especialidades/rehabilitacion/
   description: Recuperación funcional y mejora de la movilidad mediante programas personalizados de rehabilitación.
   show_home: true
@@ -300,68 +300,68 @@ specialties:
     position: Rehabilitadora
   subspecialties:
   - name: Rehabilitación neurológica
-    icon: /images/icons/brain-icon.svg
+    icon: /images/icons/especialidades/rehabilitacion-rehabilitacion-neurologica.svg
   - name: Rehabilitación traumatológica
-    icon: /images/icons/Traumatologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/rehabilitacion-rehabilitacion-traumatologica.svg
   - name: Rehabilitación cardiaca
-    icon: /images/icons/Cardiologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/rehabilitacion-rehabilitacion-cardiaca.svg
   - name: Terapia ocupacional
-    icon: /images/icons/therapy-icon.svg
+    icon: /images/icons/especialidades/rehabilitacion-terapia-ocupacional.svg
   - name: Reeducación postural
-    icon: /images/icons/posture-icon.svg
+    icon: /images/icons/especialidades/rehabilitacion-reeducacion-postural.svg
 - name: Unidad del Dolor
-  icon: /images/icons/Unidad-del-Dolor-Cimec-Salud.svg
+  icon: /images/icons/especialidades/unidad-del-dolor.svg
   url: /especialidades/unidad-del-dolor/
   description: Tratamiento integral del dolor crónico con técnicas avanzadas para mejorar tu calidad de vida.
   show_home: true
   professionals: []
   subspecialties:
   - name: Dolor crónico
-    icon: /images/icons/chronic-pain-icon.svg
+    icon: /images/icons/especialidades/unidad-del-dolor-dolor-cronico.svg
   - name: Dolor neuropático
-    icon: /images/icons/nerve-icon.svg
+    icon: /images/icons/especialidades/unidad-del-dolor-dolor-neuropatico.svg
   - name: Fibromialgia
-    icon: /images/icons/fibro-icon.svg
+    icon: /images/icons/especialidades/unidad-del-dolor-fibromialgia.svg
   - name: Dolor oncológico
-    icon: /images/icons/cancer-pain-icon.svg
+    icon: /images/icons/especialidades/unidad-del-dolor-dolor-oncologico.svg
   - name: Cefaleas y migrañas
-    icon: /images/icons/headache-icon.svg
+    icon: /images/icons/especialidades/unidad-del-dolor-cefaleas-y-migranas.svg
 - name: Endocrinología
-  icon: /images/icons/Endocrinologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/endocrinologia.svg
   url: /especialidades/endocrinologia/
   description: Diagnóstico y tratamiento de trastornos hormonales y metabólicos con atención especializada.
   show_home: true
   professionals: []
   subspecialties:
   - name: Diabetes
-    icon: /images/icons/diabetes-icon.svg
+    icon: /images/icons/especialidades/endocrinologia-diabetes.svg
   - name: Tiroides
-    icon: /images/icons/thyroid-icon.svg
+    icon: /images/icons/especialidades/endocrinologia-tiroides.svg
   - name: Obesidad
-    icon: /images/icons/Nutricion-Cimec-Salud.svg
+    icon: /images/icons/especialidades/endocrinologia-obesidad.svg
   - name: Osteoporosis
-    icon: /images/icons/bone-icon.svg
+    icon: /images/icons/especialidades/endocrinologia-osteoporosis.svg
   - name: Trastornos hormonales
-    icon: /images/icons/hormone-icon.svg
+    icon: /images/icons/especialidades/endocrinologia-trastornos-hormonales.svg
 - name: Dermatología
-  icon: /images/icons/Dermatologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/dermatologia.svg
   url: /especialidades/dermatologia/
   description: Cuidado integral de la piel con diagnóstico y tratamiento de enfermedades dermatológicas.
   show_home: true
   professionals: []
   subspecialties:
   - name: Dermatología médica
-    icon: /images/icons/Dermatologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/dermatologia-dermatologia-medica.svg
   - name: Dermatología estética
-    icon: /images/icons/Medicina-Estetica-Cimec-Salud.svg
+    icon: /images/icons/especialidades/dermatologia-dermatologia-estetica.svg
   - name: Cirugía dermatológica
-    icon: /images/icons/surgery-icon.svg
+    icon: /images/icons/especialidades/dermatologia-cirugia-dermatologica.svg
   - name: Tricología
-    icon: /images/icons/hair-icon.svg
+    icon: /images/icons/especialidades/dermatologia-tricologia.svg
   - name: Dermatología pediátrica
-    icon: /images/icons/baby_3723672-1.svg
+    icon: /images/icons/especialidades/dermatologia-dermatologia-pediatrica.svg
 - name: Ginecología y Obstetricia
-  icon: /images/icons/Ginecologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/ginecologia-y-obstetricia.svg
   url: /especialidades/ginecologia/
   description: Salud integral de la mujer con atención especializada en ginecología y seguimiento del embarazo.
   show_home: true
@@ -374,19 +374,19 @@ specialties:
     position: Ginecólogo
   subspecialties:
   - name: Obstetricia
-    icon: /images/icons/pregnancy-icon.svg
+    icon: /images/icons/especialidades/ginecologia-y-obstetricia-obstetricia.svg
   - name: Ginecología oncológica
-    icon: /images/icons/cancer-icon.svg
+    icon: /images/icons/especialidades/ginecologia-y-obstetricia-ginecologia-oncologica.svg
   - name: Reproducción asistida
-    icon: /images/icons/fertility-icon.svg
+    icon: /images/icons/especialidades/ginecologia-y-obstetricia-reproduccion-asistida.svg
   - name: Menopausia
-    icon: /images/icons/menopause-icon.svg
+    icon: /images/icons/especialidades/ginecologia-y-obstetricia-menopausia.svg
   - name: Suelo pélvico
-    icon: /images/icons/pelvic-icon.svg
+    icon: /images/icons/especialidades/ginecologia-y-obstetricia-suelo-pelvico.svg
   - name: Vulvología
-    icon: /images/icons/pelvic-icon.svg
+    icon: /images/icons/especialidades/ginecologia-y-obstetricia-vulvologia.svg
 - name: Medicina Estética
-  icon: /images/icons/Medicina-Estetica-Cimec-Salud.svg
+  icon: /images/icons/especialidades/medicina-estetica.svg
   url: /especialidades/medicina-estetica/
   description: Tratamientos estéticos personalizados para realzar tu belleza natural con técnicas avanzadas.
   show_home: true
@@ -395,15 +395,15 @@ specialties:
     position: Medicina Estética
   subspecialties:
   - name: Tratamientos faciales
-    icon: /images/icons/Medicina-Estetica-Cimec-Salud.svg
+    icon: /images/icons/especialidades/medicina-estetica-tratamientos-faciales.svg
   - name: Rejuvenecimiento
-    icon: /images/icons/rejuvenation-icon.svg
+    icon: /images/icons/especialidades/medicina-estetica-rejuvenecimiento.svg
   - name: Medicina antiaging
-    icon: /images/icons/antiaging-icon.svg
+    icon: /images/icons/especialidades/medicina-estetica-medicina-antiaging.svg
   - name: Facial y capilar
-    icon: /images/icons/meso-icon.svg
+    icon: /images/icons/especialidades/medicina-estetica-facial-y-capilar.svg
 - name: Alergología
-  icon: /images/icons/Alergologia-Cimec-Salud.svg
+  icon: /images/icons/especialidades/alergologia.svg
   url: /especialidades/alergologia/
   description: Diagnóstico y tratamiento de alergias y enfermedades del sistema inmunológico.
   show_home: true
@@ -412,17 +412,17 @@ specialties:
     position: Alergóloga
   subspecialties:
   - name: Alergias respiratorias
-    icon: /images/icons/Alergologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/alergologia-alergias-respiratorias.svg
   - name: Alergias alimentarias
-    icon: /images/icons/food-donation_2862081-1.svg
+    icon: /images/icons/especialidades/alergologia-alergias-alimentarias.svg
   - name: Dermatitis alérgica
-    icon: /images/icons/Dermatologia-Cimec-Salud.svg
+    icon: /images/icons/especialidades/alergologia-dermatitis-alergica.svg
   - name: Asma
-    icon: /images/icons/lungs_3767377-1.svg
+    icon: /images/icons/especialidades/alergologia-asma.svg
   - name: Inmunoterapia
-    icon: /images/icons/inmuno-icon.svg
+    icon: /images/icons/especialidades/alergologia-inmunoterapia.svg
 - name: Anestesiología y Reanimación
-  icon: ''
+  icon: /images/icons/especialidades/anestesiologia-y-reanimacion.svg
   url: ''
   description: ''
   show_home: false

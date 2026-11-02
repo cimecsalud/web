@@ -41,7 +41,7 @@
     {{ $style := resources.Get "css/style.css" | minify | fingerprint }}
     {{ $cookies := resources.Get "css/cookie-consent.css" | minify | fingerprint }}
     {{ $components := resources.Get "css/components.css" | minify | fingerprint }}
-    <link rel="preload" href="{{ $style.RelPermalink }}" as="style">
+    <link rel="preload" href="{{ $style.RelPermalink }}" as="style" integrity="{{ $style.Data.Integrity }}">
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
     <link rel="stylesheet" href="{{ $components.RelPermalink }}" integrity="{{ $components.Data.Integrity }}">
     <link rel="stylesheet" href="{{ $cookies.RelPermalink }}" integrity="{{ $cookies.Data.Integrity }}">
