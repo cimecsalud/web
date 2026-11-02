@@ -1,0 +1,18 @@
+{{/* Aviso antes de abrir la cita online: la reserva no queda hecha hasta confirmarla desde el email
+     (varias reseñas de Google son de pacientes que llegaron con una cita que no existía).
+     Reutiliza los estilos de .portal-modal. La lógica está en assets/js/portal-modal.js. */}}
+<dialog id="cita-modal" class="portal-modal" aria-labelledby="cita-modal-title">
+  <form method="dialog" class="portal-modal-close-form">
+    <button type="submit" class="portal-modal-close" aria-label="Cerrar">&times;</button>
+  </form>
+  <h2 id="cita-modal-title">Pedir cita online</h2>
+  <p><strong>Importante:</strong> después de reservar recibirás un email. <strong>Pulsa el enlace de confirmación</strong> para que tu cita quede reservada; si no la confirmas, no se guarda. Si no lo ves, revisa la carpeta de spam.</p>
+  <div class="portal-modal-actions">
+    <a href="https://citaonline.portalns.es/cimec" target="_blank" rel="noopener noreferrer" class="portal-modal-btn portal-modal-btn-primary">
+      Entendido, ir a la cita online
+    </a>
+    <a href="tel:+34{{ replace site.Params.phone " " "" }}" class="portal-modal-btn portal-modal-btn-secondary">
+      Prefiero llamar: {{ site.Params.phone }}
+    </a>
+  </div>
+</dialog>

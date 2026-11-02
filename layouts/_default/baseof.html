@@ -67,6 +67,7 @@
     {{ partial "cookie-consent.html" . }}
 
     {{ partial "portal-modal.html" . }}
+    {{ partial "cita-modal.html" . }}
 
     {{ $mobileMenu := resources.Get "js/mobile-menu.js" | minify | fingerprint }}
     {{ $cookiesJs := resources.Get "js/cookie-consent.js" | minify | fingerprint }}

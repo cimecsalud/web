@@ -106,6 +106,8 @@
             const link = event.target.closest('a[href]');
             if (!link) return;
             const method = contactMethod(link);
+            // La cita online ya se contó en el clic que abrió el aviso; no contar también el "continuar"
+            if (method === 'cita_online' && link.closest('#cita-modal')) return;
             if (method) {
                 window.gtag('event', 'contacto', { metodo: method });
             }
