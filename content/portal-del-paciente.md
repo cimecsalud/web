@@ -1,6 +1,8 @@
 ---
 title: "Portal del Paciente"
-description: "Acceso al Portal del Paciente de CIMEC Salud. Gestión de citas, resultados de pruebas, informes médicos e imágenes diagnósticas."
+seo_title: "Portal del Paciente · CIMEC Salud, Ciudad Real (España)"
+banner_subtitle: "CIMEC Salud · Clínica de especialidades en Ciudad Real (España)"
+description: "Portal del Paciente de CIMEC Salud, clínica de especialidades en Ciudad Real (España): citas, resultados de análisis, informes médicos e imágenes diagnósticas."
 ---
 
 Para acceder es necesario estar registrado con el DNI.

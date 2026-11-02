@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ $ins := .Params.insurer }}
+{{ partial "page-banner.html" (dict "Page" . "subtitle" (printf "CIMEC Salud trabaja con %s" $ins)) }}
+<section class="page-content">
+  <div class="container insurer-page">
+    <div class="insurer-intro">
+      {{ with .Params.logo }}<img src="{{ . }}" alt="{{ $ins }}" class="insurer-page-logo" width="160" height="80" loading="eager">{{ end }}
+      <p>Si tienes un seguro de salud de <strong>{{ $ins }}</strong>, puedes atenderte en <strong>CIMEC Salud</strong>, clínica de especialidades en Ciudad Real ({{ site.Params.address }}). Trabajamos con {{ $ins }} y con otras <a href="/aseguradoras/">aseguradoras médicas</a>, y nos encargamos de la tramitación para que solo te preocupes de tu salud.</p>
+    </div>
+
+    <h2>Cómo pedir cita con tu seguro de {{ $ins }}</h2>
+    <ol>
+      <li><strong>Llámanos</strong> al <a href="tel:+34{{ replace site.Params.phone " " "" }}">{{ site.Params.phone }}</a>, escríbenos a <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a> o <a href="https://citaonline.portalns.es/cimec" target="_blank" rel="noopener noreferrer">pide cita online</a>.</li>
+      <li><strong>Indica que tienes {{ $ins }}</strong> y el tipo de consulta que necesitas.</li>
+      <li><strong>Trae tu tarjeta sanitaria de {{ $ins }}</strong> el día de la cita.</li>
+    </ol>
+
+    <h2>Especialidades en CIMEC Salud</h2>
+    <p>En nuestra clínica de Ciudad Real tienes más de 20 especialidades médicas en un mismo centro:</p>
+    <ul class="insurer-specialties">
+      {{ range sort (where hugo.Data.specialties.specialties "url" "ne" "") "name" }}
+      <li><a href="{{ .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+    <p>Además, contamos con <a href="/especialidades/radiodiagnostico/">resonancia magnética de 1,5 teslas, ecografía y radiología</a>, <a href="/especialidades/analisis-clinicos/">laboratorio de análisis clínicos</a> y <a href="/la-clinica/">quirófano de cirugía mayor ambulatoria</a>.</p>
+
+    <h2>Preguntas frecuentes</h2>
+    <h3>¿Mi póliza de {{ $ins }} cubre todas las especialidades y pruebas?</h3>
+    <p>Depende de tu póliza. La cobertura de cada consulta, prueba o intervención la fija {{ $ins }} según tu contrato. Llámanos al {{ site.Params.phone }} y te ayudamos a resolver la duda.</p>
+    <h3>¿Necesito autorización de {{ $ins }} para una resonancia o una intervención?</h3>
+    <p>Muchas pólizas piden una autorización previa para pruebas como la resonancia magnética o para intervenciones quirúrgicas. Consulta con {{ $ins }} o con nosotros antes de la cita.</p>
+    <h3>¿Qué tengo que traer el día de la consulta?</h3>
+    <p>Tu tarjeta sanitaria de {{ $ins }} y, si la tienes, la autorización y los informes o pruebas previas relacionados con tu consulta.</p>
+
+    {{ partial "cta-box.html" (dict "title" (printf "Pide cita con tu seguro de %s" $ins) "description" (printf "En CIMEC Salud, %s. %s." site.Params.address site.Params.schedule)) }}
+
+    <h2>Otras aseguradoras con las que trabajamos</h2>
+    <p class="insurer-others">
+      {{ $first := true }}
+      {{ range hugo.Data.insurers.insurers }}{{ if ne .name $ins }}{{ if not $first }} · {{ end }}<a href="/aseguradoras/{{ anchorize .name }}/">{{ .name }}</a>{{ $first = false }}{{ end }}{{ end }}
+    </p>
+  </div>
+</section>
+{{ end }}

@@ -1,4 +1,5 @@
 ---
+related_specialties: ["ginecologia"]
 title: "Conoce los siguientes pasos tras un test de embarazo positivo"
 description: "Qué hacer tras un test de embarazo positivo: confirmar el resultado, la primera cita prenatal, ácido fólico, hábitos saludables y señales de alarma."
 date: 2024-12-13

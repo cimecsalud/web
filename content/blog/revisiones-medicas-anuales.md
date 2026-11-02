@@ -1,4 +1,5 @@
 ---
+related_specialties: ["medicina-familiar", "analisis-clinicos", "cardiologia"]
 title: "La importancia de realizarse revisiones médicas anuales"
 description: "Por qué es importante hacerse una revisión médica cada año: detectar enfermedades a tiempo, prevenir riesgos y cuidar tu salud a largo plazo."
 date: 2025-02-28

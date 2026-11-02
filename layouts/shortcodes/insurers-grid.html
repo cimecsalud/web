@@ -1,7 +1,7 @@
 <div class="insurers-grid">
   {{ range hugo.Data.insurers.insurers }}
-  <div class="insurer-logo">
+  <a class="insurer-logo" href="/aseguradoras/{{ anchorize .name }}/" title="Centro médico con {{ .name }} en Ciudad Real">
     <img src="{{ .logo }}" alt="{{ .name }}">
-  </div>
+  </a>
   {{ end }}
 </div>

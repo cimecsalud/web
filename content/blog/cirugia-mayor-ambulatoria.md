@@ -1,4 +1,5 @@
 ---
+related_specialties: ["traumatologia", "otorrinolaringologia", "urologia"]
 title: "Cirugía Mayor Ambulatoria: Qué es y sus ventajas"
 description: "Qué es la Cirugía Mayor Ambulatoria, qué ventajas tiene y cómo se realiza en el quirófano de CIMEC Salud en Ciudad Real, sin ingreso hospitalario."
 date: 2024-05-15

@@ -1,4 +1,5 @@
 ---
+related_specialties: ["psicologia", "psiquiatria"]
 title: "Técnicas efectivas y consejos prácticos para combatir la ansiedad"
 description: "Técnicas efectivas y consejos prácticos para controlar la ansiedad en el día a día, y cuándo conviene pedir ayuda a un profesional de la psicología."
 date: 2024-11-07

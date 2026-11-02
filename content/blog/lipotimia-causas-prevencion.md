@@ -1,4 +1,5 @@
 ---
+related_specialties: ["cardiologia", "medicina-familiar"]
 title: "Principales causas de la lipotimia y cómo prevenirla"
 description: "Qué es la lipotimia, cuáles son sus causas más frecuentes y qué puedes hacer para prevenirla."
 date: 2024-07-17

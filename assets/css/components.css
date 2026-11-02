@@ -1498,3 +1498,36 @@ a.professional-card { text-decoration: none; }
 .specialty-page li a { color: var(--primary); }
 .specialty-page p a:hover,
 .specialty-page li a:hover { color: var(--primary-dark); }
+
+/* === layouts/aseguradoras/single.html === */
+.insurer-page { max-width: 860px; }
+.insurer-page h2 { text-align: left; font-size: 1.5rem; margin: 2.5rem 0 1rem; }
+.insurer-page h2::after { content: none; }
+.insurer-page h3 { font-size: 1.15rem; margin: 1.5rem 0 0.5rem; }
+.insurer-page a { color: var(--primary); }
+.insurer-page .cta-contact a { color: var(--primary); }
+.insurer-page .cta-contact .btn-secondary { color: white; }
+.insurer-page .cta-contact h2 { text-align: center; margin-top: 0; }
+.insurer-intro { display: flex; gap: 2rem; align-items: center; }
+.insurer-page-logo { width: 160px; height: auto; flex-shrink: 0; border-radius: var(--radius); background: white; padding: 0.75rem; box-shadow: var(--shadow); }
+.insurer-specialties { columns: 2; margin-left: 1.25rem; }
+.insurer-others { line-height: 2; }
+a.insurer-logo { display: flex; }
+@media (max-width: 600px) {
+  .insurer-intro { flex-direction: column; align-items: flex-start; }
+  .insurer-specialties { columns: 1; }
+}
+
+/* Bloque de especialidades relacionadas al final de cada artículo del blog */
+.blog-related {
+    margin-top: 3rem;
+    padding: 1.75rem 2rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+}
+.blog-related h2 { text-align: left; font-size: 1.4rem; margin: 0 0 0.75rem; }
+.blog-related h2::after { content: none; }
+.blog-related ul { margin: 0.75rem 0 0 1.25rem; }
+.blog-related a { color: var(--primary); font-weight: 600; }
+.insurer-specialties li { break-inside: avoid; margin: 0 0 0.5rem; }

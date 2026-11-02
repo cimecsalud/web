@@ -1,0 +1,16 @@
+{{- /* Una página por aseguradora (/aseguradoras/<slug>/) desde data/insurers.yaml, para búsquedas
+       como "centro médico con Asisa en Ciudad Real". No se afirma qué cubre cada póliza. */ -}}
+{{- range hugo.Data.insurers.insurers -}}
+  {{- $slug := anchorize .name -}}
+  {{- $.AddPage (dict
+    "path" $slug
+    "kind" "page"
+    "title" (printf "Centro médico con %s en Ciudad Real" .name)
+    "params" (dict
+      "insurer" .name
+      "logo" .logo
+      "seo_title" (printf "Centro médico con %s en Ciudad Real" .name)
+      "description" (printf "¿Tienes seguro de %s? En CIMEC Salud, clínica de especialidades en Ciudad Real, trabajamos con %s. Cómo pedir cita, especialidades y pruebas." .name .name)
+    )
+  ) -}}
+{{- end -}}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "page-banner.html" . }}
+{{ partial "page-banner.html" (dict "Page" . "subtitle" (.Params.banner_subtitle | default "")) }}
 <section class="page-content">
     <div class="container">
         {{ .Content }}

@@ -24,6 +24,26 @@
           {{ .Content }}
       </div>
 
+      {{ with .Params.related_specialties }}
+      {{ $names := slice }}
+      <div class="blog-related">
+          <h2>Te podemos ayudar en CIMEC Salud</h2>
+          <p>Si quieres que lo valore un especialista, en nuestra clínica de Ciudad Real tienes:</p>
+          <ul>
+          {{ range . }}
+            {{ $slug := . }}
+            {{ range hugo.Data.specialties.specialties }}
+              {{ if eq .url (printf "/especialidades/%s/" $slug) }}
+              <li><a href="{{ .url }}">{{ .name }} en Ciudad Real</a>: {{ .description }}</li>
+              {{ $names = $names | append (lower .name) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          </ul>
+      </div>
+      {{ partial "cta-box.html" (dict "title" "Pide cita en CIMEC Salud" "description" (printf "%s. %s." site.Params.address site.Params.schedule)) }}
+      {{ end }}
+
       <div class="blog-footer">
           <a href="/blog/" class="back-to-blog">← Volver al blog</a>
       </div>
